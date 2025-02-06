@@ -1,0 +1,82 @@
+<section class="white-box-sec" id="{{ section.settings.section-id }}">
+  <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="white-box-text">
+                   <h3>{{ section.settings.main-title }}</h3>
+                   <h6>{{ section.settings.secondary-title }}</h6>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+               <div class="white-boxes mobile-carousel">
+                 {% if section.blocks != blank %}
+                  {% for block in section.blocks %}
+                    <div class="white-box">
+                       <img src="{{ block.settings.image | img_url: 'master' }}">
+                       <h3>{{ block.settings.heading }}</h3>
+                       <div class="white-box-des">
+                          {{ block.settings.content }}
+                       </div>
+                    </div>
+                  {% endfor %}
+                 {% endif %}
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+    "name": "White-box-section",
+    "class": "White-box-section",
+    "settings": [
+    {
+    "type": "text",
+    "id": "section-id",
+    "label": "Section Id"
+    },
+    {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main Title"
+    },
+    {
+    "type": "text",
+    "id": "secondary-title",
+    "label": "Secondary Title"
+    }
+    ],
+    "blocks": [
+      {
+        "type": "slides",
+        "name": "slides",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],   
+    "presets": [
+    {
+    "category": "White-box-section",
+    "name": "White-box-section"
+    }
+    ]
+    }
+{% endschema %}

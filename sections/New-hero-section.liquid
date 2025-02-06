@@ -1,0 +1,221 @@
+<section class="hero-section" id="scroll-top">
+  <div class="row">
+    <div class="col swiper mySwiper">
+      <div class=" hero-slider new_hero_slider swiper-wrapper">
+        {% if section.blocks != blank %}
+          {% for block in section.blocks %}
+            <div
+              class="item hero-item swiper-slide"
+              {% if block.settings.mobile_background_image %}
+                data-mobile-image="{{ block.settings.mobile_background_image | image_url: width: 768 }}"
+              {% endif %}
+              style="background-image: url({{ block.settings.background_img | image_url: width: 1400 }});"
+            >
+              <div
+                class="container p-0 hero_item_content"
+                style="--max-width-content: {{ block.settings.max_width_content }}px;"
+              >
+                {% if block.settings.heading != blank %}
+                  <div class="hero_item_heading">
+                    {{ block.settings.heading }}
+                  </div>
+                {% endif %}
+                {% if block.settings.subheading != blank %}
+                  <div class="hero_item_subheading">
+                    {{ block.settings.subheading }}
+                  </div>
+                {% endif %}
+                <div class="hero-btn hero-mobile-btn">
+                  {% if block.settings.button_text_1 != blank and block.settings.button_url_1 != blank %}
+                    <a href="{{ block.settings.button_url_1 }}" class="btn-black">
+                      <span>{{ block.settings.button_text_1 }}</span>
+                    </a>
+                  {% endif %}
+                  {% if block.settings.button_text_2 != blank and block.settings.button_url_2 != blank %}
+                    <a href="{{ block.settings.button_url_2 }}" class="btn-red">
+                      <span>{{ block.settings.button_text_2 }}</span>
+                    </a>
+                  {% endif %}
+                </div>
+                <div class="hero-icon-with-text">
+                  {% for i in (1..3) %}
+                    {% liquid
+                      assign icon = 'icon_svg_' | append: i
+                      assign text = 'icon_text_' | append: i
+
+                      assign svg_icon = block.settings[icon]
+                      assign svg_text = block.settings[text]
+                    %}
+                    {% if svg_icon != black and svg_text != blank %}
+                      <div class="icon-text">
+                        <div class="icon">
+                          {{ svg_icon }}
+                        </div>
+                        <div class="text">
+                          {{ svg_text }}
+                        </div>
+                      </div>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+                <div class="hero-btn hero-desktop-btn">
+                  {% if block.settings.button_text_1 != blank and block.settings.button_url_1 != blank %}
+                    <a href="{{ block.settings.button_url_1 }}" class="btn-black">
+                      <span>{{ block.settings.button_text_1 }}</span>
+                      <i class="fa fa-arrow-left"></i>
+                    </a>
+                  {% endif %}
+                  {% if block.settings.button_text_2 != blank and block.settings.button_url_2 != blank %}
+                    <a href="{{ block.settings.button_url_2 }}" class="btn-red">
+                      <span>{{ block.settings.button_text_2 }}</span>
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+      <div class="swiper-button-next">
+        <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.8103 20.2759C17.4104 20.6567 17.395 21.2897 17.7759 21.6897C18.1567 22.0896 18.7897 22.105 19.1897 21.7241L17.8103 20.2759ZM29.6897 11.7241C30.0896 11.3433 30.105 10.7103 29.7241 10.3103C29.3433 9.91041 28.7103 9.89498 28.3103 10.2759L29.6897 11.7241ZM28.3103 11.7241C28.7103 12.105 29.3433 12.0896 29.7241 11.6897C30.105 11.2897 30.0896 10.6567 29.6897 10.2759L28.3103 11.7241ZM19.1897 0.275862C18.7897 -0.105024 18.1567 -0.0895863 17.7759 0.310345C17.395 0.710276 17.4104 1.34325 17.8103 1.72414L19.1897 0.275862ZM29 12C29.5523 12 30 11.5523 30 11C30 10.4477 29.5523 10 29 10V12ZM1 10C0.447716 10 0 10.4477 0 11C0 11.5523 0.447716 12 1 12V10ZM19.1897 21.7241L29.6897 11.7241L28.3103 10.2759L17.8103 20.2759L19.1897 21.7241ZM29.6897 10.2759L19.1897 0.275862L17.8103 1.72414L28.3103 11.7241L29.6897 10.2759ZM29 10L1 10V12L29 12V10Z" fill="#000"/>
+        </svg>
+      </div>
+      <div class="swiper-button-prev">
+        <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.1897 20.2759C12.5896 20.6567 12.605 21.2897 12.2241 21.6897C11.8433 22.0896 11.2103 22.105 10.8103 21.7241L12.1897 20.2759ZM0.310345 11.7241C-0.0895855 11.3433 -0.105024 10.7103 0.275862 10.3103C0.656748 9.91041 1.28972 9.89498 1.68966 10.2759L0.310345 11.7241ZM1.68966 11.7241C1.28972 12.105 0.656748 12.0896 0.275862 11.6897C-0.105024 11.2897 -0.0895855 10.6567 0.310345 10.2759L1.68966 11.7241ZM10.8103 0.275862C11.2103 -0.105024 11.8433 -0.0895863 12.2241 0.310345C12.605 0.710276 12.5896 1.34325 12.1897 1.72414L10.8103 0.275862ZM1 12C0.447715 12 0 11.5523 0 11C0 10.4477 0.447715 10 1 10L1 12ZM29 10C29.5523 10 30 10.4477 30 11C30 11.5523 29.5523 12 29 12V10ZM10.8103 21.7241L0.310345 11.7241L1.68966 10.2759L12.1897 20.2759L10.8103 21.7241ZM0.310345 10.2759L10.8103 0.275862L12.1897 1.72414L1.68966 11.7241L0.310345 10.2759ZM1 10L29 10V12L1 12L1 10Z" fill="#000"/>
+        </svg>
+      </div>
+      <div class="swiper-pagination"></div>
+
+      {% if section.settings.bottom_image != blank %}
+        <div class="scroll-down">
+          <a href="#second-section">
+            {{-
+              section.settings.bottom_image
+              | image_url: width: section.settings.bottom_image.width
+              | image_tag: class: 'custom-class', loading: 'lazy'
+            -}}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "New-Hero-Section",
+  "class": "custom-hero-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bottom_image",
+      "label": "Bottom image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slides",
+      "name": "Slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "background_img",
+          "label": "Background Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_background_image",
+          "label": "Mobile Background Image"
+        },
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Use <br> to break the line and <strong> to highlight the text"
+        },
+        {
+          "type": "richtext",
+          "label": "Subheading",
+          "id": "subheading"
+        },
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text_1"
+        },
+        {
+          "type": "url",
+          "label": "Button URL",
+          "id": "button_url_1"
+        },
+        {
+          "type": "text",
+          "label": "Secondary button Text",
+          "id": "button_text_2"
+        },
+        {
+          "type": "url",
+          "label": "Secondary button URL",
+          "id": "button_url_2"
+        },
+        {
+          "type": "header",
+          "content": "Icon with text"
+        },
+        {
+          "type": "liquid",
+          "id": "icon_svg_1",
+          "label": "Icon SVG 1"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_1",
+          "label": "Icon Text 1"
+        },
+        {
+          "type": "liquid",
+          "id": "icon_svg_2",
+          "label": "Icon SVG 2"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_2",
+          "label": "Icon Text 2"
+        },
+        {
+          "type": "liquid",
+          "id": "icon_svg_3",
+          "label": "Icon SVG 3"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_3",
+          "label": "Icon Text 3"
+        },
+        {
+          "type": "header",
+          "content": "Styling"
+        },
+        {
+          "type": "range",
+          "id": "max_width_content",
+          "min": 500,
+          "max": 1000,
+          "unit": "px",
+          "default": 800,
+          "label": "Max width content",
+          "step": 5
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Hero-Section",
+      "name": "New Hero Section"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_q48QxC": {
+      "type": "Banner-Section",
+      "settings": {
+        "main-title": "<h2>Service produkte</h2>",
+        "background-image": "shopify://shop_images/Group_1577704975.png"
+      }
+    },
+    "left_image_right_text_6XkGTM": {
+      "type": "Left-Image-Right-Text",
+      "settings": {
+        "section-id": "",
+        "class": "",
+        "main-title": "Beratung und Training",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id blandit justo, nec rutrum felis. Maecenas sagittis, orci non lobortis viverra, est augue volutpat tellus, ut vehicula tortor massa et ipsum. Donec vel ante porttitor nibh auctor mollis at finibus urna. Nullam sit amet metus sed lorem facilisis aliquet imperdiet sit amet ligula. Curabitur ullamcorper molestie nulla eu pharetra. Cras justo urna, hendrerit quis venenatis at, finibus vehicula nisl. Sed non facilisis lorem. Fusce rutrum tempus facilisis. Donec sagittis urna non mauris porttitor pellentesque. Duis ac arcu lectus. Quisque vel posuere nulla, laoreet pellentesque felis.</p><p>Suspendisse maximus blandit fermentum. Nam et turpis ac tellus lobortis condimentum. Sed in rutrum justo. Mauris felis metus, laoreet sed luctus nec, tempor vel est. Nulla aliquet, magna sed lacinia ornare, dui arcu vehicula ipsum, ut lobortis sem ipsum sed ante. Quisque congue rutrum semper. Nulla sagittis metus eu urna elementum, ut euismod metus lobortis. Proin sed justo lectus. Nam ac leo fermentum ex condimentum interdum. In et mauris est. Ut varius, sem eu blandit rutrum, erat augue accumsan neque, pharetra efficitur quam orci at sapien. Vestibulum et volutpat velit. Phasellus pulvinar nisi in mauris viverra eleifend. Aliquam erat volutpat. Vivamus dapibus, lectus ac tristique pulvinar, tortor dui varius justo, sed interdum arcu massa vitae augue. Sed ac lacus porttitor, scelerisque tortor suscipit, elementum magna. Donec eleifend, turpis at tincidunt bibendum, orci nibh cursus lacus, id cursus nibh dolor a lectus. Vivamus tristique congue erat viverra elementum. Vivamus finibus felis eu hendrerit vestibulum. Maecenas non libero maximus, accumsan est ac, porttitor urna.</p><p>Nulla sit amet egestas nibh. Quisque posuere sit amet augue ut bibendum. Curabitur euismod condimentum nibh ut condimentum. Praesent aliquet eros nisl, finibus congue nisi facilisis eget. Fusce enim massa, porttitor et vulputate vel, porta sed neque.</p>",
+        "image_picker": "shopify://shop_images/Rectangle_6_1.png",
+        "btn-url": "",
+        "btn-text": ""
+      }
+    },
+    "image_and_right_text_bVzqen": {
+      "type": "image-and-right-text",
+      "settings": {
+        "section-id": "",
+        "section-class": "",
+        "background-image": "shopify://shop_images/Rectangle_5_7.webp",
+        "main-title": "Verwandeln Sie Ihre Gesundheit mit personalisierten",
+        "secondary-title": "Ernährungscoaching"
+      }
+    },
+    "right_image_left_text_FKgnzz": {
+      "type": "Right-Image-Left-Text",
+      "settings": {
+        "main-title": "Praesent mollis auctor",
+        "content": "<p>Fusce quis justo odio. Sed placerat sapien eu nulla hendrerit, quis ullamcorper lectus porta. Nulla tempus vestibulum pellentesque. Donec efficitur sem vitae turpis commodo tincidunt. Fusce feugiat, ante id posuere accumsan, lorem erat pharetra est, vel convallis neque est a massa. Morbi id semper nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum mauris ac nulla porttitor, eget ultrices augue pellentesque. Nunc scelerisque finibus malesuada. Nullam in blandit ante. Duis lacus leo, lobortis nec ex vel, tincidunt tincidunt lorem.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt gravida convallis. Nullam condimentum, nulla eu finibus luctus, mauris tellus ultricies mi, vitae aliquam tortor mauris ut lectus. Aliquam commodo blandit felis, ut dictum lorem vulputate non. Mauris varius vel mauris euismod molestie. Proin nec nisl blandit, suscipit lectus at, efficitur nisl. Aliquam nunc justo, elementum non nibh id, iaculis imperdiet magna.</p><p>Proin tortor neque, tempor non ligula eget, condimentum ullamcorper arcu. Duis vehicula mi eu purus aliquam feugiat. Praesent malesuada efficitur ante, a tristique odio laoreet ut. Nullam vel neque quis ligula vulputate posuere. Maecenas fringilla vel sapien quis cursus. Nam commodo maximus justo, quis elementum odio mattis non. In nec erat ornare, mollis lorem ac, placerat sem. Phasellus id libero dignissim, convallis metus in, interdum arcu. Morbi eget nunc eu enim mollis rutrum. Sed efficitur ante non iaculis cursus.</p>",
+        "image_picker": "shopify://shop_images/Rectangle_6_7.webp"
+      }
+    },
+    "heading_btn_wLxX3A": {
+      "type": "Heading-Btn",
+      "settings": {
+        "custom-class": "",
+        "main-title": "Erlebe Fitness und Gesundheit auf eine neue, inspirierende Art.",
+        "button-text": "Gespräch vereinbaren",
+        "button-url": ""
+      }
+    },
+    "reviews_section_Wbc6yW": {
+      "type": "Reviews-Section",
+      "blocks": {
+        "slides_gBrNpg": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_KV9YUc": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_ri3PrA": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_dDQ9Un": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        }
+      },
+      "block_order": [
+        "slides_gBrNpg",
+        "slides_KV9YUc",
+        "slides_ri3PrA",
+        "slides_dDQ9Un"
+      ],
+      "settings": {
+        "section-class": "",
+        "main-title": "Was unsere Kunden über Goldenbody sagen"
+      }
+    },
+    "image_and_left_text_6QDwkK": {
+      "type": "Image-and-left-text",
+      "settings": {
+        "background-image": "shopify://shop_images/Rectangle_5_8.webp",
+        "main-title": "Verwandeln Sie Ihre Gesundheit mit personalisierten",
+        "secondary-title": "Ernährungscoaching"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_q48QxC",
+    "left_image_right_text_6XkGTM",
+    "image_and_right_text_bVzqen",
+    "right_image_left_text_FKgnzz",
+    "heading_btn_wLxX3A",
+    "reviews_section_Wbc6yW",
+    "image_and_left_text_6QDwkK"
+  ]
+}

@@ -1,0 +1,105 @@
+<section id="scroll-top" class="banner-section {{ section.settings.section_class_banner }}" style="background: url('{{ section.settings.background-image | img_url: 'master'  }}')">
+  {% if section.settings.mobile-background-image  %}
+  <style>
+    @media (max-width: 749px) {
+      .banner-section {
+        background: url('{{ section.settings.mobile-background-image | img_url: 'master'  }}') !important;
+      }
+    }
+  </style>
+  {% endif %}
+  <div class="container">
+    <div class="row">
+        <div class="col">
+            <h2><mark>{{ section.settings.main-title-mark }}</mark>{{ section.settings.main-title }}</h2>
+          <!--  
+          <div class="url-box">
+              <a href="{{ shop.url }}"><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Vector_b220b5e4-ed0c-4e12-b95d-de599c9530f2.png?v=1725913722">Home</a>
+              <img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Rectangle_3467887.png?v=1725913753" class="dividerr">
+              <a href="">{{ page.title }}{{ article.title }}{{ product.title }}</a>
+            </div> -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="social-links">
+              <ul>
+          {% if settings.social_instagram_link %}
+            <li>
+              <a href="{{ settings.social_instagram_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Group_1577704996.png?v=1725913580"
+              ></a>
+            </li>
+          {% endif %}
+
+          {% if settings.social_youtube_link %}
+            <li>
+              <a href="{{ settings.social_youtube_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/fi_1384028.png?v=1725913473"
+              ></a>
+            </li>
+          {% endif %}
+
+          {% if settings.social_spotify_link %}
+            <li>
+              <a href="{{ settings.social_spotify_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Style_2_copy_3.svg"
+              ></a>
+            </li>
+          {% endif %}
+
+          {% if settings.social_facebook_link %}
+            <li>
+              <a href="{{ settings.social_facebook_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/fi_20837.png?v=1725913622"
+              ></a>
+            </li>
+          {% endif %}
+          
+        </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+    {
+    "name": "banner-section",
+    "class": "banner-section",
+    "settings": [
+    {
+    "type": "text",
+    "id": "section_class_banner",
+    "label": "Section Class"
+    },
+          {
+    "type": "text",
+    "id": "main-title-mark",
+    "label": "Main Title Mark"
+    },
+          {
+    "type": "richtext",
+    "id": "main-title",
+    "label": "Main Title"
+    }, 
+    {
+      "type": "image_picker",
+      "id": "background-image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile-background-image",
+      "label": "Mobile Background Image"
+    },
+    ],
+    "presets": [
+    {
+    "category": "banner-section",
+    "name": "banner-section"
+    }
+    ]
+    }
+    {% endschema %}

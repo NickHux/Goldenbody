@@ -1,0 +1,32 @@
+{% if product.metafields.custom.video_url %}
+<section class="pro-video-sec">
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box video-box">
+                  <video width="750" height="500" controls>
+                    <source src="{{ product.metafields.custom.video_url }}" type="video/mp4">
+                  </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+  
+
+{% schema %}
+    {
+    "name": "Pro-video-sec",
+    "class": "Pro-video-sec",
+    "settings": [
+    ], 
+    "presets": [
+    {
+    "category": "Pro-video-sec",
+    "name": "Pro-video-sec"
+    }
+    ]
+    }
+{% endschema %}

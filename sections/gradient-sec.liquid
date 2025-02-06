@@ -1,0 +1,81 @@
+<section class="image-and-left-text orange-grad" id="{{ section.settings.section-id }}">
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box" style="background: url('{{ section.settings.background-image | img_url: 'master' }}')">
+                      <h2>{{ section.settings.main-title }}</h2>
+                      <p>{{ section.settings.secondary-title }}</p>
+                      <div class="gradient-btn">
+                         {% if section.settings.button-1-text %}
+                          <a href="{{ section.settings.button-1-link }}" class="btn-red">
+                            <span>{{ section.settings.button-1-text }}</span>
+                            <i class="fa fa-arrow-left"></i>
+                          </a>
+                         {% endif %} 
+                         {% if section.settings.button-2-text %}
+                          <a href="{{ section.settings.button-2-link }}" class="btn-red btn-transparent">
+                            <span>{{ section.settings.button-2-text }}</span>
+                            <i class="fa fa-arrow-left"></i>
+                          </a>
+                         {% endif %} 
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+    "name": "Gradient-sec",
+    "class": "Gradient-sec",
+    "settings": [
+    {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section Id"
+      },
+    {
+    "type": "image_picker",
+    "id": "background-image",
+    "label": "Background Image"
+    },
+    {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main Title"
+    },
+    {
+    "type": "text",
+    "id": "secondary-title",
+    "label": "Secondary Title"
+    },
+    {
+    "type": "url",
+    "id": "button-1-link",
+    "label": "Button 1 Link"
+    },
+    {
+    "type": "text",
+    "id": "button-1-text",
+    "label": "Button 1 Text"
+    },  
+    {
+    "type": "url",
+    "id": "button-2-link",
+    "label": "Button 2 Link"
+    }, 
+    {
+    "type": "text",
+    "id": "button-2-text",
+    "label": "Button 2 Text"
+    }  
+    ], 
+    "presets": [
+    {
+    "category": "Gradient-sec",
+    "name": "Gradient-sec"
+    }
+    ]
+    }
+{% endschema %}

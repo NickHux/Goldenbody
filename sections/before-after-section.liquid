@@ -1,0 +1,74 @@
+<section class="before-after-sec">
+  <div class="container-fluid">
+        <div class="row">
+           <div class="col-12 text-center">
+             <h2>{{ section.settings.main-heading }}</h2>
+           </div>
+            <div class="col-12 desktop-carousel-hero">
+               <div class="ba-slider owl-carousel owl-theme" id="{{ section.settings.section-id }}">
+                 {% if section.blocks != blank %}
+                  {% for block in section.blocks %}
+                    <div class="item">
+                       <div class="before-img">
+                          <img src="{{ block.settings.before_image | img_url: 'master' }}"> 
+                       </div>
+                    </div>
+                  {% endfor %}
+                 {% endif %}
+               </div>
+            </div>
+            <div class="col-12 mobile-carousel-hero">
+               <div class="mobile-carousel" id="{{ section.settings.section-id }}">
+                 {% if section.blocks != blank %}
+                  {% for block in section.blocks %}
+                    <div class="item">
+                       <div class="before-img">
+                          <img src="{{ block.settings.before_image | img_url: 'master' }}"> 
+                       </div>
+                    </div>
+                  {% endfor %}
+                 {% endif %}
+               </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+    "name": "before-after-sec",
+    "class": "before-after-sec",
+    "settings": [
+    {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section id"
+    },
+    {
+      "type": "text",
+      "id": "main-heading",
+      "label": "Main Heading"
+    },
+    ],
+    "blocks": [
+      {
+        "type": "slides",
+        "name": "slides",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "before_image",
+            "label": "Before Image"
+          }
+        ]
+      }
+    ],   
+    "presets": [
+    {
+    "category": "before-after-sec",
+    "name": "before-after-sec"
+    }
+    ]
+    }
+{% endschema %}

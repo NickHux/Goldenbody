@@ -1,0 +1,75 @@
+
+<section class="four-box-sec two-box-sec" id="{{ section.settings.section-id }}">
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>{{ section.settings.heading_text }}</h2>
+                <div class="four-boxes mobile-carousel">
+                   {% if section.blocks != blank %}
+                    {% for block in section.blocks %}
+                    <div class="four-box two-box">
+                        <div class="four-box-img">
+                          <img src="{{ block.settings.image | img_url: 'master' }}">
+                        </div>
+                        <h5>{{ block.settings.title }}</h5>
+                        <div class="four-box-des">
+                        {{ block.settings.description }}
+                        </div>
+                    </div>
+                   {% endfor %}
+                  {% endif %}   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+
+{% schema %}
+    {
+    "name": "Two-box-sec",
+    "class": "Two-box-sec",
+    "settings": [
+      {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section Id"
+      },
+      {
+        "type": "text",
+        "id": "heading_text",
+        "label": "Heading Text",
+      }
+    ], 
+    "blocks": [
+      {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+          },
+          {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+          },
+          {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+          }
+        ]
+      }
+    ],   
+    "presets": [
+    {
+    "category": "Two-box-sec",
+    "name": "Two-box-sec"
+    }
+    ]
+    }
+{% endschema %}

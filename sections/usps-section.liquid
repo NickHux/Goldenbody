@@ -1,0 +1,49 @@
+<section class="usp-section">
+     <div class="row">
+        <div class="col">
+            <div class="owl-carousel owl-theme usp-slider">
+              {% if section.blocks != blank %}
+              {% for block in section.blocks %}
+                <div class="item">
+                    <p>{{ block.settings.usp-text }}</p>
+                </div>
+              {% endfor %}
+              {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+    {
+    "name": "Usp-Section",
+    "class": "Usp-Section",
+    "settings": [
+    {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main Title"
+    },    
+    ],
+     "blocks": [
+    {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "text",
+          "id": "usp-text",
+          "label": "Usp text"
+          }
+      ]
+    }
+  ], 
+    "presets": [
+    {
+    "category": "Usp-Section",
+    "name": "Usp-Section"
+    }
+    ]
+    }
+    {% endschema %}

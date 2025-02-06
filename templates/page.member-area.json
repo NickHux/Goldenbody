@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "banner_section_inner_AWfPiD": {
+      "type": "Banner-Section-Inner",
+      "settings": {
+        "section_class": "collection-ban",
+        "main-title": "Member Area Videoplattform",
+        "background-image": "shopify://shop_images/7_1e9e1289-275d-472b-950a-6ac8027ae6c6.png"
+      }
+    },
+    "third_section_rQcpWF": {
+      "type": "Third-Section",
+      "settings": {
+        "main-title": "Über",
+        "main-title-2": "160 Videos",
+        "main-image": "shopify://shop_images/Goldenbody_Quadrat_Website_Bilder_2.png",
+        "button-text": "Zur Member Area",
+        "button-url": "https://goldenbody.mymemberspot.de/",
+        "fruit-image": "shopify://shop_images/Goldenbody_Quadrat_Website_Bilder_6.png",
+        "content": "In unserer Member Area Videoplattform findest du eine Vielzahl an Videokursen sowie über 160 Workout-Videos in der Workout Area. Von Pilates, Yoga, Bootcamp und Krafttraining bis hin zu Boxen und Mobility – es ist für jeden etwas dabei."
+      }
+    },
+    "right_image_left_text_KKGEb9": {
+      "type": "Right-Image-Left-Text",
+      "disabled": true,
+      "settings": {
+        "main-title": "Deine Fitness-Vielfalt: Über 160 Workout-Videos und Kurse",
+        "content": "<p>In unserer Member Area findest du eine Vielzahl an Videokursen sowie über 160 Workout-Videos in der Workout Area. Von Pilates, Yoga, Bootcamp und Krafttraining bis hin zu Boxen und Mobility – es ist für jeden etwas dabei.</p>",
+        "image_picker": "shopify://shop_images/Prd_Goldenbody-Laura_Dez22_web-15_b1e2d713-18cd-407d-9554-10ea47f844c0.jpg"
+      }
+    },
+    "product_section_2_h6a8wB": {
+      "type": "Product-Section-2",
+      "settings": {
+        "main-title": "",
+        "section-class": "",
+        "button-text": "",
+        "button-url": "",
+        "product-collection": "fitness-e-books-und-plane"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_inner_AWfPiD",
+    "third_section_rQcpWF",
+    "right_image_left_text_KKGEb9",
+    "product_section_2_h6a8wB"
+  ]
+}

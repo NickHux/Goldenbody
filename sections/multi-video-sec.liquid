@@ -1,0 +1,80 @@
+
+<section class="multi-video-sec" id="{{ section.settings.section-id }}">
+  <div class="container">
+        <div class="row mobile-carousel">
+          {% if section.blocks != blank %}
+            {% for block in section.blocks %}
+            <div class="col-12 col-md-6 multi-video-beratung">
+              <div class="video-img" data-article-id="{{ forloop.index }}">
+                 {% comment %} <img src="{{ block.settings.image | img_url: 'master' }}"> {% endcomment %}
+                 <div class="multi-video-con">
+                    <iframe width="560" height="315" src="{{ block.settings.video_url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <h6 class="video-title">{{ block.settings.video_title }}</h6>
+              </div>
+            </div>
+            {% endfor %}
+          {% endif %}  
+        </div>
+    </div>
+</section>
+
+{% comment %}
+  
+
+{% if section.blocks != blank %}
+{% for block in section.blocks %}
+<div class="you-tube-popup" data-article-id="{{ forloop.index }}">
+    <div class="close-btn">X</div>
+    <div class="popup">
+        <iframe width="560" height="315" src="{{ block.settings.video_url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% endcomment %}
+  
+
+{% schema %}
+    {
+    "name": "multi-video-sec",
+    "class": "multi-video-sec",
+    "settings": [
+    {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section ID"
+    },
+    ], 
+    "blocks": [
+      {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video Url",
+        },
+         {
+          "type": "text",
+          "id": "video_title",
+          "label": "Video Title"
+        }
+        ]
+      }
+    ],   
+    "presets": [
+    {
+    "category": "multi-video-sec",
+    "name": "multi-video-sec"
+    }
+    ]
+    }
+{% endschema %}

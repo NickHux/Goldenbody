@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner_section_WJDATd": {
+      "type": "Banner-Section",
+      "settings": {
+        "section_class_banner": "",
+        "main-title": "<h2>Wir sind für dich da.</h2>",
+        "background-image": "shopify://shop_images/Frame_7.png",
+        "mobile-background-image": "shopify://shop_images/Goldenbody_Header_Web_13.png"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_BeQF93": {
+      "type": "Contact",
+      "settings": {
+        "phone_title": "Telefon",
+        "firstname": "Vorname",
+        "lastname": "Nachname",
+        "phone": "",
+        "email_title": "E-Mail",
+        "email": "support@goldenbody.ch",
+        "email-address": "E-Mail-Adresse",
+        "phone-number": "Telefonnummer",
+        "select-service": "",
+        "message": "Deine Nachricht...",
+        "submit-button": "Senden",
+        "address_title": "Adresse",
+        "address": "Goldenbody GmbH Oberseestrasse 101 8645 Jona",
+        "address-url": "https://maps.app.goo.gl/WbA9n16eLubcqcZQ8",
+        "contact-form-heading": "Schreib uns!"
+      }
+    }
+  },
+  "order": [
+    "banner_section_WJDATd",
+    "main",
+    "form",
+    "contact_BeQF93"
+  ]
+}

@@ -1,0 +1,98 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "usps_section_wDUg7E": {
+      "type": "usps-section",
+      "blocks": {
+        "slides_kLdRXq": {
+          "type": "slides",
+          "settings": {
+            "usp-text": "BREAKING NEWS"
+          }
+        },
+        "slides_PCUNAa": {
+          "type": "slides",
+          "settings": {
+            "usp-text": "Im Februar 2025 Ingwershots in allen Gruppenstunden"
+          }
+        },
+        "slides_exYNJT": {
+          "type": "slides",
+          "settings": {
+            "usp-text": "Yoga Brunch mit Geri am 02.03.25"
+          }
+        }
+      },
+      "block_order": [
+        "slides_kLdRXq",
+        "slides_PCUNAa",
+        "slides_exYNJT"
+      ],
+      "custom_css": [
+        "/* Increase the space between USP slides */.Usp-Section__slide {margin-bottom: 30px; /* Adjust this value to increase the space between slides */}",
+        " /* Add padding to separate the slides */.Usp-Section__slide {padding-bottom: 20px; /* Adjust this value for more space */}"
+      ],
+      "settings": {
+        "main-title": "Usp-Section"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "g_translate_app_block_dropdown_qAyRza": {
+          "type": "shopify://apps/g-translate/blocks/app-block-dropdown/408a74ac-f92d-43cf-a1b1-a044341e66bd",
+          "settings": {
+            "horizontal_position": "inline",
+            "vertical_position": "top",
+            "select_language_label": "Sprache auswählen",
+            "native_language_names": true,
+            "wrapper_selector": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "g_translate_app_block_dropdown_qAyRza"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "mega",
+        "mega_menu_images_toggle": "metafield",
+        "mega_menu_images_title": false,
+        "megamenu_backdrop_toggle": true,
+        "dropdown_menu_images_toggle": "metafield",
+        "menu_dropdown_width": 25,
+        "drawer_menu_images_toggle": "none",
+        "menu_images_size": 60,
+        "menu_images_border_toggle": false,
+        "menu_images_border_color": "#eaeaea",
+        "sticky_header_type": "none",
+        "show_line_separator": false,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": true,
+        "enable_customer_avatar": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "usps_section_wDUg7E",
+    "header"
+  ]
+}

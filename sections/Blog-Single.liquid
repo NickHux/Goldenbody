@@ -1,0 +1,40 @@
+<section class="blog-single-section">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="blog-content">
+          <p>{{ article.content }}</p>
+        </div>
+        {% if article.excerpt %}
+          <div class="podcast-excerpt">
+            <p>{{ article.excerpt }}</p>
+          </div>
+        {% endif %}
+        <p class="blog-author">von {{ article.author }}</p>
+        <!--
+        <p class="blog-date">{{ article.published_at | date: "%B %d, %Y" }}</p>
+        <p class="blog-tags">Tags: 
+          {% for tag in article.tags %}
+            <p>{{ tag }}</p>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </p> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+    {
+    "name": "blog-single-section",
+    "class": "blog-single-section",
+    "settings": [
+    ],
+    "presets": [
+    {
+    "category": "blog-single-section",
+    "name": "blog-single-section"
+    }
+    ]
+    }
+    {% endschema %}

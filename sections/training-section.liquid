@@ -1,0 +1,100 @@
+<section class="list-box-section training-section" id="{{ section.settings.section-id }}">
+  <div class="container">
+    <div class="row">
+       <div class="col-12">
+        <div class="list-text">
+          <h2>{{ section.settings.main-title }}</h2> 
+          {{ section.settings.content }}
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="list-boxes mobile-carousel">
+        {% if section.blocks != blank %}
+        {% for block in section.blocks %}
+          <div class="list-box">
+            <img src="{{ block.settings.image | img_url: 'master' }}">
+            <h6>{{ block.settings.heading }}</h6>
+            <div class="list-box-des">
+               {{ block.settings.description }}
+            </div>
+             <div class="list-button btn-desktop">
+                 <a href="{{ block.settings.btn-url }}" class="btn-black">
+                 <span>{{ block.settings.btn-text }}</span><i class="fa fa-arrow-left"></i>
+                 </a>
+             </div>
+                         <div class="list-button btn-mobile btn-beratung">
+                 <a href="{{ block.settings.btn-url }}" class="btn-red">
+                 <span>{{ block.settings.btn-text }}</span><i class="fa fa-arrow-left"></i>
+                 </a>
+             </div>
+          </div>
+        {% endfor %}
+        {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Training-section",
+  "class": "Training-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section id"
+    },
+    {
+      "type": "text",
+      "id": "main-title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "url",
+          "id": "btn-url",
+          "label": "Btn Url"
+        },
+        {
+          "type": "text",
+          "id": "btn-text",
+          "label": "Btn Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Training-section",
+      "name": "Training-section"
+    }
+  ]
+}
+{% endschema %}

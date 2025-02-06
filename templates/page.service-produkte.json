@@ -1,0 +1,240 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_BhinyD": {
+      "type": "Banner-Section",
+      "settings": {
+        "main-title": "<h2>Das ganze </h2><h2>Goldenbody Angebot</h2>",
+        "background-image": "shopify://shop_images/15.png",
+        "mobile-background-image": "shopify://shop_images/Goldenbody_Laura_Bearbeitet_I6A0143_web.jpg"
+      }
+    },
+    "service_products_W7cwwg": {
+      "type": "Service-Products",
+      "blocks": {
+        "service_product_JqRiNn": {
+          "type": "Service-Product",
+          "settings": {
+            "service-image": "shopify://shop_images/Rectangle_6.png",
+            "service-title": "Online Challenges",
+            "service-content": "Unsere Online Challenges bringen dich von überall aus in Topform! Egal, ob du abnehmen, Muskeln aufbauen oder einfach fitter werden willst. Starte durch, wann und wo du willst!",
+            "service-url": "shopify://pages/challenges"
+          }
+        },
+        "service_product_m8QhUR": {
+          "type": "Service-Product",
+          "settings": {
+            "service-image": "shopify://shop_images/Rectangle_6_1.png",
+            "service-title": "Beratung und Training",
+            "service-content": "Wir bieten dir individuelle Unterstützung, ganz auf deine Ziele zugeschnitten. Dein Erfolg steht bei uns im Fokus!",
+            "service-url": "shopify://pages/ernahrungsberatung-trainings"
+          }
+        },
+        "service_product_pWeRLE": {
+          "type": "Service-Product",
+          "settings": {
+            "service-image": "shopify://shop_images/Rectangle_6_2.png",
+            "service-title": "Produkte für Wellness und Gesundheit",
+            "service-content": "Unsere Produkte für Sport und Gesundheit unterstützen dich dabei, dein Wohlbefinden zu steigern und fit zu bleiben. Ob für Regeneration, mehr Energie oder innere Balance – wir haben das Richtige für dich, um dich rundum wohlzufühlen!",
+            "service-url": "shopify://pages/produkte-fur-sport-gesundheit"
+          }
+        },
+        "service_product_e4k8KC": {
+          "type": "Service-Product",
+          "settings": {
+            "service-image": "shopify://shop_images/Rectangle_6_4.png",
+            "service-title": "Ernährungs- und Fitness-E-Books",
+            "service-content": "Wir liefern dir wertvolle Tipps und Pläne, um deine Ziele eigenständig zu erreichen. Von gesunden Rezepten bis zu effektiven Workouts – alles kompakt und jederzeit für dich verfügbar!",
+            "service-url": "https://goldenbody.ch/pages/nutrition-and-fitness-e-books"
+          }
+        },
+        "service_product_VJM4U8": {
+          "type": "Service-Product",
+          "settings": {
+            "service-image": "shopify://shop_images/Goldenbody_Fitness-Retreat_2024_47-min_d0e5ba15-bc2b-45c9-b92f-656a02c5453c.jpg",
+            "service-title": "Events und Webinare",
+            "service-content": "Goldenbody bietet dir inspirierende Workshops und wertvolle Insights rund um Fitness und Gesundheit. Vernetze dich mit Experten und Gleichgesinnten!",
+            "service-url": "shopify://pages/events-and-workshops"
+          }
+        }
+      },
+      "block_order": [
+        "service_product_JqRiNn",
+        "service_product_m8QhUR",
+        "service_product_pWeRLE",
+        "service_product_e4k8KC",
+        "service_product_VJM4U8"
+      ],
+      "settings": {}
+    },
+    "image_and_right_text_9mbPmA": {
+      "type": "image-and-right-text",
+      "disabled": true,
+      "settings": {
+        "section-id": "",
+        "section-class": "",
+        "background-image": "shopify://shop_images/Rectangle_5_5.png",
+        "main-title": "Verwandeln Sie Ihre Gesundheit mit personalisierten",
+        "secondary-title": "Ernährungscoaching"
+      }
+    },
+    "heading_btn_ndkQT7": {
+      "type": "Heading-Btn",
+      "settings": {
+        "custom-class": "mt-140",
+        "main-title": "Erlebe Fitness und Gesundheit auf eine neue, inspirierende Art.",
+        "button-text": "Schnupperstunde vereinbaren",
+        "button-url": "shopify://products/gruppentraining"
+      }
+    },
+    "reviews_section_6tiMG7": {
+      "type": "Reviews-Section",
+      "blocks": {
+        "slides_t7AaqL": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_LTX8ck": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_CpgaLw": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_3Gfdex": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_yQhLbK": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        },
+        "slides_GbXz8B": {
+          "type": "slides",
+          "settings": {
+            "reviewer-image": "shopify://shop_images/Vector_3.png",
+            "reviewer-name": "Sophie M.",
+            "reviewer-designation": "Abwechslungsreich",
+            "review": "\"Ich war immer skeptisch gegenüber Fitnessprogrammen, aber Goldenbody hat mich überzeugt. Die Trainings sind abwechslungsreich und machen Spaß, und die Resultate sprechen für sich. Besonders schätze ich die nachhaltigen und ganzheitlichen Ansätze von Laura und ihrem Team.\""
+          }
+        }
+      },
+      "block_order": [
+        "slides_t7AaqL",
+        "slides_LTX8ck",
+        "slides_CpgaLw",
+        "slides_3Gfdex",
+        "slides_yQhLbK",
+        "slides_GbXz8B"
+      ],
+      "disabled": true,
+      "settings": {
+        "section-class": "",
+        "main-title": "Was unsere Kunden über Goldenbody sagen"
+      }
+    },
+    "image_and_left_text_kUJacN": {
+      "type": "Image-and-left-text",
+      "settings": {
+        "background-image": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_44-min_b85b8645-67e8-462f-938d-effdc5dcf7ea.jpg",
+        "main-title": "Transformiere deine Gesundheit mit deinem persönlichen",
+        "secondary-title": "Ernährungscoaching"
+      }
+    },
+    "rich_text_V9UU7X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iqD3wa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "heading_size": "h1"
+          }
+        },
+        "text_zJ7aH4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        },
+        "button_3nhgK3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iqD3wa",
+        "text_zJ7aH4",
+        "button_3nhgK3"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_BhinyD",
+    "service_products_W7cwwg",
+    "image_and_right_text_9mbPmA",
+    "heading_btn_ndkQT7",
+    "reviews_section_6tiMG7",
+    "image_and_left_text_kUJacN",
+    "rich_text_V9UU7X"
+  ]
+}

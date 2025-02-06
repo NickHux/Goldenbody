@@ -1,0 +1,90 @@
+<section class="mlya-section {{ section.settings.section-class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+              <div class="mlya-text">
+                <h2>{{ section.settings.heading }}</h2>
+                {{ section.settings.content }}
+              </div>
+            </div>
+            <div class="col-12">
+                <ul class="mlya-contain mobile-carousel">
+                    {% if section.blocks != blank %}
+                    {% for block in section.blocks %}
+                    <li class="mlya-item">
+                        <div class="mlya-item-img">
+                          {% comment %}
+                            <img src="{{ block.settings.mlya-image | img_url: 'master'}}">
+                          {% endcomment %}
+                          
+                          {{- block.settings.mlya-image 
+                          | image_url: width: block.settings.mlya-image.width 
+                          | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 
+                          widths: '200,300,400,500', class:'image', alt: block.settings.mlya-image.alt -}}
+                        </div>
+                    </li>
+                    {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+            <div class="col-12">
+              <div class="mlya-btn">
+                <a href="{{ section.settings.button-link }}" target="_blank" class="btn-red"><span>{{ section.settings.button-text }}</span><i class='fa fa-arrow-left'></i></a>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Mlya-section",
+  "class": "Mlya-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section-class",
+      "label": "Section Class",
+    },
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading"
+    },
+    {
+      "id": "content",
+      "type": "richtext",
+      "label": "Content"
+    },
+    {
+      "id": "button-text",
+      "type": "text",
+      "label": "Button Text"
+    },
+    {
+      "id": "button-link",
+      "type": "url",
+      "label": "Button Link"
+    },
+  ],
+  "blocks": [
+    {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "mlya-image",
+          "label": "MLYA Image"
+        }
+      ]
+    }
+  ], 
+  "presets": [
+    {
+      "category": "Mlya-section",
+      "name": "Mlya-section"
+    }
+  ]
+}
+{% endschema %}

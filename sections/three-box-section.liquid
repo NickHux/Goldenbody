@@ -1,0 +1,81 @@
+<section class="three-box-sec {{ section.settings.section-class }}" id="{{ section.settings.section-id }}">
+  <div class="container">
+        <div class="row">
+          {% if section.settings.main-title %}
+            <div class="col-12">
+              <div class="three-box">
+                <h2>{{ section.settings.main-title }}</h2>
+              </div>
+            </div>
+            {% endif %}
+            <div class="col-12">
+               <div class="white-boxes three-boxes mobile-carousel">
+                 {% if section.blocks != blank %}
+                  {% for block in section.blocks %}
+                    <div class="white-box three-box">
+                       <img src="{{ block.settings.image | img_url: 'master' }}">
+                       <h5>{{ block.settings.heading }}</h5>
+                       <div class="three-box-des">
+                          {{ block.settings.content }}
+                       </div>
+                    </div>
+                  {% endfor %}
+                 {% endif %}
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+    "name": "Three-box-section",
+    "class": "Three-box-section",
+    "settings": [
+    {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section Id"
+    },
+    {
+      "type": "text",
+      "id": "section-class",
+      "label": "Section Class"
+    },
+    {
+      "type": "text",
+      "id": "main-title",
+      "label": "Main Title"
+    }
+    ],
+    "blocks": [
+      {
+        "type": "slides",
+        "name": "slides",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],   
+    "presets": [
+    {
+    "category": "Three-box-section",
+    "name": "Three-box-section"
+    }
+    ]
+    }
+{% endschema %}

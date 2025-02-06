@@ -1,0 +1,128 @@
+.section_icon_list .icon_list_item {
+  max-width: var(--image-width);
+  max-height: var(--image-height);
+  min-width: fit-content;
+  position: relative;
+}
+.section_icon_list img {
+  height: 100%;
+  width: auto;
+  max-width: var(--image-width);
+  max-height: var(--image-height);
+  min-height: var(--image-height);
+}
+
+.icon_list_inner {
+  display: flex;
+  column-gap: 200px;
+  align-items: center;
+  overflow: auto;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.section_title {
+  margin-bottom: 80px;
+}
+
+.section_icon_list {
+  margin-bottom: 200px;
+}
+.section_icon_list .section_title h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.section_icon_list .icon_list_item:first-child {
+  margin-left: 15px;
+}
+.section_icon_list .icon_list_item:last-child {
+  margin-right: 15px;
+}
+.icon_list_item .hover_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+@media (hover: hover) {
+  .icon_list_item .hover_image {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .icon_list_item:hover .main_image {
+    opacity: 0;
+    z-index: -2;
+  }
+  .icon_list_item:hover .hover_image {
+    opacity: 1;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 1660px) {
+  .section_icon_list {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .icon_list_inner {
+    column-gap: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .icon_list_inner {
+    column-gap: 150px;
+  }
+  .section_icon_list .section_title h2 {
+    font-size: 48px;
+  }
+  .section_icon_list .icon_list_item:first-child {
+    margin-left: 20px;
+  }
+  .section_icon_list .icon_list_item:last-child {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .icon_list_inner {
+    column-gap: 50px;
+  }
+  .section_title {
+    margin-bottom: 28px;
+  }
+  .section_icon_list {
+    margin-bottom: 48px;
+  }
+  .section_icon_list .icon_list_item:first-child {
+    margin-left: 16px;
+  }
+  .section_icon_list .icon_list_item:last-child {
+    margin-right: 16px;
+  }
+  .section_icon_list h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .section_icon_list .section_title h2 {
+    font-size: 32px;
+  }
+  .section_icon_list img {
+    min-height: var(--image-height-mobile);
+  }
+  .section_icon_list img,
+  .section_icon_list .icon_list_item {
+    max-width: var(--image-width-mobile);
+    max-height: var(--image-height-mobile);
+  }
+}

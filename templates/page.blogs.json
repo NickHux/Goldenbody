@@ -1,0 +1,43 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_hVDWKg": {
+      "type": "Banner-Section",
+      "settings": {
+        "section_class_banner": "",
+        "main-title": "<h2>Alles rund um Sport, <br/>Gesundheit und Lauras <br/>Tipps für deinen Alltag</h2>",
+        "background-image": "shopify://shop_images/Goldenbody_Website_Header_Bilder_18.png",
+        "mobile-background-image": "shopify://shop_images/Goldenbody_Header_Web_12.png"
+      }
+    },
+    "blogs_B3Ajbq": {
+      "type": "Blogs",
+      "settings": {
+        "section-class": "topright bottomleft",
+        "blog": "news",
+        "post_limit": 99
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_hVDWKg",
+    "blogs_B3Ajbq"
+  ]
+}

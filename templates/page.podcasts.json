@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_gfQkep": {
+      "type": "Banner-Section",
+      "settings": {
+        "main-title": "Podcasts",
+        "background-image": "shopify://shop_images/sdfsdf.webp"
+      }
+    },
+    "podcasts_Cf3LAA": {
+      "type": "podcasts",
+      "settings": {
+        "section-class": "all-podcasts topright bottomleft",
+        "heading": "Blog posts",
+        "btn-text": "",
+        "btn-url": "",
+        "blog": "podcasts",
+        "post_limit": 99,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_gfQkep",
+    "podcasts_Cf3LAA"
+  ]
+}

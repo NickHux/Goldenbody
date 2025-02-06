@@ -1,0 +1,81 @@
+<section class="feedback-sec" id="{{ section.settings.section-id }}">
+  <div class="container-fluid">
+        <div class="row">
+           <div class="col-12 text-center">
+             <h2>{{ section.settings.main-heading }}</h2>
+           </div>
+            <div class="col-12 feedback-col desktop-carousel-hero">
+               <div class="feedback-slider owl-carousel owl-theme">
+                 {% if section.blocks != blank %}
+                  {% for block in section.blocks %}
+                    <div class="item">
+                       <h5>{{ block.settings.heading }}</h5>
+                       <div class="feedback-des">
+                          {{ block.settings.content }}
+                       </div>
+                    </div>
+                  {% endfor %}
+                 {% endif %}
+               </div>
+            </div>
+            <div class="col-12 feedback-col mobile-carousel-hero">
+               <div class="mobile-carousel">
+                 {% if section.blocks != blank %}
+                  {% for block in section.blocks %}
+                    <div class="item">
+                       <h5>{{ block.settings.heading }}</h5>
+                       <div class="feedback-des">
+                          {{ block.settings.content }}
+                       </div>
+                    </div>
+                  {% endfor %}
+                 {% endif %}
+               </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+    "name": "Feedback-sec",
+    "class": "Feedback-sec",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section-id",
+        "label": "Section Id"
+      },
+    {
+      "type": "text",
+      "id": "main-heading",
+      "label": "Main Heading"
+    },
+    ],
+    "blocks": [
+      {
+        "type": "slides",
+        "name": "slides",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],   
+    "presets": [
+    {
+    "category": "Feedback-sec",
+    "name": "Feedback-sec"
+    }
+    ]
+    }
+{% endschema %}

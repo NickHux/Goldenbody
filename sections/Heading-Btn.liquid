@@ -1,0 +1,54 @@
+<section class="heading-btn-1 {{ section.settings.custom-class }}">
+  <div class="row">
+      <div class="col p-0">
+        <p>{{ section.settings.main-title }}</p>
+        <a href="{{ section.settings.button-url }}" class="btn-black"><span>{{ section.settings.button-text }}</span><i class='fa fa-arrow-left'></i></a>
+      </div>
+    <div class="col p-0">
+        <p>{{ section.settings.main-title }}</p>
+        <a href="{{ section.settings.button-url }}" class="btn-black"><span>{{ section.settings.button-text }}</span><i class='fa fa-arrow-left'></i></a>
+      </div>
+    <div class="col p-0">
+        <p>{{ section.settings.main-title }}</p>
+        <a href="{{ section.settings.button-url }}" class="btn-black"><span>{{ section.settings.button-text }}</span><i class='fa fa-arrow-left'></i></a>
+      </div>
+  </div>
+</section>
+
+
+
+
+{% schema %}
+{
+  "name": "Heading-Btn-1",
+  "class": "Heading-Btn-1",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom-class",
+      "label": "Custom-Class"
+    },
+    {
+      "type": "text",
+      "id": "main-title",
+      "label": "Main Title"
+    },
+    {
+      "type": "text",
+      "id": "button-text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button-url",
+      "label": "Button URL"
+    },
+  ],
+  "presets": [
+    {
+      "category": "Heading-Btn-1",
+      "name": "Heading-Btn-1"
+    }
+  ]
+}
+{% endschema %}

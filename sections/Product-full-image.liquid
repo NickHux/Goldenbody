@@ -1,0 +1,33 @@
+{% if product.metafields.custom.faq_2_question_1 %}
+<section class="image-and-right-text product-single-page">
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box box-fixed" style="background: url('{{ product.metafields.custom.single_image | img_url: 'master' }}')">
+                  <!-- <div class="box-inner">
+                      <h5>{{ section.settings.main-title }}</h5>
+                      <h1>{{ section.settings.secondary-title }}</h1>
+                  </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+  
+
+{% schema %}
+    {
+    "name": "Product-single-page",
+    "class": "Product-single-page",
+    "settings": [
+    ], 
+    "presets": [
+    {
+    "category": "Product-single-page",
+    "name": "Product-single-page"
+    }
+    ]
+    }
+{% endschema %}

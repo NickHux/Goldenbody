@@ -1,0 +1,477 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_inner_pAzWzP": {
+      "type": "Banner-Section-Inner",
+      "settings": {
+        "section_class": "challenges-ban",
+        "main-title": "Online <br>Challenges",
+        "background-image": "shopify://shop_images/Group_1577705245_1.jpg",
+        "mobile-background-image": "shopify://shop_images/Goldenbody_Header_Web_3.png"
+      }
+    },
+    "navigation_section_RiEKYQ": {
+      "type": "Navigation-section",
+      "blocks": {
+        "slides_fkCKcV": {
+          "type": "slides",
+          "settings": {
+            "button-url": "#week-challenge",
+            "button-text": "4 Week Challenge"
+          }
+        },
+        "slides_KrENkm": {
+          "type": "slides",
+          "settings": {
+            "button-url": "#multiple-row",
+            "button-text": "8 Week Challenge"
+          }
+        },
+        "slides_haan9M": {
+          "type": "slides",
+          "settings": {
+            "button-url": "#result-section",
+            "button-text": "Vorher - Nachher Fotos"
+          }
+        }
+      },
+      "block_order": [
+        "slides_fkCKcV",
+        "slides_KrENkm",
+        "slides_haan9M"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section-class": ""
+      }
+    },
+    "second_left_img_section_nQChB9": {
+      "type": "second-left-img-section",
+      "settings": {
+        "section-class": "online-left-img",
+        "section-id": "week-challenge",
+        "main-title": "4 Week Challenge",
+        "small-title": "<p>Summer Body Wanted <strong>Online Only</strong></p>",
+        "left-title": "4 Week Challenge",
+        "content": "<p>Die 4 Week Challenge - Summer Body wanted ist für alle ideal die in kurzer Zeit maximale Resultate erzielen wollen. Wir helfen dir in Shape zu kommen für die anstehende Sommersaison. Ziel ist es den Körperfettanteil zu reduzieren und deinen Körper zu straffen und stärken. Du gehst mit mehr Definition aus dieser Challenge und fühlst dich wohler in deiner Haut.<br/><br/>In diesen 4 Wochen wirst du online von uns betreut. Dich erwarten Ernährungspläne, Rezepte, vorgegebene Trainingsvideos, Tipps und Tricks und vieles mehr.<br/><br/>Nach diesen 4 Wochen hast du die Möglichkeit unsere 8 Week Challenge für einen reduzierten Preis an zu hängen um deine Resultate zu behalten und womöglich noch weiter zu verbessern. Hiermit wollen wir dir einen nachhaltigen Weg zeigen um deinen Lifestyle langfristig zu ändern.</p>",
+        "image_picker": "shopify://shop_images/Rectangle_6_1.jpg",
+        "btn-url": "",
+        "btn-text": ""
+      }
+    },
+    "white_box_section_4EjCdW": {
+      "type": "White-box-section",
+      "blocks": {
+        "slides_QbGARh": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/fi_10580854.png",
+            "heading": "Gewichtsabnahme",
+            "content": "<p>Wenn du überschüssige Kilos loswerden möchtest, ist diese Challenge genau das Richtige für dich. Unser Programm wird dir helfen, deine Ziele zu setzen und motiviert zu bleiben, während du auf gesunde Weise Gewicht verlierst.</p>"
+          }
+        },
+        "slides_E7NKDz": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Group_2.png",
+            "heading": "Regelmässiges Training",
+            "content": "<p>Durch die Challenge wirst du in ein strukturiertes Trainingsprogramm eingeführt, das deine Fitness und Ausdauer verbessern wird. Egal, ob du Anfänger oder Fortgeschrittener bist, unsere Experten werden dich unterstützen und dir helfen, deine Grenzen zu überwinden.</p>"
+          }
+        },
+        "slides_WgHwQU": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Group_1577705195.png",
+            "heading": "Ausgewogene Ernährung",
+            "content": "<p>Eine gesunde Ernährung ist der Schlüssel zu einem gesunden Körper und Geist. In der Challenge wirst du lernen, wie du deine Ernährung optimierst, indem du dich auf nährstoffreiche Lebensmittel konzentrierst und ungesunde Gewohnheiten durch gesunde Alternativen ersetzt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_QbGARh",
+        "slides_E7NKDz",
+        "slides_WgHwQU"
+      ],
+      "settings": {
+        "section-id": "white-box",
+        "main-title": "Warum solltest du an unserer Challenge teilnehmen?",
+        "secondary-title": "Hier sind einige Gründe:"
+      }
+    },
+    "full_video_section_PrhwTJ": {
+      "type": "full-video-section",
+      "custom_css": [
+        ".full-video-sec {margin-top: 30px !important; margin-bottom: 80px !important;}"
+      ],
+      "settings": {
+        "section-id": "",
+        "image": "shopify://shop_images/image_16_1.jpg",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/5b80aeb5d76140d4ac790171207d2368.mp4",
+        "button_url": "shopify://products/4-week-challenge",
+        "button_text": "JETZT ANMELDEN"
+      }
+    },
+    "before_after_section_hr8Q7m": {
+      "type": "before-after-section",
+      "blocks": {
+        "slides_fHhtNC": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/Goldenbody_Vorher-Nachher_4_Week_Challenge.png"
+          }
+        },
+        "slides_LfzWBj": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/1_5ff52e62-2fce-49d9-97f0-8092be62dac6.png"
+          }
+        },
+        "slides_WB4D7g": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/Rahel_Bender.png"
+          }
+        },
+        "slides_JFGAdp": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/3_777dc2f8-0a7d-4c4c-8dfa-47bf04a0abdf.png"
+          }
+        },
+        "slides_6DG6FE": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/1_fecca7eb-30ea-4dca-8ab8-a8242f06bc57.png"
+          }
+        }
+      },
+      "block_order": [
+        "slides_fHhtNC",
+        "slides_LfzWBj",
+        "slides_WB4D7g",
+        "slides_JFGAdp",
+        "slides_6DG6FE"
+      ],
+      "custom_css": [
+        "#result-section {padding-bottom: 80px;}"
+      ],
+      "settings": {
+        "section-id": "result-section",
+        "main-heading": "Vorher - Nachher Fotos"
+      }
+    },
+    "three_box_section_aAU7UL": {
+      "type": "three-box-section",
+      "blocks": {
+        "slides_RDVzxP": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/image_17_1.jpg",
+            "heading": "Ernährung",
+            "content": "<ul><li>Ernährungsplan mit genau vorgegeben Menüs (vegetarisch)</li><li>Einfache, ausgewogene und schnelle Rezepte welche auch mit Familie gut umsetzbar sind</li><li>3 Mahlzeiten pro Tag</li><li>1400-1500 kcal pro Tag</li><li>Alle Menüs enthalten Kohlenhydrate, Proteine und Fette sowie eine Vitaminquelle</li></ul>"
+          }
+        },
+        "slides_iaFrXa": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/image_18_1.jpg",
+            "heading": "Bewegung",
+            "content": "<ul><li>Vorgegebene Cardio, Kraft und Intervall Trainingseinheiten</li><li>Trainingsvideos zum nachmachen, Orts und Zeitunabhängig</li><li>4 Trainingseinheiten pro Woche, dazu 1x optional</li><li>Tägliches Ziel von 10'000 Schritten</li></ul>"
+          }
+        },
+        "slides_jBwx8H": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_84-min_81e5d34b-ab43-492c-9133-34ce2f8e8725.jpg",
+            "heading": "Mindset",
+            "content": "<ul><li>Tägliche Inputs und professionelle Tipps zum Thema Ernährung, Mindset oder Training</li><li>Motivation durch Videos</li><li>Gesteigertes Wohlbefinden, bessere Verdauung, mehr Vitalität, qualitativ besserer Schlaf, erhöhte Regeneration und </li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_RDVzxP",
+        "slides_iaFrXa",
+        "slides_jBwx8H"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section-id": "",
+        "section-class": "focus-section",
+        "main-title": "Unsere 3 Fokus Punkte"
+      }
+    },
+    "requirements_section_Wii7Hq": {
+      "type": "requirements-section",
+      "settings": {
+        "section-id": "",
+        "main-title": "Voraussetzungen",
+        "content": "<ul><li>Du bist mindestens 16 Jahre alt</li><li>Auch für Vegetarier und Veganer geeignet</li><li>Für alle Fitnesslevels</li><li>Keine Erfahrungen notwendig</li><li>Kein Abo bei Goldenbody notwendig</li><li>Teilnahme in der ganzen Schweiz möglich</li></ul>",
+        "button-url": "shopify://products/4-week-challenge",
+        "button-text": "Jetzt Anmelden",
+        "image_picker": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_44-min_b85b8645-67e8-462f-938d-effdc5dcf7ea.jpg"
+      }
+    },
+    "feedback_section_N4nMWe": {
+      "type": "feedback-section",
+      "blocks": {
+        "slides_qbmbfJ": {
+          "type": "slides",
+          "settings": {
+            "heading": "Hallo liebi Laura",
+            "content": "<p>E be völlig happy mit mim Resultat vo dere 4weekchallange 😍 E hätt würkli nit dänkt asme i 4 Wuche sone veränderig cha gseh... E ha scho vorhär rächt uf mini Ernährig gluegt, be au ire Ernährigsberotig gse wosi au hei kaliperet, vo däm här esch s ässe nit mega angersch gsi, e biz weniger aber esch jo \"nur\" für 4 wuche... 😅 Aber jez woni so d Föteli vergliche, gsehni doch e mega ungerschied... 🥳<br/><br/> e ha die Challange super chönne umsetze, d rezäpt si mega eifach und schnäu zuebereitet gse, was me chli het gstört esch gse as a 2 täg hingerenang immer s gliche gse esch. Klar weme räschte het, völlig ir ornig aber ha jo nie räschte gha... 😂<br/><br/>e ha de amigs eifach e angere tag zersch gno...<br/><br/>Trainings si mega toll gse, ha guet chönne mitmache und ha au gmerkt wieni immer meh gwicht cha nä und au besser mah... 💪<br/><br/>Aso aues i auem, e be mega froh hani mitgmacht, esch e super sach gse!! Danke dir & dim Team für au die müeh!! 🤗<br/><br/>wirde di secher witerverfouge uf insta!!<br/><br/>ganz liebi Grüess<br/><br/>K.</p>"
+          }
+        },
+        "slides_bYpcrH": {
+          "type": "slides",
+          "settings": {
+            "heading": "Hallo Zusammen",
+            "content": "<p>Zuerst, vielen liebe Dank, dass ihr diese Challenge ins Leben gerufen habt. Ich fand sie TOLL und für mich war es ein perfekter Kickstart und eine grosse Motivation wieder einen gesunden Lifestyle zu führen.<br/><br/>Ich habe jeden einzelnen Tag durchgezogen und kein Training ausgelassen. Egal wo ich war, ich hatte mein Essen immer dabei und nicht 1x etwas genascht. Trotz Job & 3 Kinder habe ich jedes Training durchgezogen, auch wenn ich am liebsten nur noch ins Bett fallen wollte. Und hey, ich bin soooo stolz auf mich selber, dass ich das geschafft habe. Meine Fressattacken haben mir nach der Geburt der Zwillinge sehr zu schaffen gemacht. Ich habe stets zugenommen und war einfach nicht mehr wohl in meinem Körper. Nach nur 4 Wochen bin ich wieder voll auf Kurs und motiviert weiterzumachen.<br/><br/>Die Rezepte fand ich sehr gut und einfach. Ich wusste nicht wie einfach gesund essen ohne hungern geht. Was mir gefehlt hat waren die Kalorienangaben. Vor allem, um zu wissen, was wir jeden Tag an Kalorien zu uns genommen haben. Ansonsten wirklich sehr zufrieden.<br/><br/>EIN GROSSES DANKE AN EUCH!<br/><br/>Ich habe 5 kg Körpergewicht verloren. Gestartet mit 58 kg und jetzt bei 53 kg.<br/><br/>ganz liebe Grüsse<br/><br/>B.</p>"
+          }
+        },
+        "slides_xz8aqa": {
+          "type": "slides",
+          "settings": {
+            "heading": "Liebs Goldenbody Team",
+            "content": "<p>Merci vöu mou für die cooli 4 Week Challenge. Ig ha d 4 Week Challenge gmacht zum nach Schwangerschaft, Geburt und 1 Johr Babyzyt ändlich wieder d Motivation für Sport und schnäui & gsundi Ernährig z finde. Und es het 100% klappt, scho nach Woche 1 beni mega überzügt und wieder voll dinne gsi (ha denn aber denkt, jaja was esch scho 1 Woche 😀 Aber has vou dürezoge und glaube a mi dassi jetzt so weder cha wiiter  mache! Bi vor dra 1 Johr scho emmer weder is Fitness, aber ha mer es mega längwiligs Programm a de Grät zämegstöut und bi null effizient oder effektiv gsi. Jetzt hani weder Motivation mit Hantle trainiere und find es super Programm wo dir zämegstöut heit und finds au immer cool wenn me beobachtet dass me sich langsam mit de Gwicht cha steigere 🙂<br/><br/>D Rezäpt hani au super easy gfunde und has mega gschätzt dass 4 Woche lang aues vorgäh esch.<br/><br/>Im Ahang no d Bilder, meh gseht der Unterschied druf nid mega.. aber a de Bei, Buch und Rügge findi esch scho einiges gange und au s Huutbild und Verdauuig hei sich mega verbesseret.<br/><br/>Ig würd d 4 Week Challenge sofort wiiter empfähle und es het mega Spass gmacht.<br/><br/>DANKE üch vöu mou für's zämestöue vo Ernährigsplan, Trainings und au d Mindset Videos si mega hilfriich und motivierend gsi!<br/><br/>Machet wiiter so 🙂<br/><br/>Liebe Gruess<br/><br/>A.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_qbmbfJ",
+        "slides_bYpcrH",
+        "slides_xz8aqa"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section-id": "",
+        "main-heading": "Feedbacks Unserer Teilnehmer/innen"
+      }
+    },
+    "multi_row_section_V3ETW9": {
+      "type": "multi-row-section",
+      "blocks": {
+        "slides_9piQ3M": {
+          "type": "slides",
+          "settings": {
+            "left-title": "Gemeinsam zur Topform",
+            "content": "<p>Wir haben die bewährte 8 Week Challenge weiterentwickelt und machen sie neu auch für Personen zugänglich, die remote teilnehmen möchten. Die ONLINE 8 Week Challenge bietet dir eine Rundumbetreuung mit diversen online Trainings, persönlicher Körpertyp Analyse, aufgezeichneten Webinaren und Vorträgen wie auch diversen Guides.<br/><br/>Bei Fragen erhältst du mittels Chat Support, damit wir deine persönlichen Ziele erreichen und du top motiviert bleibst. Während diesen 8 Wochen verhelfen wir dir zu einem neuen Körpergefühl und vermitteln dir viel Wissen über Ernährung und Training, sodass du messbare Fortschritte machst. Wir bringen dich in Topform und du wirst deinen Körper in dieser Zeit völlig neu kennen lernen und viel über Ernährung und dein optimales Training erfahren. </p>",
+            "image_picker": "shopify://shop_images/Rectangle_6_3_1.jpg",
+            "btn-url": "",
+            "btn-text": ""
+          }
+        },
+        "slides_Mtakae": {
+          "type": "slides",
+          "settings": {
+            "left-title": "Inhalt:",
+            "content": "<ul><li>Online Körpertyp Auswertung  (unter anderem mit Ernährungs- und Trainingstipps um dein Ziel zu erreichen)</li><li>Ernährungsguide</li><li>Neues Rezeptbuch</li><li>Einkaufsberatungs Guide</li><li>Wassereinlagerungen Guide</li><li>Goldenbody App zum tracken</li><li>Zugriff Member Area (über 150 online Workouts)</li><li>Whatsapp Gruppe für 8 Wochen für Support</li><li>5 Aufgezeichnete Vorträge und Webinare (Ernährung rund um’s Training, Wassereinlagerungen, Stoffwechsel, Healthy decisions im Restaurant, an Festen und beim grillieren</li><li>Jede Woche einen Wochenfokus Artikel</li></ul>",
+            "image_picker": "shopify://shop_images/Rectangle_6_4_1.jpg",
+            "btn-url": "shopify://products/8-week-challenge",
+            "btn-text": "Jetzt Anmelden"
+          }
+        }
+      },
+      "block_order": [
+        "slides_9piQ3M",
+        "slides_Mtakae"
+      ],
+      "settings": {
+        "section-class": "multi-row-sec",
+        "section-id": "multiple-row",
+        "main-title": "8 Week Challenge"
+      }
+    },
+    "three_box_section_tjzDQJ": {
+      "type": "three-box-section",
+      "blocks": {
+        "slides_BTx68e": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Goldenbody_Fotoshooting_03-2024_20.jpg",
+            "heading": "Muskelaufbau",
+            "content": "<p>Erarbeite dir einen straffen, starken, leistungsfähigen und definierten Körper</p>"
+          }
+        },
+        "slides_33nhTy": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_23.jpg",
+            "heading": "Fettabbau",
+            "content": "<p>Erreiche mit gezielter Ernährung und Sport eine nachhaltige Fettreduktion</p>"
+          }
+        },
+        "slides_mmBPeN": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7828.jpg",
+            "heading": "Gesundes Essverhalten",
+            "content": "<p>Erlerne eine gesunde + ausgewogen Ernährung um vor Energie auf zu blühen</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_BTx68e",
+        "slides_33nhTy",
+        "slides_mmBPeN"
+      ],
+      "settings": {
+        "section-id": "",
+        "section-class": "destinations-sec",
+        "main-title": "Mögliche Ziele"
+      }
+    },
+    "before_after_section_cRDbr8": {
+      "type": "before-after-section",
+      "blocks": {
+        "slides_VGyrpq": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/1_6e834d31-4ede-4e97-b782-033a6afecb53.png"
+          }
+        },
+        "slides_hgLryE": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/2_8b16c808-0015-43a3-b988-cd0420b9b2f6.png"
+          }
+        },
+        "slides_rQMXXF": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/3_4ed860f1-223d-4f4b-93cd-5ecc91217e94.png"
+          }
+        },
+        "slides_ekhH9r": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/2_b07ae9ba-d69c-4af4-9e38-59891bd867e8.png"
+          }
+        },
+        "slides_GmjYHr": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/5_588bea08-93fd-4820-97ca-dd4f94ef6dbf.png"
+          }
+        },
+        "slides_pknDkt": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/6_37e769bb-c740-4f91-aa07-b849ce42818c.png"
+          }
+        },
+        "slides_EeedkQ": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/3_0dfe8e34-cac7-4eea-b11d-323beab3e3e0.png"
+          }
+        },
+        "slides_jTJw36": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/8_8eda4950-3ed1-4a1b-a3f0-83491f82b0dc.png"
+          }
+        },
+        "slides_P4NAPg": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/9_2a17abce-2b19-4a3a-a8d2-37f3ce2917cc.png"
+          }
+        },
+        "slides_XhYyeD": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/13.png"
+          }
+        },
+        "slides_FnQtCX": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/11_35cfaa19-c8cf-4694-97b5-88f19524c88c.png"
+          }
+        },
+        "slides_f9rep4": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/12_043df3e8-095a-45fc-834b-1d99c93e89c1.png"
+          }
+        },
+        "slides_xNDeyV": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/13.png"
+          }
+        },
+        "slides_phpzBC": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/14.png"
+          }
+        }
+      },
+      "block_order": [
+        "slides_VGyrpq",
+        "slides_hgLryE",
+        "slides_rQMXXF",
+        "slides_ekhH9r",
+        "slides_GmjYHr",
+        "slides_pknDkt",
+        "slides_EeedkQ",
+        "slides_jTJw36",
+        "slides_P4NAPg",
+        "slides_XhYyeD",
+        "slides_FnQtCX",
+        "slides_f9rep4",
+        "slides_xNDeyV",
+        "slides_phpzBC"
+      ],
+      "settings": {
+        "section-id": "result-section2",
+        "main-heading": "Vorher - Nachher Fotos"
+      }
+    },
+    "left_image_right_text_WEyWW4": {
+      "type": "Left-Image-Right-Text",
+      "settings": {
+        "section-id": "",
+        "class": "requirements-left",
+        "main-title": "Voraussetzungen",
+        "content": "<ul><li>Du bist mindestens 16 Jahre alt</li><li>Auch für Vegetarier und Veganer geeignet</li><li>Für alle Fitnesslevels</li><li>Keine Erfahrungen notwendig</li><li>Kein Abo bei Goldenbody notwendig</li><li>Teilnahme in der ganzen Schweiz möglich</li></ul>",
+        "image_picker": "shopify://shop_images/IMG_7776_compressed.jpg",
+        "btn-url": "shopify://products/8-week-challenge",
+        "btn-text": "Jetzt Anmelden"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_inner_pAzWzP",
+    "navigation_section_RiEKYQ",
+    "second_left_img_section_nQChB9",
+    "white_box_section_4EjCdW",
+    "full_video_section_PrhwTJ",
+    "before_after_section_hr8Q7m",
+    "three_box_section_aAU7UL",
+    "requirements_section_Wii7Hq",
+    "feedback_section_N4nMWe",
+    "multi_row_section_V3ETW9",
+    "three_box_section_tjzDQJ",
+    "before_after_section_cRDbr8",
+    "left_image_right_text_WEyWW4"
+  ]
+}

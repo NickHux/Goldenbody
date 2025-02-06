@@ -1,0 +1,243 @@
+<section class="Meet-The-Team {{ section.settings.section-class }}">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">{{ section.settings['main-title'] }}</h2>
+      </div>
+    </div>
+    <div class="row items">
+      {% if section.blocks != blank %}
+        {% for block in section.blocks %}
+          <div class="col-md-4">
+            <div class="item">
+              <div class="img-box"><img src="{{ block.settings.member-image | img_url: 'master' }}"></div>
+              <div class="content-box">
+                <h6>{{ block.settings['member-name'] }}</h6>
+                <p>{{ block.settings['member-designation'] }}</p>
+                <ul>
+                  {% if block.settings.instagram %}
+                    <li>
+                      <a href="{{ block.settings.instagram }}"
+                        ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/instagram.png"
+                      ></a>
+                    </li>
+                  {% endif %}
+
+                  {% if block.settings.spotify %}
+                    <li>
+                      <a href="{{ block.settings.spotify }}"
+                        ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Style_2_copy_3.svg?v=1726171893"
+                      ></a>
+                    </li>
+                  {% endif %}
+                  
+                  {% if block.settings.linkedin %}
+                    <li>
+                      <a href="{{ block.settings.linkedin }}"
+                        ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/linkedin.svg?v=1726082381"
+                      ></a>
+                    </li>
+                  {% endif %}
+
+                </ul>
+                <span class="team_read_more" data-id="{{ block.id }}">{{ block.settings.btn_text }}</span>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+      {% if section.blocks != blank %}
+        {% for block in section.blocks %}
+          <div class="Meet-The-Team-popup" data-id="{{ block.id }}">
+            <div class="inner">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/closebtn.png?v=1725914082"
+                class="close-btn"
+              >
+              <div class="top">
+                <div class="box">
+                  <div class="img-box"><img src="{{ block.settings.member-image | img_url: 'master' }}"></div>
+                  <div class="box-inner">
+                    <h3>{{ block.settings['member-name'] }}</h3>
+                    <p>{{ block.settings['member-designation'] }}</p>
+                  </div>
+                </div>
+                <ul>
+                  {% if block.settings.instagram %}
+                    <li>
+                      <a href="{{ block.settings.instagram }}"
+                        ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/instagram.png"
+                      ></a>
+                    </li>
+                  {% endif %}
+                  
+                  {% if block.settings.spotify %}
+                    <li>
+                      <a href="{{ block.settings.spotify }}"
+                        ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Style_2_copy_3.svg?v=1726171893"
+                      ></a>
+                    </li>
+                  {% endif %}
+
+                  {% if block.settings.linkedin %}
+                    <li>
+                      <a href="{{ block.settings.linkedin }}"
+                        ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/linkedin.svg?v=1726082381"
+                      ></a>
+                    </li>
+                  {% endif %}
+
+                </ul>
+              </div>
+              <div class="bottom">
+                <h4>{{ block.settings.heading1 }}</h4>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="personal-info">
+                      {% if block.settings['member-name'] != blank %}
+                        <div class="info-list">
+                          <h6>Name</h6>
+                          <p>{{ block.settings['member-name'] }}</p>
+                        </div>
+                      {% endif %}
+                      {% if block.settings['professional-training'] != blank %}
+                        <div class="info-list">
+                          <h6>Professional Training</h6>
+                          <p>{{ block.settings['professional-training'] }}</p>
+                        </div>
+                      {% endif %}
+                      {% if block.settings['personal-motto'] != blank %}
+                        <div class="info-list">
+                          <h6>Personal Motto</h6>
+                          <p>{{ block.settings['personal-motto'] }}</p>
+                        </div>
+                      {% endif %}
+                      {% if block.settings['years-at-goldenbody'] != blank %}
+                        <div class="info-list">
+                          <h6>Years at Goldenbody</h6>
+                          <p>{{ block.settings['years-at-goldenbody'] }}</p>
+                        </div>
+                      {% endif %}
+                      {% if block.settings['certifications-and-specializations'] != blank %}
+                        <div class="info-list">
+                          <h6>Certifications and Specializations</h6>
+                          <p>{{ block.settings['certifications-and-specializations'] }}</p>
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+                <h4>{{ block.settings.heading2 }}</h4>
+                <p>{{ block.settings.contenth2 }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+"name": "Meet-The-Team-Custom",
+"class": "Meet-The-Team",
+"settings": [
+  {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main Title"
+  },
+  {
+    "type": "text",
+    "id": "section-class",
+    "label": "Section Class"
+  },
+],
+"blocks": [
+  {
+    "type": "Service-Product",
+    "name": "Add-Team-Member",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "member-image",
+        "label": "Member Image"
+      },
+      {
+        "type": "text",
+        "id": "member-name",
+        "label": "Member Name"
+      },
+      {
+        "type": "text",
+        "id": "member-designation",
+        "label": "Member Designation"
+      },
+      {
+        "type": "url",
+        "id": "linkedin",
+        "label": "Linkedin Link"
+      },
+      {
+        "type": "url",
+        "id": "instagram",
+        "label": "Instagram Link"
+      },
+      {
+        "type": "url",
+        "id": "spotify",
+        "label": "Spotify Link"
+      },
+      {
+        "type": "text",
+        "id": "heading1",
+        "label": "Heading 1"
+      },
+      {
+        "type": "text",
+        "id": "professional-training",
+        "label": "Professional Training"
+      },
+       {
+        "type": "text",
+        "id": "personal-motto",
+        "label": "Personal Motto"
+      },
+       {
+        "type": "text",
+        "id": "years-at-goldenbody",
+        "label": "Years at Goldenbody"
+      },
+       {
+        "type": "text",
+        "id": "certifications-and-specializations",
+        "label": "Certifications and Specializations"
+      },
+      {
+        "type": "text",
+        "id": "heading2",
+        "label": "Heading 2"
+      },
+      {
+        "type": "richtext",
+        "id": "contenth2",
+        "label": "Content"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Text",
+        "default": "Mehr über mich"
+      },
+    ]
+  }
+],
+"presets": [
+  {
+    "category": "Meet-The-Team",
+    "name": "Meet-The-Team-Custom"
+  }
+]
+}
+{% endschema %}

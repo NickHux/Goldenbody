@@ -1,0 +1,91 @@
+<section class="timeline-section {{ section.settings.section-class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+              <h2>{{ section.settings.heading }}</h2>
+            </div>
+            <div class="col-12">
+                <ul class="timeline-contain">
+                    {% if section.blocks != blank %}
+                    {% for block in section.blocks %}
+                    <li class="timeline-item">
+                        
+                            <div class="t-img-box">
+                                <img src="{{ block.settings.timeline-image | img_url: 'master'}}">
+                            </div>
+                            <div class="t-number-block">
+                                <div class="number"><p>{{ block.settings.number }}</p></div>
+                            </div>
+                            <div class="t-content-box">
+                                <span>{{ block.settings.date }}</span>
+                                <h3>{{ block.settings.timeline-heading }}</h3>
+                                <div class="timeline-content">
+                                  {{ block.settings.timeline-content }}
+                                </div>
+                            </div>
+                    </li>
+                    {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Timeline-section",
+  "class": "Timeline-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section-class",
+      "label": "Section Class",
+    },
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "timeline-image",
+          "label": "Timeline Image"
+        },
+        {
+          "type": "text",
+          "id": "number",
+          "label": "Number"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date"
+        },
+        {
+          "type": "text",
+          "id": "timeline-heading",
+          "label": "Timeline Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "timeline-content",
+          "label": "Timeline Content"
+        },
+      ]
+    }
+  ], 
+  "presets": [
+    {
+      "category": "Timeline-section",
+      "name": "Timeline-section"
+    }
+  ]
+}
+{% endschema %}

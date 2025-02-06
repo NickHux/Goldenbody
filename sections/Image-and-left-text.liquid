@@ -1,0 +1,58 @@
+<section class="image-and-left-text topright">
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box box-fixed" style="background: url('{{ section.settings.background-image | image_url: width: 1400 }}')">
+                  {% if section.settings.mobile-background-image  %}
+                  <style>
+                    @media (max-width: 749px) {
+                      section.image-and-left-text .box {
+                        background-image: url('{{ section.settings.mobile-background-image | image_url: width: 768 }}') !important;
+                      }
+                    }
+                  </style>
+                  {% endif %}
+                  <div class="box-inner">
+                      <h5>{{ section.settings.main-title }}</h5>
+                      <h1>{{ section.settings.secondary-title }}</h1>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+    "name": "image-and-left-text",
+    "class": "image-and-left-text",
+    "settings": [
+    {
+    "type": "image_picker",
+    "id": "background-image",
+    "label": "Background Image"
+    },
+    {
+    "type": "image_picker",
+    "id": "mobile-background-image",
+    "label": "Mobile Background Image"
+    },
+    {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main Title"
+    },
+    {
+    "type": "text",
+    "id": "secondary-title",
+    "label": "Secondary Title"
+    },
+    ], 
+    "presets": [
+    {
+    "category": "image-and-left-text",
+    "name": "image-and-left-text"
+    }
+    ]
+    }
+{% endschema %}

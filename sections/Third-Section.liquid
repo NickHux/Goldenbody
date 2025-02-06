@@ -1,0 +1,81 @@
+
+{%- liquid
+   assign widths = '375, 550, 750'
+   assign sizes = '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px'
+-%}
+
+<section class="third-section topleft bottomright">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="big">{{ section.settings.main-title }}</h1>
+        <h1 class="big absolute">{{ section.settings.main-title-2 }}</h1>
+        <div class="box1">
+          {% comment %}
+          <img src="{{ section.settings.main-image | img_url: 'master' }}" class="main-image">
+          {% endcomment %}
+          {{- section.settings.main-image | image_url: width: section.settings.image.width | image_tag: sizes: sizes, class:'main-image', widths: widths -}}
+          <a href="{{ section.settings.button-url }}" class="btn-red"><span>{{ section.settings.button-text }}</span><i class='fa fa-arrow-left'></i></a>
+        </div>
+        <div class="box2">
+          {% comment %}
+          <img src="{{ section.settings.fruit-image | img_url: 'master' }}" class="fruit-image zminus">
+          {% endcomment %}
+          {{- section.settings.fruit-image | image_url: width: section.settings.fruit-image.width | image_tag: sizes: sizes, class:'fruit-image zminus', widths: '375, 550' -}}
+          <p class="zplus">{{ section.settings.content }}</p>
+          <a href="{{ section.settings.button-url }}" class="btn-red mobile-screens"><span>{{ section.settings.button-text }}</span><i class='fa fa-arrow-left'></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+    {
+    "name": "Third-Section",
+    "class": "Third-Section",
+    "settings": [
+    {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main-Title"
+    },
+    {
+    "type": "text",
+    "id": "main-title-2",
+    "label": "Main-Title-2"
+    },
+    {
+    "type": "image_picker",
+    "id": "main-image",
+    "label": "Main Image"
+    },
+    {
+    "type": "text",
+    "id": "button-text",
+    "label": "Button Text"
+    },
+    {
+    "type": "url",
+    "id": "button-url",
+    "label": "Button URL"
+    },
+    {
+    "type": "image_picker",
+    "id": "fruit-image",
+    "label": "Fruit Image"
+    },
+    {
+    "type": "text",
+    "id": "content",
+    "label": "Content"
+    },
+    ],
+    "presets": [
+    {
+    "category": "Third-Section",
+    "name": "Third-Section"
+    }
+    ]
+    }
+    {% endschema %}

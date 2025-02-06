@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner_section_inner_cnXTGD": {
+      "type": "Banner-Section-Inner",
+      "settings": {
+        "section_class": "quick-links",
+        "main-title": "",
+        "background-image": "shopify://shop_images/20.png"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner_section_inner_cnXTGD",
+    "main"
+  ]
+}

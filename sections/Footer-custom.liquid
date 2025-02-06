@@ -1,0 +1,225 @@
+<section class="footer">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="one">
+                            <h2>{{ section.settings.newsletter-title }}</h2>
+                            <p>{{ section.settings.newsletter-content }}</p>
+                            <form method="post" action="/contact#contact_form" id="ContactFooter" accept-charset="UTF-8" class="contact-form">
+                                <input type="hidden" name="form_type" value="customer" />
+                                <input type="hidden" name="utf8" value="✓" />
+                                <input title="Bitte fülle dieses Feld aus." oninvalid="this.setCustomValidity('Bitte fülle dieses Feld aus')" type="email" name="contact[email]" placeholder="{{ section.settings.newsletter-email-text }}" required />
+                                <button type="submit" class="submit-btn">{{ section.settings.newsletter-button-text }}</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="two">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="frequent-container">
+                                <h2>{{ section.settings.frequent-heading }}</h2>
+                                <div class="frequent-list">
+                                  <ul>
+                                    {% for block in section.blocks %}
+                                    {% if block.type == 'Frequent-keywords' %}
+                                        <li>
+                                          {% comment %}
+                                            <a href="{{ shop.url }}/search?q={{ block.settings.frequent-text | url_encode }}" 
+                                               class="delayed-redirect" 
+                                               data-query="{{ block.settings.frequent-text }}">
+                                              {{ block.settings.frequent-text }}
+                                            </a>
+                                          {% endcomment %}
+                                          <a href="{{ block.settings.frequent-url }}">
+                                            {{ block.settings.frequent-text }}
+                                          </a>
+                                        </li>
+                                    {% endif %}
+                                    {% endfor %}
+                                  </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>{{ section.settings.quick-links-text }}</h5>
+                                <ul class="quick-links">
+                                {% for block in section.blocks %}
+                                {% if block.type == 'QuickLinks' %}
+                                    <li><a href="{{ block.settings.ql-url }}" class="textt">{{ block.settings.ql-text }}</a></li>
+                                {% endif %}
+                                {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#scroll-top" class="btt"><img src="https://cdn.shopify.com/s/files/1/0643/9344/5421/files/Group_1577705100.png?v=1725476622"></a>
+                                <a href="{{ shop.url }}"><img src="https://cdn.shopify.com/s/files/1/0643/9344/5421/files/Logo_1_1_541f456e-9e75-4205-9584-47c17be32707.png?v=1724702791" class="logo"></a>
+                                <h5>{{ section.settings.center-heading }}</h5>
+                                <p class="textt">{{ section.settings.center-content }}</p>
+                              <h5>{{ section.settings.email_title }}</h5>
+                                <ul class="quick-links-2">
+                                    <li><a href="mailto:{{ section.settings.email }}" class="textt">{{ section.settings.email }}</a></li>
+                                    <!-- <li class="divider"><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/divder.png?v=1726235223"></li> -->
+                                    <!-- <li><a href="tel:{{ section.settings.phone }}" class="textt">{{ section.settings.phone }}</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h5>{{ section.settings.social_heading }}</h5>
+                                <div class="social-links">
+                                <ul>
+                                    <li><a href="{{ settings.social_instagram_link }}" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/instagram.svg?v=1726082381"></a></li>
+                                    <li><a href="{{ settings.social_youtube_link }}" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/youtube.svg?v=1726082381"></a></li>
+                                    <li><a href="{{ settings.social_spotify_link }}" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Style_2_copy_3.svg"></a></li>
+                                    <li><a href="{{ settings.social_facebook_link }}" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/facebook.svg?v=1726082381"></a></li>
+                                    <!-- <li><a href="{{ settings.social_linkedin_link }}" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/linkedin.svg?v=1726082381"></a></li> -->
+                                    
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="three">
+                          <p class="lastline">{{ section.settings.last-line-text }} <a href="https://www.linkedin.com/in/nicolashuxley/" target="_blank">Nicolas Huxley</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="successPopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.2); z-index: 1000;">
+          <h4 id="popupMessage">Danke für deine Anmeldung</h4>
+          <a href="javascript:void(0)" id="closePopup" class="btn-red"><span>Schliessen</span><i class='fa fa-arrow-left'></i></a>
+      </div>
+
+
+
+{% schema %}
+{
+  "name": "footer-custom",
+  "class": "footer-custom",
+  "settings": [
+    {
+      "type": "text",
+      "id": "newsletter-title",
+      "label": "Newsletter Title"
+    },
+    {
+      "type": "text",
+      "id": "newsletter-content",
+      "label": "Newsletter Content"
+    },
+    {
+      "type": "text",
+      "id": "newsletter-email-text",
+      "label": "Newsletter Email Text"
+    },
+    {
+      "type": "text",
+      "id": "newsletter-button-text",
+      "label": "Newsletter button text"
+    },
+    {
+      "type": "text",
+      "id": "social_heading",
+      "label": "Social Heading"
+    },
+     {
+      "type": "url",
+      "id": "newsletter-form-action",
+      "label": "Newsletter Form Action URL"
+    },
+    {
+      "type": "text",
+      "label": "Center Heading",
+      "id": "center-heading"
+    },
+    {
+      "type": "text",
+      "label": "Center Content",
+      "id": "center-content"
+    },
+    {
+      "type": "text",
+      "id": "email_title",
+      "label": "Email Title",
+      "default": " Fragen oder Feedback? Schreib uns:"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone"
+    },
+    {
+      "type": "text",
+      "id": "last-line-text",
+      "label": "Last line Text"
+    },
+    {
+      "type": "text",
+      "id": "quick-links-text",
+      "label": "Quick Links Text"
+    },
+    {
+      "type": "text",
+      "id": "frequent-heading",
+      "label": "Frequent Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Frequent-keywords",
+      "name": "Frequent-keywords",
+      "settings": [
+        {
+          "type": "text",
+          "id": "frequent-text",
+          "label": "Frequent Text"
+        },
+        {
+          "type": "url",
+          "id": "frequent-url",
+          "label": "Frequent URL"
+        }
+      ]
+    },
+    {
+      "type": "QuickLinks",
+      "name": "QuickLinks",
+      "settings": [
+        {
+          "type": "text",
+          "id": "ql-text",
+          "label": "Quick Link Text"
+        },
+        {
+          "type": "url",
+          "id": "ql-url",
+          "label": "Quick Link URL"
+        }
+      ]
+    }
+  ], 
+  "presets": [
+    {
+      "category": "footer-custom",
+      "name": "footer-custom"
+    }
+  ]
+}
+{% endschema %}

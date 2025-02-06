@@ -1,0 +1,60 @@
+<section class="Service-Products bottomright">
+  <div class="container">
+    <div class="row">
+        {% if section.blocks != blank %}
+        {% for block in section.blocks %}
+        <div class="col-md-4">
+            <div class="item">
+              <div class="img-box"><img src="{{ block.settings.service-image | img_url: 'master' }}"></div>
+              <a href="{{ block.settings.service-url }}"><h4>{{ block.settings.service-title }}</h4><img src="https://cdn.shopify.com/s/files/1/0643/9344/5421/files/Vector_7219f845-bdc2-47da-b0f0-ead0e8a9fecb.png?v=1724788356"></a>
+              <p>{{ block.settings.service-content }}</p>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+    {
+    "name": "Service-Products",
+    "class": "Service-Products",
+    "settings": [
+    ],
+     "blocks": [
+    {
+      "type": "Service-Product",
+      "name": "Service-Product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "service-image",
+          "label": "Service-Image"
+        },
+        {
+          "type": "text",
+          "id": "service-title",
+          "label": "Service-Title"
+        },
+        {
+          "type": "text",
+          "id": "service-content",
+          "label": "Service-Content"
+        },
+        {
+          "type": "url",
+          "id": "service-url",
+          "label": "Service-URL"
+        }
+      ]
+    }
+  ], 
+    "presets": [
+    {
+    "category": "Service-Products",
+    "name": "Service-Products"
+    }
+    ]
+    }
+    {% endschema %}

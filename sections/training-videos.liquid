@@ -1,0 +1,93 @@
+
+<section class="training-videos" id="{{ section.settings.section-id }}">
+  <div class="container">
+              <h2>{{ section.settings.heading_text }}</h2>
+        <div class="row mobile-carousel">
+          {% if section.blocks != blank %}
+            {% for block in section.blocks %}
+            <div class="col-12 col-md-6 col-lg-4">
+              <h4>{{ block.settings.heading }}</h4>
+              <div class="training-video-contain" data-article-id="{{ forloop.index }}">
+                 <img src="{{ block.settings.image | img_url: 'master' }}" class="training-img">
+                 <div class="training-videos-con">
+                    <video width="750" height="500" controls>
+                      <source src="{{ block.settings.video_url }}" type="video/mp4">
+                    </video>
+                </div>
+                 <img src="{{ block.settings.play_image | img_url: 'master' }}" class="play-btns">
+              </div>
+            </div>
+            {% endfor %}
+          {% endif %}  
+        </div>
+    </div>
+</section>
+
+{% comment %}
+{% if section.blocks != blank %}
+{% for block in section.blocks %}
+<div class="training-popup" data-article-id="{{ forloop.index }}">
+    <div class="close-btn">X</div>
+    <div class="popup">
+        <video width="750" height="500" controls>
+          <source src="{{ block.settings.video_url }}" type="video/mp4">
+        </video>
+    </div>
+</div>
+{% endfor %}
+{% endif %} 
+{% endcomment %}
+  
+
+{% schema %}
+    {
+    "name": "Training-videos",
+    "class": "Training-videos",
+    "settings": [
+      {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section Id"
+      },
+     {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading Text",
+    }, 
+    ], 
+    "blocks": [
+      {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+        },
+        {
+          "type": "image_picker",
+          "id": "play_image",
+          "label": "Play Image",
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video Url",
+        }
+        ]
+      }
+    ],   
+    "presets": [
+    {
+    "category": "Training-videos",
+    "name": "Training-videos"
+    }
+    ]
+    }
+{% endschema %}

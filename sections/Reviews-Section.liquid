@@ -1,0 +1,108 @@
+<section class="reviews-section {{ section.settings.section-class }}">
+  <div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>{{ section.settings.main-title }}</h2>
+        </div>
+    </div>
+  </div>
+    <div class="row">
+      
+        <div class="col desktop-carousel-hero">
+            <div class="owl-carousel owl-theme testimonial-slider">
+              {% if section.blocks != blank %}
+              {% for block in section.blocks %}
+                <div class="item">
+                    <div class="testimonial-box">
+                        <div class="testimonial-img">
+                            <img src="{{ block.settings.reviewer-image | img_url: 'master' }}">
+                        </div>
+                        <div class="testimonial-content">
+                            <p>{{ block.settings.review }}</p>
+                            <h3>{{ block.settings.reviewer-name }}</h3>
+                            <h5>{{ block.settings.reviewer-designation }}</h5>
+                        </div>
+                    </div>
+                </div>
+              {% endfor %}
+              {% endif %}
+            </div>
+        </div>
+
+       <div class="col mobile-carousel-hero">
+            <div class="mobile-carousel mobile-carousel-reviews">
+              {% if section.blocks != blank %}
+              {% for block in section.blocks %}
+                <div class="item">
+                    <div class="testimonial-box">
+                        <div class="testimonial-img">
+                            <img src="{{ block.settings.reviewer-image | img_url: 'master' }}">
+                        </div>
+                        <div class="testimonial-content">
+                            <p>{{ block.settings.review }}</p>
+                            <h3>{{ block.settings.reviewer-name }}</h3>
+                            <h5>{{ block.settings.reviewer-designation }}</h5>
+                        </div>
+                    </div>
+                </div>
+              {% endfor %}
+              {% endif %}
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+{% schema %}
+    {
+    "name": "Reviews-Section",
+    "class": "Reviews-Section",
+    "settings": [
+    {
+    "type": "text",
+    "id": "section-class",
+    "label": "Section Class"
+    },
+    {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main Title"
+    },    
+    ],
+     "blocks": [
+    {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "reviewer-image",
+          "label": "Reviewer Image"
+          },
+          {
+          "type": "text",
+          "id": "reviewer-name",
+          "label": "Reviewer Name"
+          },
+          {
+          "type": "text",
+          "id": "reviewer-designation",
+          "label": "Reviewer Designation"
+          },
+          {
+          "type": "textarea",
+          "id": "review",
+          "label": "Review"
+          }
+      ]
+    }
+  ], 
+    "presets": [
+    {
+    "category": "Reviews-Section",
+    "name": "Reviews-Section"
+    }
+    ]
+    }
+    {% endschema %}

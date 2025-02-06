@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "footer_custom_hnVqcb": {
+      "type": "Footer-custom",
+      "blocks": {
+        "quick_links_VjP93W": {
+          "type": "QuickLinks",
+          "settings": {
+            "ql-text": "AGB",
+            "ql-url": "shopify://pages/agb"
+          }
+        },
+        "quick_links_6U8MVx": {
+          "type": "QuickLinks",
+          "settings": {
+            "ql-text": "Datenschutz",
+            "ql-url": "shopify://pages/datenschutz"
+          }
+        },
+        "quick_links_nwdgrw": {
+          "type": "QuickLinks",
+          "settings": {
+            "ql-text": "Impressum",
+            "ql-url": "shopify://pages/impressum"
+          }
+        },
+        "frequent_keywords_CVyXUC": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Schnupperstunde",
+            "frequent-url": "https://goldenbody.ch/products/gruppentraining"
+          }
+        },
+        "frequent_keywords_tAg9BW": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Ernährungsberatung",
+            "frequent-url": "https://goldenbody.ch/pages/ernahrungsberatung-trainings"
+          }
+        },
+        "frequent_keywords_Lptxdd": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Körpertyp Bestimmung",
+            "frequent-url": "https://goldenbody.ch/products/online-korpertyp-bestimmung-und-auswertung"
+          }
+        },
+        "frequent_keywords_ggGgnh": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Gruppentraining im Studio",
+            "frequent-url": "shopify://products/gruppentraining"
+          }
+        },
+        "frequent_keywords_eyVGtH": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "NYC Pilates Online Kurs",
+            "frequent-url": "shopify://products/nyc-pilates-online-kurs"
+          }
+        },
+        "frequent_keywords_TjyhUm": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "4 Week Challenge",
+            "frequent-url": "shopify://products/4-week-challenge"
+          }
+        },
+        "frequent_keywords_j4Jqnj": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "8 Week Challenge",
+            "frequent-url": "shopify://products/8-week-challenge"
+          }
+        },
+        "frequent_keywords_XaEBGW": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Online Rezeptbuch",
+            "frequent-url": "shopify://products/online-rezeptbuch-vegetarische-gerichte"
+          }
+        },
+        "frequent_keywords_w9xXzm": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "WOO Kollagen",
+            "frequent-url": "shopify://products/woo-kollagen-nature-aroma-vorbestellung-lieferbar-ab-19-5-23"
+          }
+        },
+        "frequent_keywords_RVFcKT": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Online After Baby Rückbildungs Kurs",
+            "frequent-url": "shopify://products/online-after-baby-ruckbildungs-kurs-1"
+          }
+        },
+        "frequent_keywords_UFDPYw": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Hot Wickel (Fettverbrennung)",
+            "frequent-url": "shopify://products/hot-wickel-fettverbrennung"
+          }
+        },
+        "frequent_keywords_WCQNnJ": {
+          "type": "Frequent-keywords",
+          "settings": {
+            "frequent-text": "Schröpfglas",
+            "frequent-url": "shopify://products/schropfglas-5cm-mit-2-ventil-technik"
+          }
+        }
+      },
+      "block_order": [
+        "quick_links_VjP93W",
+        "quick_links_6U8MVx",
+        "quick_links_nwdgrw",
+        "frequent_keywords_CVyXUC",
+        "frequent_keywords_tAg9BW",
+        "frequent_keywords_Lptxdd",
+        "frequent_keywords_ggGgnh",
+        "frequent_keywords_eyVGtH",
+        "frequent_keywords_TjyhUm",
+        "frequent_keywords_j4Jqnj",
+        "frequent_keywords_XaEBGW",
+        "frequent_keywords_w9xXzm",
+        "frequent_keywords_RVFcKT",
+        "frequent_keywords_UFDPYw",
+        "frequent_keywords_WCQNnJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "newsletter-title": "Abonniere unseren Newsletter",
+        "newsletter-content": "Sei die Erste, die von neuen Produkten, exklusiven Angeboten und Lauras Gesundheitstipps erfährt.",
+        "newsletter-email-text": "Deine E-Mail-Adresse",
+        "newsletter-button-text": "Jetzt abonnieren",
+        "social_heading": "Folge uns!",
+        "newsletter-form-action": "",
+        "center-heading": "Warum Goldenbody?",
+        "center-content": "Mit uns erreichst du deine Ziele auf eine Weise, die zu dir passt und dich glücklich macht.",
+        "email_title": "Fragen oder Feedback? Schreib uns:",
+        "email": "support@goldenbody.ch",
+        "phone": "",
+        "last-line-text": "Copyright © 2025 von Goldenbody | Alle Rechte vorbehalten. | Website kreiert mit ❤️ von",
+        "quick-links-text": "Quick Links",
+        "frequent-heading": "Häufig gesucht"
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "footer_custom_hnVqcb"
+  ]
+}

@@ -1,0 +1,129 @@
+<section class="product-section-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>{{ section.settings.main-title }}</h2>
+      </div>
+      <div class="col-md-4">
+        <a href="{{ section.settings.button-url }}" class="btn-red btn-desktop">
+          <span>{{ section.settings.button-text }}</span>
+          <i class="fa fa-arrow-left"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col desktop-carousel-hero">
+        <div class="owl-carousel owl-theme product-slider">
+          {% if section.settings.product-collection %}
+            {% assign collection = collections[section.settings.product-collection] %}
+            {% for product in collection.products %}
+              <div class="item">
+                <a href="{{ product.url }}" class="product-link">
+                  {% comment %}
+                  <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+                  {% endcomment %}
+                  
+                  {{- product.featured_image 
+                  | image_url: width: product.featured_image.width 
+                  | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 
+                  widths: '200,300,400,500,600', class:'image', alt: product.title -}}
+                  <h6>{{ product.title }}</h6>
+                  <p>
+                    {% if product.has_only_default_variant %}
+                      {{ product.price | money }}
+                    {% else %}
+                      ab {{ product.price | money }}
+                    {% endif %}
+                  </p>
+                </a>
+              </div>
+            {% endfor %}
+          {% else %}
+            <p>No products found in this collection.</p>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="col mobile-carousel-hero">
+        <div class="mobile-carousel">
+          {% if section.settings.product-collection %}
+            {% assign collection = collections[section.settings.product-collection] %}
+            {% for product in collection.products %}
+              <div class="item">
+                <a href="{{ product.url }}" class="product-link">
+                  {% comment %}
+                  <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+                  {% endcomment %}
+                  
+                  {{- product.featured_image 
+                  | image_url: width: product.featured_image.width 
+                  | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 
+                  widths: '200,300,400,500,600', class:'image', alt: product.title -}}
+                  <h4>{{ product.title }}</h4>
+                  <p>
+                    {% if product.has_only_default_variant %}
+                      {{ product.price | money }}
+                    {% else %}
+                      ab {{ product.price | money }}
+                    {% endif %}
+                  </p>
+                </a>
+              </div>
+            {% endfor %}
+          {% else %}
+            <p>No products found in this collection.</p>
+          {% endif %}
+        </div>
+      </div>
+      
+    </div>
+        <div class="row row-center">
+
+    <a href="{{ section.settings.button-url }}" class="btn-red btn-mobile">
+          <span>{{ section.settings.button-text }}</span>
+          <i class="fa fa-arrow-left"></i>
+        </a>
+              </div>
+
+  </div>
+</section>
+
+
+
+
+
+{% schema %}
+{
+  "name": "Product-Section-1",
+  "class": "Product-Section-1",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main-title",
+      "label": "Main Title"
+    },
+    {
+      "type": "text",
+      "id": "button-text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button-url",
+      "label": "Button URL"
+    },
+    {
+      "type": "collection",
+      "id": "product-collection",
+      "label": "Product Collection"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Product-Section-1",
+      "name": "Product-Section-1"
+    }
+  ]
+}
+{% endschema %}

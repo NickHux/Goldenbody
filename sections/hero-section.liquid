@@ -1,0 +1,121 @@
+<section class="hero-section" id="scroll-top">
+  <div class="row">
+    <div class="col">
+      <div class="owl-carousel owl-theme hero-slider">
+        {% if section.blocks != blank %}
+          {% for block in section.blocks %}
+            <div
+              class="item hero-item"
+              {% if block.settings.mobile-background-image %}
+               data-mobile-image="{{ block.settings.mobile-background-image | image_url: width: 768 }}"
+             {% endif %}
+             style="background-image: url({{ block.settings.background-img | image_url: width: 1400 }});">
+              <div class="container p-0">
+                {{ block.settings['main-title'] }}
+                <p>{{ block.settings['secondary-title'] }}</p>
+                <a href="{{ block.settings.button-url }}" class="btn-black"
+                  ><span>{{ block.settings['button-text'] }}</span><i class="fa fa-arrow-left"></i
+                ></a>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+      <div class="social-links">
+        <ul>
+          {% if settings.social_instagram_link %}
+            <li>
+              <a href="{{ settings.social_instagram_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Group_1577704996.png?v=1725913580" alt="Instagram"
+              ></a>
+            </li>
+          {% endif %}
+
+          {% if settings.social_youtube_link %}
+            <li>
+              <a href="{{ settings.social_youtube_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/fi_1384028.png?v=1725913473"
+              ></a>
+            </li>
+          {% endif %}
+
+          {% if settings.social_spotify_link %}
+            <li>
+              <a href="{{ settings.social_spotify_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Style_2_copy_3.svg"
+              ></a>
+            </li>
+          {% endif %}
+
+          {% if settings.social_facebook_link %}
+            <li>
+              <a href="{{ settings.social_facebook_link }}" target="_blank"
+                ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/fi_20837.png?v=1725913622"
+              ></a>
+            </li>
+          {% endif %}
+          
+        </ul>
+      </div>
+      <div class="scroll-down">
+        <a href="#second-section"
+          ><img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/scroll-1.png?v=1727129876"
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+  "name": "Hero-Section",
+  "class": "Hero-Section",
+  "settings": [
+
+  ],
+   "blocks": [
+  {
+    "type": "slides",
+    "name": "Slides",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "background-img",
+        "label": "Background Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile-background-image",
+          "label": "Mobile Background Image"
+        },
+        {
+        "type": "richtext",
+        "id": "main-title",
+        "label": "Main Title"
+      },
+      {
+        "type": "text",
+        "label": "Secondary Title",
+        "id": "secondary-title"
+      },
+      {
+        "type": "text",
+        "label": "Button Text",
+        "id": "button-text"
+      },
+      {
+        "type": "url",
+        "label": "Button URL",
+        "id": "button-url"
+      }
+    ]
+  }
+],
+  "presets": [
+  {
+  "category": "Hero-Section",
+  "name": "Hero-Section"
+  }
+  ]
+  }
+{% endschema %}

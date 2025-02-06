@@ -1,0 +1,69 @@
+
+<section class="pro-video-sec full-video-sec" id="{{ section.settings.section-id }}">
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box video-box">
+                  <img src="{{ section.settings.image | img_url: 'master' }}" class="full-image">
+                  <img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Group_1577705184.png" data-article-id="popup" class="play-btn">
+                </div>
+                <div class="video-button">
+                   <a href="{{ section.settings.button_url }}" class="btn-red">
+                   <span>{{ section.settings.button_text }}</span><i class="fa fa-arrow-left"></i>
+                   </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="full-video-popup" data-article-id="popup">
+    <div class="close-btn">X</div>
+    <div class="popup full-popup">
+       <video width="100%" height="700" controls>
+          <source src="{{ section.settings.video_url }}" type="video/mp4">
+       </video>
+    </div>
+</div>
+  
+
+{% schema %}
+    {
+    "name": "Full video sec",
+    "class": "full-video-sec",
+    "settings": [
+      {
+      "type": "text",
+      "id": "section-id",
+      "label": "Section Id"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+      },
+      {
+        "type": "url",
+        "id": "video_url",
+        "label": "Video Url",
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button Url",
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+      }
+    ], 
+    "presets": [
+    {
+    "category": "full-video-sec",
+    "name": "Full video sec"
+    }
+    ]
+    }
+{% endschema %}

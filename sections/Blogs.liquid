@@ -1,0 +1,66 @@
+<section class="blogs-section {{ section.settings.section-class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {%- assign blog = blogs[section.settings.blog] -%}
+                  {%- if blog.articles_count > 0 -%}
+                      <ul class="blogs">
+                          {%- for article in blog.articles limit: section.settings.post_limit -%}
+                          <li class="blog-item">
+                              <a href="{{ article.url }}">
+                                  <div class="img-box" style="background: url({% if article.image %}{{ article.image | img_url: '300x300' }}{% endif %});">
+                                      <p class="date">{{ article.published_at | date: "%d %b %Y" }}</p>
+                                      <p class="author">{{ article.author }}</p>
+                                  </div>
+                                  <div class="content-box">
+                                      <h3>{{ article.title }}</h3>
+                                      <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
+                                      <a href="{{ article.url }}" class="btn-black"><span>Mehr lesen</span><i class='fa fa-arrow-left'></i></a>
+                                  </div>
+                              </a>
+                          </li>
+                          {%- endfor -%}
+                      </ul>
+                  {%- endif -%}
+                  <!-- <a href="javascript:void(0)" class="btn-red load-more-blogs"><span>Mehr laden</span><i class='fa fa-arrow-left'></i></a> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Blogs",
+  "class": "blogs-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section-class",
+      "label": "Section Class",
+    },
+    {
+      "id": "blog",
+      "type": "blog",
+      "label": "Blog"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "label": "Posts",
+      "min": 3,
+      "max": 99,
+      "default": 3
+    },
+  ],
+  "presets": [
+    {
+      "name": "Blogs",
+      "category": "Blogs",
+      "settings": {
+        "blog": "News",
+        "post_limit": 3
+      }
+    }
+  ]
+}
+{% endschema %}

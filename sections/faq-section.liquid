@@ -1,0 +1,112 @@
+<section class="faq-section {{ section.settings.section-class }}">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>{{ section.settings.main-title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="accordion" id="accordionExample">
+            {% if section.blocks != blank %}
+              <div class="odd_number_blocks">
+              {% for block in section.blocks %}
+                {% assign mod_value = forloop.index | modulo: 2 %}
+                  {% if mod_value == 1 %}
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse{{ forloop.index }}"
+                        aria-expanded="true"
+                        aria-controls="collapse{{ forloop.index }}"
+                      >
+                        {{ block.settings.a-heading }}
+                      </button>
+                    </h2>
+                    <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>{{ block.settings.a-content }}</p>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %}
+              {% endfor %}
+              </div>
+              <div class="even_number_blocks">
+                {% for block in section.blocks %}
+                  {% assign mod_value = forloop.index | modulo: 2 %}
+                    {% if mod_value == 0 %}
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse{{ forloop.index }}"
+                          aria-expanded="true"
+                          aria-controls="collapse{{ forloop.index }}"
+                        >
+                          {{ block.settings.a-heading }}
+                        </button>
+                      </h2>
+                      <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>{{ block.settings.a-content }}</p>
+                        </div>
+                      </div>
+                    </div>
+                  {% endif %}
+              {% endfor %}
+              </div>              
+            {% endif %}
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+"name": "faq-section",
+"class": "faq-section",
+"settings": [
+{
+"type": "text",
+"id": "section-class",
+"label": "Section Class"
+},
+{
+"type": "text",
+"id": "main-title",
+"label": "Main Title"
+},
+],
+"blocks": [
+{
+  "type": "item",
+  "name": "Accordion-Item",
+  "settings": [
+      {
+      "type": "text",
+      "id": "a-heading",
+      "label": "Heading"
+      },
+      {
+      "type": "textarea",
+      "id": "a-content",
+      "label": "Content"
+      }
+  ]
+}
+], 
+"presets": [
+{
+"category": "faq-section",
+"name": "faq-section"
+}
+]
+}
+{% endschema %}

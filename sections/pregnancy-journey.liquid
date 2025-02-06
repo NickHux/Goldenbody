@@ -1,0 +1,552 @@
+{{ 'pregnancy-journey.css' | asset_url | stylesheet_tag }}
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.25 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.5 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign fetch_priority = 'auto'
+  if section.index == 1
+    assign fetch_priority = 'high'
+  endif
+  if section.settings.color_scheme == section.settings.section_color_scheme and section.settings.content_layout == 'no-overlap'
+    assign remove_color_classes = true
+  endif
+-%}
+
+<div class="section_pregnancy_journey section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="image-with-text image-with-text--no-overlap isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}">
+      <div class="pregnancy-journey-desktop image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+        <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--top grid__item">
+          <div
+            class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} {% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+            {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+              style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+            {% endif %}
+          >
+            {% if section.settings.image_shadow != blank %}
+            <div class="image_shadow_item">
+              {{
+                section.settings.image_shadow
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+              }}
+            </div>
+            {% endif %}
+            {%- if section.settings.image != blank -%}
+              {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                {%- assign widths = '198, 432, 642, 900' -%}
+                {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+            {%- endcapture -%}
+              {%- else -%}
+                {%- assign widths = '165, 360, 535, 750' -%}
+                {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+            {%- endcapture -%}
+              {%- endif -%}
+              {{
+                section.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority, class:'image_text_main_image'
+              }}
+            {%- else -%}
+              {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+          </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div
+            id="ImageWithText--{{ section.id }}"
+            class="image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} {% else %} background-transparent{% endunless %}"
+          >
+            {%- for block in section.blocks -%}
+              {% case block.type %}
+                {%- when 'heading' -%}
+                  <h2
+                    class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.heading }}
+                  </h2>
+                {%- when 'caption' -%}
+                  <p
+                    class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.caption | escape }}
+                  </p>
+                {%- when 'text' -%}
+                  <div class="image-with-text__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                    {{ block.settings.text }}
+                  </div>
+                {%- when 'button' -%}
+                  <div class="image_text_btn">
+                    {%- if block.settings.button_label != blank -%}
+                      <a
+                        {% if block.settings.button_link == blank %}
+                          role="link" aria-disabled="true"
+                        {% else %}
+                          href="{{ block.settings.button_link }}"
+                        {% endif %}
+                        class="btn-red"
+                        {{ block.shopify_attributes }}
+                      >
+                        <span>{{ block.settings.button_label | escape }}</span><i class="fa fa-arrow-left"></i>
+                      </a>
+                    {%- endif -%}
+                    {% if block.settings.price_text != blank %}
+                      <div class="btn_price">
+                        <div class="text">{{ block.settings.price_text }}</div>
+                        <div class="price_btn_text">{{ 'sections.pregnancy_journey.price_button_text' | t }} </div>
+                      </div>
+                    {% endif %}
+                  </div>
+              {%- endcase -%}
+            {%- endfor -%}
+            <div class="pregnancy_icons">
+              {% if section.settings.background_bg != blank %}
+                <div class="desktop_bg_main">
+                  {{
+                    section.settings.background_bg
+                    | image_url: width: 1200
+                    | image_tag: widths: widths
+                  }}
+                </div>
+              {% endif %}
+              <div class="pregnancy_icons_inner">
+                {%- for block in section.blocks -%}
+                  {% if block.type == 'icon' %}
+                    {% if block.settings.icon_image != blank %}
+                      <div class="icon_image_list">
+                        <div class="icon_border_line">
+                          <div class="icon_image media" style="padding-bottom: {{ 1 | divided_by: 1 | times: 100 }}%;">
+                            {%- assign widths = '198, 432, 642' -%}
+                            {%- capture sizes -%}
+                              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                              (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                            {%- endcapture -%}
+
+                            {{
+                              block.settings.icon_image
+                              | image_url: width: 550
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          </div>
+                        </div>
+                      </div>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pregnancy-journey-mobile">
+        <div class="pregnancy_mobile_main">
+        <div class="pregnancy-inner-section">
+          {% if section.settings.heading != '' %}
+            <h2>{{ section.settings.heading }}</h2>
+          {% endif %}
+          <div class="description-wrapper">
+            {%- if section.settings.bg_image != blank -%}
+              {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+              <div class="pregnancy-background">
+                {{
+                  section.settings.bg_image
+                  | image_url: width: 750
+                  | image_tag: widths: widths
+                }}
+              </div>
+            {% endif %}
+            <div class="description-text desc-first">{{ section.settings.description_1 }}</div>
+            <div class="description-text desc-second">{{ section.settings.description_2 }}</div>
+            {%- if section.settings.image_1 != blank -%}
+              {%- assign widths = '165, 360, 535, 750' -%}
+              <div class="pregnancy-image-1 pregnancy-round" style="--horizontal-1: {{ section.settings.horizontal_1 }}%;--vertical-1: {{ section.settings.vertical_1 }}%;">
+                {{
+                  section.settings.image_1
+                  | image_url: width: 360
+                  | image_tag: widths: widths
+                }}
+              </div>
+            {% endif %}
+            {%- if section.settings.image_2 != blank -%}
+              {%- assign widths = '165, 360, 535, 750' -%}
+              <div class="pregnancy-image-2 pregnancy-round" style="--horizontal-2: {{ section.settings.horizontal_2 }}%;--vertical-2: {{ section.settings.vertical_2 }}%;">
+                {{
+                  section.settings.image_2
+                  | image_url: width: 360
+                  | image_tag: widths: widths
+                }}
+              </div>
+            {% endif %}
+            {%- if section.settings.image_3 != blank -%}
+              {%- assign widths = '165, 360, 535, 750' -%}
+              <div class="pregnancy-image-3 pregnancy-round" style="--horizontal-3: {{ section.settings.horizontal_3 }}%;--vertical-3: {{ section.settings.vertical_3 }}%;">
+                {{
+                  section.settings.image_3
+                  | image_url: width: 360
+                  | image_tag: widths: widths
+                }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+          </div>
+        <div class="pregnancy_mob_bottom">
+            <div class="mob_bottom_content">
+              {% for block in section.blocks %}
+                {% if block.type == 'button' %}
+                  <div class="image_text_btn">
+                    {% if block.settings.price_text != blank %}
+                      <div class="btn_price">
+                        <div class="text">{{ block.settings.price_text }}</div>
+                        <div class="price_btn_text">{{ 'sections.pregnancy_journey.price_button_text' | t }} </div>
+                      </div>
+                    {% endif %}
+                    {%- if block.settings.button_label != blank -%}
+                      <a
+                        {% if block.settings.button_link == blank %}
+                          role="link" aria-disabled="true"
+                        {% else %}
+                          href="{{ block.settings.button_link }}"
+                        {% endif %}
+                        class="btn-red"
+                        {{ block.shopify_attributes }}
+                      >
+                        <span>{{ block.settings.button_label | escape }}</span><i class="fa fa-arrow-left"></i>
+                      </a>
+                    {%- endif -%}
+                    
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div class="pregnancy_mob_bottom_bg">
+              {{
+                  section.settings.mobile_button_bg_image
+                  | image_url: width: 750
+                  | image_tag: widths: widths
+                }}
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Pregnancy Journey",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.image-with-text.settings.height.options__1.label"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.height.options__2.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.height.options__4.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.image-with-text.settings.height.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-with-text.settings.desktop_image_width.label",
+      "info": "t:sections.image-with-text.settings.desktop_image_width.info"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "t:sections.image-with-text.settings.layout.options__1.label"
+        },
+        {
+          "value": "text_first",
+          "label": "t:sections.image-with-text.settings.layout.options__2.label"
+        }
+      ],
+      "default": "image_first",
+      "label": "t:sections.image-with-text.settings.layout.label",
+      "info": "t:sections.image-with-text.settings.layout.info"
+    },
+    {
+      "type":"image_picker",
+      "id":"background_bg",
+      "label":"Background (Desktop)"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.animation.content"
+    },
+    {
+      "type": "select",
+      "id": "image_behavior",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.all.animation.image_behavior.options__1.label"
+        },
+        {
+          "value": "ambient",
+          "label": "t:sections.all.animation.image_behavior.options__2.label"
+        },
+        {
+          "value": "zoom-in",
+          "label": "t:sections.all.animation.image_behavior.options__4.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.all.animation.image_behavior.label"
+    },   
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "header",
+      "content": "Mobile Section"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type":"image_picker",
+      "id":"mobile_button_bg_image",
+      "label": "Button background image"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "description_1",
+      "label": "Description 1"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "description_2",
+      "label": "Description 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Round Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Round Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Round Image 3"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-with-text.blocks.heading.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "caption",
+      "name": "t:sections.image-with-text.blocks.caption.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "caption",
+          "default": "t:sections.image-with-text.blocks.caption.settings.text.default",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__1.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__2.label"
+            }
+          ],
+          "default": "caption-with-letter-spacing",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text_style.label"
+        },
+        {
+          "type": "select",
+          "id": "text_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__1.label"
+            },
+            {
+              "value": "medium",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__2.label"
+            },
+            {
+              "value": "large",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__3.label"
+            }
+          ],
+          "default": "medium",
+          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-with-text.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "t:sections.image-with-text.blocks.text.settings.text.default",
+          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "t:sections.image-with-text.blocks.button.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "t:sections.image-with-text.blocks.button.settings.button_label.default",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "text",
+          "id": "price_text",
+          "label": "Price"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "Icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pregnancy Journey",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

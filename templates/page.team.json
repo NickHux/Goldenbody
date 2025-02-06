@@ -1,0 +1,728 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_YFeqfb": {
+      "type": "Banner-Section",
+      "settings": {
+        "section_class_banner": "",
+        "main-title-mark": "",
+        "main-title": "<h2>Team</h2>",
+        "background-image": "shopify://shop_images/Frame_7-min_1.jpg",
+        "mobile-background-image": "shopify://shop_images/Goldenbody_Header_Web_1.png"
+      }
+    },
+    "right_image_left_text_3eajPJ": {
+      "type": "Right-Image-Left-Text",
+      "settings": {
+        "main-title": "Unsere Werte",
+        "content": "<p>Wir sind ein junges, dynamisches Team mit viel Herz und Leidenschaft. Unsere Kundinnen und Kunden schätzen uns für unsere Flexibilität, Unkompliziertheit und Verlässlichkeit. Genau wie ihr legen wir privat grossen Wert auf einen ausgewogenen Lifestyle – nur so können wir jeden Tag 100% für euch geben, sei es im Training oder in der Beratung.</p>",
+        "image_picker": "shopify://shop_images/Goldenbody_Team_Website_Header_20.png"
+      }
+    },
+    "meet_the_team_UVfzLf": {
+      "type": "Meet-The-Team",
+      "blocks": {
+        "service_product_PAJGjn": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/12_f40183fc-a78f-482b-8378-b5c59a74fc72.png",
+            "member-name": "Laura Müdespacher",
+            "member-designation": "Inhaberin",
+            "linkedin": "https://www.linkedin.com/in/laura-m%C3%BCdespacher-6355b3293/",
+            "instagram": "https://www.instagram.com/goldenbody_laura/?hl=en",
+            "spotify": "https://open.spotify.com/playlist/4axoojZg5YzbfqcxdnQEzQ?si=vIL4xS2KTGWxyqMnUiwwkQ",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2012</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Dipl. Personal Trainerin und Expertin für präventiv- und Sporternährung, Cert. Gesundheitstrainerin, eidg. FA FAGE, diverse Kurse und Weiterbildungen im Bereich Ernährung und Sport.</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Was gestern war kann ich nicht mehr beeinflussen und das Morgen genau so wenig, also lebe ich im Moment und Sorge mich nicht um Dinge die ich nicht steuern kann.</p>",
+            "option_heading_4": "Arbeitstage",
+            "option_content_4": "<p>Dienstag und Donnerstag 9:00-21:00 für Beratungen und Personal Trainings, Gruppenstunden nach Stundenplan</p>",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p></p><p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?</strong> Ich war selber lange in einer Essstörung gefangen und wollte etwas dazu beitragen, dass sich möglichst wenig Menschen so unwohl in ihrem Körper fühlen müssen, wie ich es gemacht habe.</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody? </strong>Alles, aber besonders neue Leute kennen lernen und Erfolge feiern</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong> Ich konnte zum Glück schon viele Erfolgsgeschichten feiern, am meisten ans Herz gehen mir welche, die ihre Lebensqualität und Freude zurück gewonnen haben und Essen und Sport nicht mehr als Qual oder lästiges Übel sehen und sich endlich wieder im Badekleid in die Badi trauen.</li></ul><p></p><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag? </strong>Ein Buch lesen, spazieren gehen oder Trash TV schauen ;)</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong> Ich hätte gerne das Rezept zur Unsterblichkeit da ich mich extrem vor dem Tod fürchte</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong> Süsses abgesehen von Gummibärli, Herbstteller, Riz Casimir, Parmigiana, alles aus dem asiatischen Raum</li><li><strong>Hast du Hobbys oder Interessen außerhalb des Fitnessbereichs?</strong> Ich liebe die Natur und meinen Garten, koche und backe gerne und bereise gerne neue traditionsreiche Länder</li></ul><p></p><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?</strong> Sara, weil sie immer so tolle Frisuren hat und top gestylet ist</li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?</strong> Der momentane Trend, das Haferflocken und Früchte ungesund sind finde ich schon etwas ironisch.</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?</strong> Wohl „The Golden Show“</li></ul><p></p><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert? </strong>Ich will im Alter frei und unabhängig sein, das ist Motivation genug für mich</li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast? </strong>Balance is the key</li></ul><p></p><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum? </strong>Davos, weil das einer der wenigen Orte ist an dem ich mich nicht verlaufe ;)</li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?</strong> gmögig und mit Füür under em Füdli</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_kQBYjz": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/Design_ohne_Titel_13.png",
+            "member-name": "Natascha Kessler",
+            "member-designation": "HR, Online Shop und Support",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/neshiza/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/0ofi6A6X2hBpBZm6covULa?si=pLQONhbsTcuOV_fQI5KLZw&pi=e-c4u3p6_iQmCA",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2021</p>",
+            "option_heading_2": "Persönliches Motto",
+            "option_content_2": "<p>“geht nicht, gibts nicht\"</p>",
+            "option_heading_3": "",
+            "option_content_3": "",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?  </strong>Da ich mich selbst gerne gesund ernähre und gern Sport mache, ist es für mich einen schöne Verbindung zwischen Beruf und Freizeit.</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?</strong>Die Flexibilität, meine Arbeit selbst einzuteilen und unser aufgestelltes Team. </li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong> Die Eröffnung des Golden House. Früher haben wir nur draussen trainiert, egal bei welchen Wetterverhältnissen. </li></ul><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag? </strong>Mit Trash-TV, wenn ich noch Energie habe, mache ich einen Wickel dazu.</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum? </strong>Sport zu machen ohne zu schwitzen 🙂</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong> Pad Thai, am liebsten in Thailand</li><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs? </strong>Ich verbringe sehr gerne Zeit mit meinen Freunden, egal ob zum Kaffee oder auch mal wandern.</li></ul><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum? </strong>Sara. Ich hätte gerne ihre Energie und ihre aufgestellte Art alle motivieren. </li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast? </strong>Einen Cheatday zu machen. Das artet bei mir immer aus.</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen? </strong>Nachdem letzten Teamanlass würde ich sagen, “völlig losgelöst”</li></ul><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert? </strong>Ich suche mir immer wieder Training Buddys, zu zweit macht es mir mehr Spass als alleine. </li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast? </strong>Verbiete dir nichts, nur so hast du langhaltigen Erfolg. </li></ul><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum? </strong>Das Märlihotel in Braunwald. Die Ruhe in diesem Dorf lädt zum Abschalten ein und mein Kind liebt es auch.</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_EHKFtE": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/11_ce35ec36-cf75-4551-93e9-5abc004db7a5.png",
+            "member-name": "Flavia Pünter",
+            "member-designation": "Expert:in für Präventiv- und Sporternährung",
+            "linkedin": "https://www.linkedin.com/in/flavia-p%C3%BCnter-a4812b232/",
+            "instagram": "https://www.instagram.com/f.lavp/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/0ofi6A6X2hBpBZm6covULa?si=pLQONhbsTcuOV_fQI5KLZw&pi=e-c4u3p6_iQmCA",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2024</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>MPA EFZ, Expertin in Präventiv- und Sport-Ernährung, psychosoziale Beraterin (humanistische Psychologie) i.A. </p>",
+            "option_heading_3": "Persönliches Motto in Bezug auf die Beratungen",
+            "option_content_3": "<p>Die Verbindung zwischen Kopf und Körper stärken und individuell in Balance bringen </p>",
+            "option_heading_4": "Arbeitstage",
+            "option_content_4": "<p>Meine Arbeitszeiten variieren flexibel, ich biete auch am Wochenende Termine an. Termine werden zu unterschiedlichen Tageszeiten und Wochentagen freigeschaltet; auf Wunsch können wir gerne individuelle Termine vereinbaren.</p>",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund </strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten? </strong>Als erstes ein persönlicher Leidensdruck und den Wunsch nach mehr Wissen, welcher sich schnell in eine Leidenschaft entwickelt hat ☺ </li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?</strong> Die erleichterten, strahlenden und vor allem hoffnungsvollen Augen der Kundinnen nach der Beratung </li></ul><p><br/></p><p><strong>Persönliche Note </strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong> Bei einem Spaziergang mit meinen 4 Katzen, welche mir alle freiwillig nachtäzeln. </li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong> Dieses Wissen an die Schulen und auch schon in die Kinderköpfe zu verbreiten. </li><li><strong>Was ist dein Lieblings-Snack oder -Gericht? </strong>Ich bin eine absolute Broccoli – Liebhaberin. Egal was, hauptsache mit Broccoli </li><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs?</strong> Mein Interesse liegt ganz klar bei der Psychologie. Ich finde das schon seit klein auf so spannend und beeindruckend. Dazu bin ich ein absolutes Fangirl vom Handballclub Stäfa und Spielerfreundin ;) </li></ul><p><br/></p><p><strong>Spass und Humor </strong></p><ul><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?</strong> so ziemlich alle, welche Graeme Tomlinson auf Instagram aufzeigt</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?</strong> – mitten im Leben </li></ul><p><br/></p><p><strong>Inspiration und Authentizität </strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?</strong> Ich möchte für meine eventuellen Kindern ein super Vorbild sein, damit sie gesund aufwachsen können. </li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?</strong> Nicht alles zu glauben, was mir gesagt wird. Nur Fakten und Vertrauenswürdigen Personen glauben. </li></ul><p><br/></p><p><strong>Schweizer Charme </strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum? </strong>Ich liebe das Engadin. Sobald ich in den Bergen bin, werde ich ruhiger und es fühlt sich immer wie Ferien an. Die Luft, die Leute, die ganze Atmosphäre- Entspannung pur. </li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das? </strong>Härzlich, sponti  </li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_7GWabz": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/10_0fba7f5f-0201-41be-a517-403f5141c73c.png",
+            "member-name": "Nadja Fuchs",
+            "member-designation": "Expert:in für Präventiv- und Sporternährung",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/nadiii_jaa/?hl=de",
+            "spotify": "https://music.apple.com/ch/playlist/training/pl.u-PDb40mAILkr2G5b",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2024</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Expertin in Präventiv- und Sporternährung, TRX Suspension Training Course</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Be the change you want to see</p>",
+            "option_heading_4": "Arbeitstage",
+            "option_content_4": "<p>Montag von 09:00-18:30.Nach Absprache auch nach 18:30 Uhr oder an anderen Tagen möglich.</p>",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten? </strong></li></ul><p>Seit klein auf, hat der Sport einen grossen Stellenwert in meinem Leben. Im Laufe der Jahre erkannte ich, wie die richtige Ernährung deine Leistung und deinen Körper beeinflussen kann. Dies möchte ich nun weiter geben.</p><ul><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody? </strong></li></ul><p>Das tolle Team :-) und die Möglichkeit sich weiter zu entwickeln. Sowie natürlich die unterschiedlichen Kundinnen die ich betreuen darf. </p><ul><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong></li></ul><p>Als mich eine Kundin nach dem Erstgespräch umarmte und in tränen ausbrach, weil sie meinte, ich sei die erste Person die sie ernst genommen hat </p><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong></li></ul><p>Mit einem Spaziergang und guter Musik</p><ul><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum? </strong></li></ul><p>Die Regenerationszeit verkürzen </p><ul><li><strong>Was ist dein Lieblings-Snack oder -Gericht? </strong></li></ul><p>Wraps in allen Variationen. Mit Fleisch oder Vegi. </p><ul><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs?</strong></li></ul><p>Zeit mit meinen Kindern und Freunden zu verbringen. Am liebsten irgendwo in der Natur</p><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum? </strong></li></ul><p>Ganz klar mit Laura. :-) </p><ul><li>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast? </li></ul><p>Fit und schlank in 5 Minuten</p><ul><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen? </strong></li></ul><p>The one & only Goldenbody-Show</p><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert? </strong></li></ul><p>Definitv Abwechslung im Sport sowie in der Ernährung. </p><ul><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?</strong></li></ul><p>Verbiete dir keine Lebensmittel</p><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?</strong></li></ul><p>Tessin, da kann ich sofort abschalten und fühle mich wie in den Ferien</p><ul><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das? </strong></li></ul><p>Gesund & Authentisch</p>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_8eMqLA": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/9_45b2edec-b4cb-4086-8ca8-1a58ab5c5c06.png",
+            "member-name": "Sina Bolliger",
+            "member-designation": "Ernährungsberatung, Personal Training und Gruppentrainings",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/mesbolliger/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/3dYsP40QGTzdWk6PNidHaU?si=IxHj5hb5SYWXGayScHunig&pi=e-wiaFUrJlTOOJ",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2020</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>In Ausbildung und jede Menge lehrreiche Stunden von Laura</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Glück ist eine Lebenseinstellung</p>",
+            "option_heading_4": "Arbeitstage",
+            "option_content_4": "<p>Mittwoch 9:00-17:30, nach Absprache auch nach 17:30 möglich. Gruppenstunden nach Stundenplan. </p>",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?<br/></strong>Es ist das, was mich erfüllt und glücklich macht, anderen Menschen zu helfen und ihnen zu zeigen, wie einfach es sein kann, Erfolg zu haben.</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?<br/></strong>Wir haben ein tolles Team, man kann selbstständig arbeiten und seinen Ideen freien Lauf lassen. Es gibt immer Raum für neue Vorschläge.</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?<br/></strong>Es gibt immer Erfolgsgeschichten, besonders wenn unsere/meine Kunden zufrieden aus dem Studio gehen.</li></ul><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?<br/></strong>Mit einem Podcast in den Ohren spazieren gehen oder mich beim Sport auspowern.</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?<br/></strong>Ich würde gerne einen Klimmzug machen können.</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?<br/></strong>Ich liebe Eintöpfe und mein Lieblingssnack variiert immer mal wieder.</li><li><strong>Hast du Hobbys oder Interessen außerhalb des Fitnessbereichs?<br/></strong>Meine kleine Tochter hält mich auf Trab, ansonsten pflege ich den Kontakt mit meinen Freundinnen.</li></ul><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?<br/></strong>Ich würde gerne mal mit Laura tauschen, einfach um zu sehen, wie sie alles unter einen Hut bekommt. Ihre positive Art ist ansteckend.</li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?<br/></strong>Wandpilates in 30 Tagen schlank.</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?<br/></strong>Goldenbody echt und ehrlich.</li></ul><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?<br/></strong>Ich muss mich selten motivieren, da es mir Spaß macht, und ich habe es fest in meinen Alltag integriert. Das Gefühl danach liebe ich einfach.</li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?<br/></strong>Hör auf deinen Körper.</li></ul><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?<br/></strong>Ich gehe gerne in die Berge wandern.</li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?<br/></strong>„Es heuere geils Fitnessstudio mit richtig coole Lüüt.“</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_cpDngF": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/8_1a36015c-acb3-49c7-a701-32686b7f8115.png",
+            "member-name": "Aurelia Gorlero",
+            "member-designation": "Gruppentrainings und Social Media",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/aurelia_shares/?hl=de",
+            "spotify": "https://music.apple.com/ch/playlist/favourites-bootcamp/pl.u-8aAVXG9hNkxNdb",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2022</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Diplom in Sportdidaktik für Volksschule</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>„It’s all about balance“</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?<br/></strong>Ich möchte meine Freude am Sport anderen weitergeben.</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?<br/></strong>Dass ich Leute quälen kann und dafür bezahlt werde. ;-P Spass bei Seite, ich finde es toll, immer wieder neue Leute kennenzulernen und ihnen ein schweisstreibendes Training zu bieten.</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?<br/></strong>Jedes Mal, wenn Leute zurückkehren, weil ihnen das Training gefallen hat.</li></ul><p></p><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?<br/></strong>Mit einem Powernap auf dem Sofa.</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?<br/></strong>Ein Heilmittel für alle Krankheiten zu haben.</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?<br/></strong>Snack: Dattel mit Philadelphia, Gericht: Pizza mit Grillgemüse.</li><li><strong>Hast du Hobbys oder Interessen außerhalb des Fitnessbereichs?<br/></strong>Singen ☺.</li></ul><p></p><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?<br/></strong>Ich würde mit Sara tauschen, weil sie ihr Herz auf der Zunge trägt und ich gerne einmal so viel Temperament und Energie hätte.</li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?<br/></strong>I don’t work out to look skinny, I work out so when people look at me they think: „Damn, I bet she carries all her groceries in one trip.“ And they would be right. ;-)</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?<br/></strong>Keeping up with the Goldies.</li></ul><p></p><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?<br/></strong>Ich stelle mir mein Leben in 50 Jahren vor, weil ich dann immer noch gesund und selbständig sein möchte. Das motiviert mich, heute schon den Grundstein für ein langes und gesundes Leben zu legen.</li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?<br/></strong>Vergleiche dich nicht mit anderen, denn du wirst nie sein wie sie. Konzentriere dich nicht auf Äusserlichkeiten, es ist das Uninteressanteste an dir.</li></ul><p></p><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?<br/></strong>Das Engadin, weil die Landschaft so schön ist und man von biken über wandern, bis hin zu joggen oder wellnessen alles machen kann. ☺</li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?<br/></strong>Geili Sieche</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_Wej9nJ": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/6_80946ea1-c3eb-4918-abc0-cc3621ef5e1a.png",
+            "member-name": "Sara Wespe",
+            "member-designation": "Gruppentrainings",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/saruchi_w_86/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/5Yhh51Iwfp0tXO1bPGfxiY?si=a3D942fOQlm7kIql--2l0Q&pi=_kRQ0UDDQLK0k",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2023</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Functional trainer bei Goldenbody</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Träume nicht dein Leben, lebe deinen Traum</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten? </strong>Meine Liebe und Freude am Sport weiterzugeben </li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody? </strong>Kunden zu motivieren, Sport mit Spass zu verbinden</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen? </strong>Teammitglied von Goldenbody zu sein. </li></ul><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong> Ich powere mich aus. Ich gehe joggen oder nimm an einem Bootcamp teil</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong> Dass die Erholung des Körpers nur 5min braucht😊</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong> Ovo-Drink</li><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs?</strong> Zeit mit meiner Familie und Freunde zu verbringen</li></ul><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?</strong> Geri😉</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?</strong> Natürlich die GoldenGirls😊</li></ul><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?</strong> Ich weiss dass es mir und meinem Körper gut tut. Ich möchte gesund und fit alt werden</li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast? </strong>Höre auf deinen Körper. Er sagt dir genau was er braucht und was nicht.</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_iXR7VK": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/7_63c3010a-2d72-4cd5-b57f-28ad9eadfb8e.png",
+            "member-name": "Géraldine Egli",
+            "member-designation": "Yoga Trainerin",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/geriii__/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/4ClhHfEnwxMV3ylbCRmjgg?si=cBFXqlGnTuCMcqvVbfhj6A&pi=e-gX6i7SidRIy2",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2022</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>200h Vinyasa Yoga Ausbildung</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Liebi gwünnt immer💞</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund:</strong> </p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?</strong> \"Meine Mutter, die mir stets ein Vorbild als Yogalehrerin war, und auch ich möchte diese Passion weitergeben. 🫶🏻\"</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody? </strong>\"Das Team, die Kunden und die wunderschöne Atmosphäre des Raumes während den Gruppenstunden.\"</li><li><strong>Was war dein denkwürdigster Moment oder eine interessante Geschichte aus deiner Zeit hier?  </strong>\"Eine Kundin kam mit starken Nackenbeschwerden zum Yoga und teilte mir nach der Stunde strahlend mit, dass ihre Schmerzen verschwunden waren.\"</li></ul><p></p><p><strong>Persönliche Note:</strong> </p><ul><li><strong>Was machst du am liebsten nach einem anstrengenden Tag?</strong> \"Mit einem Buch auf dem Sofa.\"</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre es?</strong> \"Den Menschen Heilung und Freude bringen.\"</li><li><strong>Welches ist dein Lieblings-Snack oder -Gericht?</strong> \"Ofengemüse, Pizza und Früchte.\"</li><li><strong>Was sind deine Hobbys oder Interessen ausserhalb des Fitnessbereichs? </strong>\"Lesen, laufen im Wald, Familie, Freunde, Tanzen.\"</li><li><strong>Welches Fitness- oder Gesundheitsziel würdest du gerne erreichen, das du noch nicht geschafft hast?</strong> \"Das von Aurelia😄ich würde auch gerne schon am Morgen früh joggen gehen aber die Motivation ist dann noch einfach nicht vorhanden😉“<br/></li></ul><p></p><p><strong>Spass und Humor:</strong> </p><ul><li><strong>Was würdest du an einem Tag mit einem Teammitglied tauschen möchtest, wer wäre es und warum?</strong> \"Mit Seraina, unserer Physiotherapeutin, weil mich der therapeutische Ansatz interessiert.\"</li><li><strong>Welchen deiner Kollegen würdest du in einer Talkshow sehen wollen? Welcher Art von Talkshow wäre es? </strong><br/>„Sara-das wäre bestimmt lustig egal welche Art von Talkshow😃“<br/></li></ul><p><strong>Inspiration und Authentizität:</strong>  </p><ul><li><strong>Wie bleibst du inspiriert und auf dem neuesten Stand der Ernährungs- und Fitnessbranche? </strong>\"Durch Weiterbildung. Die Inspiration bekomme ich immer wieder von meinen Mitmenschen.\"</li><li><strong>Was ist der beste Ratschlag, den du jemals über Gesundheit und Wellness erhalten hast?</strong>„Just breathe“</li><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?</strong><br/>„Irgendwo am See oder im Wald mit meiner Familie“</li><li><strong>Was sind deine Lieblingsbeschäftigungen in zwei Schweizerstädten deiner Wahl und warum?</strong><br/>„Rapperswil-weil es mein zu Hause ist und ich es liebe hier, mit meiner Familie zu wohnen😍<br/>Nochmals Rappi😉</li><li><strong>Beschreibe Goldenbody in drei Worten:</strong> \"Jung, kundenorientiert und herzlich. 🤍🤍🤍\"</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_xizGUx": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/Goldenbody_Team_Bilder.png",
+            "member-name": "Laura Braun",
+            "member-designation": "Yoga und Pilates Trainerin",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/soulfulbylaura/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/4xnNDNj34WhujkeKo23mOK?si=rmBBV-UtSveK8N3MMk4lbw&pi=e-V8QczcxbRISK",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2024</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>YTT Multi-Mix Style 200h; Coaching & Psychologie M.Sc.; NHK Medizinische Grundlagen</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Done is better than perfect.</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?</strong><br/>Sport begleitet mich schon mein ganzes Leben. In den familieneigenen Fitnessstudios (damals u.a. eines der ersten 5 Sterne+ Frauengyms mit Ernährungsseminaren) bin ich gross geworden und hab da als Kind schon die Theke geschmissen. So habe ich früh meine Leidenschaft für Sport und Ernährung sowie deren Bedeutung fürs Wohlbefinden kennengelernt, was sich später in meiner Managementkarriere als Ausgleich bezahlt gemacht hat.</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?</strong><br/>Der Spirit vom Team und den Mitgliedern ist toll! Wir alle lieben Sport und schätzen die Unterstützung zum Aufbau von Wohlbefinden im eigenen Körper & am Ende Zufriedenheit mit sich und dem Leben.</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong><br/>Jede Stunde hier bringt tolle Momente. Es ist toll zu sehen, wenn sich jemand in der Klasse selbst fordert, Gas gibt, über die Zeit mehr Kraft und Ausdauer + Spass an der Bewegung entwickelt. Das „Schönste“ ist, wenn am Ende der Stunde alle erschöpft und gleich absolut happy sind.</li></ul><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong><br/>Mit einem schönen Spaziergang mit meinem Hund, einem Bad oder feinen Znacht mit meinem Partner.</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong><br/>Nach einem kurzen Blick die gesamte Psycho-Physis meines Gegenüber „lesen“ zu können und individuell das perfekte Programm für Körper, Kopf & Geist zusammenstellen. Es wäre toll, so jeden bestmöglich auf dem Weg zu unterstützen.</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong><br/>Porridge mit Früchten, Nüssen und Quark.</li><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs?</strong><br/>Velo, Wandern, Swimming, Reisen, Surfen, Yoga, Achtsamkeit, Lesen, Musik, Konzerte, Mein Hund Tilla, Zeit mit Freunden & Familie, Theater, Fachliche Weiterbildung, v.a. im Bereich Coaching, Well-being...</li></ul><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?</strong><br/>Ich fände es generell spannend, per Zufall mal einen Tag im Leben eines anderen zu verbringen.</li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?</strong><br/>Einkaufstaschen auf beiden Seiten mit den Daumen nach aussen tragen führt automatisch zu einer aufrechten Körperhaltung. :)</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?</strong><br/>Auf der Suche nach (Körper-) Glück.</li></ul><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?</strong><br/>Für mich braucht es keine Motivation. Sport & gute Ernährung sind Teil meiner Identität. Mein Körper ist mein Reisemedium in diesem Leben und ich möchte ihn lange erhalten :)</li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?</strong><br/>Wenn du in Balance lebst, die „wahren“ Bedürfnisse deines Körpers erhörst und du danach handelst, brauchst du keine Ratschläge von aussen. Der Körper ist schlau und weiss eigentlich am besten, was er braucht. Wir haben nur verlernt, genau auf unsere Intuition zu hören, sie zu deuten und darauf zu vertrauen.</li></ul><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?</strong><br/>Silvaplaner See/Engadin – da kann man schwimmen, Velo fahren, Windsurfen, Wandern…</li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?</strong><br/>Fest schnufe (sinnbildlich)</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_NetYfE": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/5_2aa368ac-f24f-4a10-b552-07a29e919724.png",
+            "member-name": "Zaida Ehrenmann",
+            "member-designation": "Zumba und Gruppentrainings",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/randomlifeofzaida/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/79aqnJevQHhxHJoxbxLBHU?si=MzVaUrP4Q5OHB8yHctrtWg&pi=7T8NCweCSSO40",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2024</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Kursleiterin Group Fitness SAFS; <br/><br/>Zumba, Strong Nation und Circ Mobility Instruktorin<br/><br/>Kursleiterin Cardio und Toning SAFS (i.A.) </p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Mit einem Lächeln, gegenseitigem Respekt und guter Laune geht alles besser.</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten? \"</strong>Ich wollte meine (neu gewonnene) Freude an der Bewegung mit anderen teilen.\"</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody? \"</strong>Das Team, bei dem alle die gleichen Werte und die gleiche Philosophie teilen und einfach nur herzensgut sind.\"</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong> \"Teamausflug eine Woche nach meinem offiziellen Start – es hat sich angefühlt, als würde ich die Ladies schon lange kennen.\"</li></ul><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong> \"Zeit mit Freunden und/oder der Familie.\"</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong> \"Dass ich bis zu meinem Lebensende gesund bleiben kann/darf. Die Superkraft wäre dann wohl «instant healing»\"</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong> \"Habe ich tatsächlich keine… Es ist Saison- und Stimmungs- und Ortabhängig.\"</li><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs? \"</strong>Tauchen, Singen und Fotografieren.\"</li></ul><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?</strong> \"Aurelia, ich würde gerne wissen, wie es ist, wenn Joggen Spass macht 😉 und man so gut in Social Media/Marketing ist 😊\"</li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?</strong> \"Wenn es nicht weh tut, dann hast du nicht richtig trainiert.\"</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?</strong> \"Mehr Sein als Schein\"</li></ul><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?</strong> \"Ich weiss, wo ich körperlich und mental nie mehr sein möchte.\"</li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?</strong> \"Ich muss mich um meine Gesundheit, meine Regeneration und mein Wohlbefinden kümmern. Ich habe es selber in der Hand, Dinge zu ändern oder eben auch nicht.\"</li></ul><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?</strong> \"Valle Maggia – schöne Landschaft, diverse Optionen für den Zeitvertreib, herzliche Menschen, gutes Essen, schöne Erinnerungen (Hochzeitsreise)\"</li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?</strong> \"Sauglatt, topfit\"</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_qYBTDb": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/4_60f980bc-6e9a-4955-b544-8bd04131759e.png",
+            "member-name": "Lya Leuenberger",
+            "member-designation": "Shop",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/lyalb_/?hl=de",
+            "spotify": "https://music.apple.com/ch/playlist/langer-lauf/pl.6b57af24459743da88e4e92d6c883018",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2024</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Dipl. Ernährungsspezialistin in Ausbildung</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>Hinfallen, aufstehen, Krone richten, weitergehen!</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund:</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?</strong></li></ul><p>Ich interessiere mich sehr für alle Themen rund um Ernährung und Sport. Meine Leidenschaft ist es mich im Gym auszupowern oder Longruns zu machen. Da ich selbst immer wieder Probleme mit meiner Psychischen Gesundheit habe und oft mit dem Essen wie auch dem Sport kämpfe möchte ich mir mehr Wissen aneignen und so mir und anderen in diesem Bereich helfen.</p><ul><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?</strong></li></ul><p>Mir gefällt die Abwechslung, dass ich viele verschiedene Aufgaben habe. Zudem arbeite ich im allerbesten Team überhaupt und lerne jeden Tag extrem viel dazu.</p><ul><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong></li></ul><p>Ich würde sagen es waren die Gespräche, die ich mit Laura hatte. Sie hat mir zum einen aufgezeigt, wie ich an mir arbeiten kann und mir den nötigen Kick gegeben. Zum anderen aber hat sie mir die Möglichkeit für eine Zukunft bei Goldenbody gegeben und stand mir immer zur Seite was für mich sehr wertvoll war. Auch das ich so schnell ins Team aufgenommen wurde und an die Teamausflüge eingeladen wurde oder an den Events mithelfen durfte bedeutete mir sehr viel.<br/></p><p><strong>Persönliche Note:</strong></p><ul><li><strong>Wie entspannst du dich nach einem anstrengenden Tag?</strong></li></ul><p>Ich gehe gerne ein bisschen in die Natur spazieren oder Joggen. Die frische Luft und die Zeit für mich mit einem Podcast oder Musik tut mir immer sehr gut und ich kann abschalten.</p><ul><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong></li></ul><p>Minimaler Aufwand für eine Maximale Leistung. Zum Beispiel einen Ironman machen können ohne viel dafür tun zu müssen.</p><ul><li><strong>Was ist dein Lieblingssnack oder Gericht?</strong></li></ul><p>Mein Lieblingssnack ist definitiv die LyaBowl diese besteht aus Vanille Skyr, Banane, Beeren, Selfmade Granola und viel viel Peanut Butter. Mein Lieblingsgericht ist alles mit Hummus. Ich liebe die Orientalische Küche.</p><ul><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs?</strong></li></ul><p>Ich koche und backe sehr gerne und probiere gerne immer neue Dinge aus. Ich fahre auch sehr gerne Ski und Snowboard im Winter und im Sommer liebe ich es zu Surfen.<br/></p><p><strong>Spass und Humor:</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?</strong></li></ul><p>Es wäre Laura. Sie ist für mich ein Riesenvorbild und eine absolute Powerfrau. Ihre positive, lustige und gesunde Art inspiriert mich jedes Mal aufs neue und zeigt mir wie ich selbst gerne einmal wäre. Zudem könnte ich den ganzen Tag mit Nyj spielen ;).</p><ul><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?</strong></li></ul><p>Man sollte kein Gluten mehr essen denn es verklebt alle Organe. Eine Zeit lang habe ich diesen «Tipp» immer wieder gehört und sogar selbst einen Moment lang daran geglaubt.</p><ul><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?</strong></li></ul><p>Keeping up with the Goldenbodys☺<br/></p><p><strong>Inspiration und Authentizität:</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?</strong></li></ul><p>Ich muss mich dafür nicht motivieren denn ich liebe es einfach Sport zu machen und es tut mir immer unglaublich gut. Zudem habe ich unglaublich gerne gesunde Lebensmittel und liebe es in der Küche zu experimentieren.</p><ul><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?</strong></li></ul><p>Balance ist he Key! Es ist nicht gesund, wenn man sich nur von Äpfeln ernährt. Es ist aber auch nicht gesund, wenn man nur Süssigkeiten isst. Von allem ein bisschen und kein Gut und Böse sehen.<br/></p><p><strong>Schweizer Charme:</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und Warum?</strong></li></ul><p>Unsere Ferienwohnung in Flims. Im Winter liebe ich es Ski zu fahren und im Sommer Wandern zu gehen oder im Caumasee baden zu gehen.</p><ul><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?</strong></li></ul><p>Affe-härt! ☺</p>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_N9P7ag": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/2_0f264136-f3a6-4381-89dc-435c9f36c7c7.png",
+            "member-name": "Roswitha Ziegler",
+            "member-designation": "Shop",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/roswithaziegler/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/5WD4UjEG0ZUVbDn4UPdcJd?si=m44AIVWXSB6YqxbLj19_oA&pi=e-ig3sCjk9QT-V",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2020</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Die folgen noch 😉</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>keep going</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten? </strong>Ich war fleissige (mal mehr mal weniger) Teilnehmerin und so kam die Anfrage von Laura für etwas Mithilfe im Admin Bereich. 😊</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?</strong> Es wird nie langweilig.</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong> Ich kannte Laura noch nicht und auch keine der anderen Trainerinnen als ich mich fürs Camp in Mallorca anmeldete. Der Spirit im Camp war aber so einzigartig, dass ich mich sofort für die Trainings angemeldet habe, als ich wieder zuhause war. </li></ul><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong> Mit einem Sprung in den See.</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong> Einen Zauberstab zu haben mit dem alle sich wohlfühlen so wie sie sind. </li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong> Mokka Joghurt!</li><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs? </strong>Auf einer Luftmatratze auf dem Wasser treiben lassen 😊</li></ul><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?</strong> Mit Aurelia, weil sie ein Jogging Girl ist, und das wäre ich auch gerne einmal für einen Tag.</li></ul><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?</strong> In den Trainings sind tolle Frauen, die eine grosse Motivation sind, jede Woche wieder ins Training zu gehen.</li></ul><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?</strong> Das Bündnerland ist immer schön. Im Sommer schöne Wanderwege und Seen für eine Abkühlung und im Winter Skipisten und Langlaufloipen.</li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?</strong> Tolli Truppe 😊</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_CDDz4J": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/Design_ohne_Titel_14.png",
+            "member-name": "Rahel Jaggi",
+            "member-designation": "Buchhaltung",
+            "linkedin": "",
+            "instagram": "https://www.instagram.com/rahel_ja/?hl=de",
+            "spotify": "",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2024</p>",
+            "option_heading_2": "Persönliches Motto",
+            "option_content_2": "<p>Life is a journey</p>",
+            "option_heading_3": "",
+            "option_content_3": "",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?</strong></li></ul><p>Meine persönliche Reise durch die Essstörung. Es bedeutet mir viel, Teil eines Teams zu sein, welches es täglich zur Aufgabe macht, dass sich Frauen mit und in ihrem Körper wohlfühlen.</p><ul><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?</strong></li></ul><p>Da gibt es vieles, was ich aber besonders schätze, ist, dass alle mit so viel Herzblut und Engagement dabei sind.</p><p><strong>Persönliches</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong></li></ul><p>Spaziergang mit meinem Hund</p><ul><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong></li></ul><p>Mango Sticky Rice</p><ul><li><strong>Hast du Hobbys oder Interessen außerhalb des Fitnessbereichs?</strong></li></ul><p>Klar, Familie, Freunde und mein Hund</p><ul><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heißen?</strong></li></ul><p>\"Goldenbody: Die Reise zu einem gesunden und glücklichen Leben\"</p><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?</strong></li></ul><p>Es tut mir gut und macht mir Spaß, das ist Motivation genug.</p><ul><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?</strong></li></ul><p>Balance is the key</p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?</strong></li></ul><p>Rigi, bzw. das Felsentor - Meditationszentrum mit fabelhafter Aussicht und bezauberndem Garten, lädt zum Verweilen, Genießen und Durchatmen ein.</p><ul><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?</strong></li></ul><p>FrauenPower</p>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_MbHgnh": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/3_42035f1e-d92c-405f-98a5-eef6dcda7f36.png",
+            "member-name": "Nina Landheer",
+            "member-designation": "Aushilfe Gruppentrainings",
+            "linkedin": "https://www.linkedin.com/in/nina-landheer-653b3a228/",
+            "instagram": "https://www.instagram.com/nina_tirol/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/44IJHk9VA88nIeUBHtUnF0?si=uAQK6yDARXWMs2yzKC8sTA&pi=e-BDRs0PVQQVO5",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2022</p>",
+            "option_heading_2": "Persönliches Motto",
+            "option_content_2": "<p>Yes you can.</p>",
+            "option_heading_3": "",
+            "option_content_3": "",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?</strong> Good vibes</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?</strong> Innovationen, z.B Corona Onlinetrainings</li></ul><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?</strong> Powerwalk in der Natur</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?</strong> Motivation, manchmal fällt es schwer sich fürs Training zu motivieren.</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?</strong> Lasagne</li><li><strong>Hast du Hobbys oder Interessen ausserhalb des Fitnessbereichs?</strong> Wandern, Reisen</li></ul><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?</strong> Geri, in der Ruhe liegt die Kraft, Yoga würde mir sicherlich gut tun</li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?</strong> Kohlenhydrate sind dein Feind!</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?</strong> Gesund in Form, es geht auch ohne Crashdiäten.</li></ul><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?</strong> Kontinuität ist der Schlüssel zum Erfolg. Abs are made in the kitchen</li></ul><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?</strong> Tessin, abwechslungsreich und schnell erreichbar.</li></ul><p><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?</strong> Cheibe glatt</p>",
+            "btn_text": "Mehr über mich"
+          }
+        },
+        "service_product_LF6AnY": {
+          "type": "Service-Product",
+          "settings": {
+            "member-image": "shopify://shop_images/1_d038a8c8-d904-4db5-9396-28b1ba8f992d.png",
+            "member-name": "Seraina Störi",
+            "member-designation": "Aushilfe Gruppentrainings",
+            "linkedin": "https://www.linkedin.com/in/seraina-st%C3%B6ri-42a078277/",
+            "instagram": "https://www.instagram.com/seri_beriii/?hl=de",
+            "spotify": "https://open.spotify.com/playlist/1CGAOnLI7EdVpaQdCXwWge?si=tGhROh1UQSynWQSHzT01gg&pi=e-3SLPZq2BSr6C",
+            "heading1": "Persönliche Informationen",
+            "option_heading_1": "Start bei Goldenbody",
+            "option_content_1": "<p>2016</p>",
+            "option_heading_2": "Zertifikate und Spezialisierungen",
+            "option_content_2": "<p>Master of Advanced Studies in Physiotherapie</p>",
+            "option_heading_3": "Persönliches Motto",
+            "option_content_3": "<p>„Investiere jetzt in deine Zukunft“</p>",
+            "option_heading_4": "",
+            "option_content_4": "",
+            "option_heading_5": "",
+            "option_content_5": "",
+            "option_heading_6": "",
+            "option_content_6": "",
+            "heading2": "Hintergrund",
+            "contenth2": "<p><strong>Beruflicher Hintergrund</strong></p><ul><li><strong>Was hat dich dazu inspiriert, in der Fitness- und Ernährungsbranche zu arbeiten?<br/></strong>Den Leuten zu einer gesunden körperlichen und mentalen Gesundheit verhelfen.</li><li><strong>Was gefällt dir am meisten an deiner Arbeit bei Goldenbody?<br/></strong>Die Zusammenarbeit im Team, die aufgestellten und motivierten Kunden und das toll ausgestattete Goldenhouse.</li><li><strong>Kannst du einen denkwürdigen Moment oder eine Erfolgsgeschichte aus deiner Zeit hier teilen?<br/></strong>Dass ich seit 2024 als Physiotherapeutin im Goldenhouse arbeiten darf 😊</li></ul><p></p><p><strong>Persönliche Note</strong></p><ul><li><strong>Wie entspannst du dich am liebsten nach einem anstrengenden Tag?<br/></strong>Spaziergang am See mit Freundinnen, meinem Freund oder auch allein, am besten mit einem Sonnenuntergang und einem feinen Gelato.</li><li><strong>Wenn du eine Superkraft im Bereich Gesundheit und Fitness wählen könntest, welche wäre das und warum?<br/></strong>Auch an Tagen, an denen die Motivation nicht gleich hoch ist, diese heranzaubern.</li><li><strong>Was ist dein Lieblings-Snack oder -Gericht?<br/></strong>Pizza Fungi.</li><li><strong>Hast du Hobbys oder Interessen außerhalb des Fitnessbereichs?<br/></strong>Skifahren und Wandern.</li></ul><p></p><p><strong>Spass und Humor</strong></p><ul><li><strong>Wenn du für einen Tag mit einem anderen Teammitglied tauschen könntest, wer wäre das und warum?<br/></strong>Natascha – dann könnte ich mal an einem Tag Homeoffice machen 😊.</li><li><strong>Was ist der lustigste oder ironischste Fitness-Tipp, den du je gehört hast?<br/></strong>Eine Rectus Diastase mit Crunches zu beheben.</li><li><strong>Wenn Goldenbody eine TV-Show wäre, wie würde die Show heissen?<br/></strong>Wer wird Millionär – wenn man alles gibt, dann kann man sehr reich werden (nicht finanziell gemeint).</li></ul><p></p><p><strong>Inspiration und Authentizität</strong></p><ul><li><strong>Wie bleibst du bezüglich Sport und Ernährung persönlich motiviert?<br/></strong>Sport mit Freunden und Teilnahme an Gruppenstunden macht mir deutlich mehr Spass; zudem das Bewusstsein, dass langfristige Bewegung und gesunde Ernährung einen nachhaltigen Erfolg haben.</li><li><strong>Was ist der beste Rat, den du jemals über Gesundheit und Wellness erhalten hast?<br/></strong>Nicht die Intensität pro Tag macht das Ergebnis aus, sondern das Aufrechterhalten der Routine.</li></ul><p></p><p><strong>Schweizer Charme</strong></p><ul><li><strong>Was ist dein Lieblingsort in der Schweiz für einen Wochenendausflug und warum?<br/></strong>Die 7 Churfirsten – Warum? Ist im Toggenburg und in der Natur.</li><li><strong>Wenn du Goldenbody in zwei Schweizerdeutschen Wörtern beschreiben müsstest, welche wären das?<br/></strong>„Authentisch und nachhaltig.“</li></ul>",
+            "btn_text": "Mehr über mich"
+          }
+        }
+      },
+      "block_order": [
+        "service_product_PAJGjn",
+        "service_product_kQBYjz",
+        "service_product_EHKFtE",
+        "service_product_7GWabz",
+        "service_product_8eMqLA",
+        "service_product_cpDngF",
+        "service_product_Wej9nJ",
+        "service_product_iXR7VK",
+        "service_product_xizGUx",
+        "service_product_NetYfE",
+        "service_product_qYBTDb",
+        "service_product_N9P7ag",
+        "service_product_CDDz4J",
+        "service_product_MbHgnh",
+        "service_product_LF6AnY"
+      ],
+      "settings": {
+        "main-title": "Goldenbody Team",
+        "section-class": ""
+      }
+    },
+    "timeline_section_egDyCA": {
+      "type": "Timeline-section",
+      "blocks": {
+        "slides_8MkDnc": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/image_26_1.jpg",
+            "number": "01",
+            "date": "September 2012",
+            "timeline-heading": "Der Anfang eines Traums",
+            "timeline-content": "<p>Aus meiner Tätigkeit in der Pflege entstand der Wunsch, die Gesundheit unserer Gesellschaft präventiv zu fördern. Nach intensiven Weiterbildungen gründete ich 2012 meine eigene Firma, Goldenbody. Inspiriert durch die Hundeschule \"Goldenway\" auf meinem Schulweg zur Dipl. Personaltrainerin und meine Leidenschaft für die Farbe Gold, wollte ich für meine Kunden Trainings und Beratungen bieten, die dem „Goldstandard“ gerecht werden.<br/><br/>Inspiriert durch die Hundeschule \"Goldenway\" auf meinem Schulweg zur Dipl. Personaltrainerin und meine Leidenschaft für die Farbe Gold, wollte ich für meine Kunden Trainings und Beratungen bieten, die dem „Goldstandard“ gerecht werden.</p>"
+          }
+        },
+        "slides_qjaNPw": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/image_27_1.jpg",
+            "number": "02",
+            "date": "2013",
+            "timeline-heading": "Ein starkes Fundament neben dem Hauptberuf",
+            "timeline-content": "<p>Parallel zur Pflege baute ich meine Selbstständigkeit auf und trainierte einmal pro Woche mein Spitex-Team. So entwickelte ich Schritt für Schritt das Fundament für Goldenbody.</p>"
+          }
+        },
+        "slides_NUWAtF": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/Group_1577706900_1.jpg",
+            "number": "03",
+            "date": "April 2014",
+            "timeline-heading": "Der Start unserer Outdoor Bootcamps",
+            "timeline-content": "<p>Unsere Reise begann mit schweisstreibenden Outdoor Bootcamps an der Schlosstreppe in Rapperswil und auf der Sportanlage Grünfeld. Diese Trainings sind unvergessen und haben eine starke Gemeinschaft geprägt.</p>"
+          }
+        },
+        "slides_JVGWH7": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/image_28_1.jpg",
+            "number": "04",
+            "date": "Oktober 2014",
+            "timeline-heading": "Gemeinsame Ziele und Traditionen",
+            "timeline-content": "<p>Seit Oktober 2014 nahmen wir regelmässig am Schlosslauf in Rapperswil teil<br/>– dies war ein fester Bestandteil unserer Firmenkultur und ein starkes Teamerlebnis Für Kunden und Mitarbeiter.</p>"
+          }
+        },
+        "slides_RqBLXm": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/image_29_1.jpg",
+            "number": "05",
+            "date": "Juni 2015",
+            "timeline-heading": "Fitness im Herzen der Stadt",
+            "timeline-content": "<p>Bootcamp-Training im legendären Kaufleuten Club: drei intensive Sessions pro Woche von 6:30 bis 7:30 Uhr. Hier wurde Fitness in der City neu definiert. Nerbenbei fing ich auch in einem Personal Training Studio in Zürich an zu arbeiten. Das waren neben dem Aufbau meiner eigenen Firma und der Tätigkeit in der Pflege sehr fordernd.</p>"
+          }
+        },
+        "slides_DLbAjq": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/466467974_10236798638092424_8335210328381334586_n.jpg",
+            "number": "06",
+            "date": "September 2015",
+            "timeline-heading": "Ein erstes Medienecho",
+            "timeline-content": "<p>Mein erstes Feature in einer Zeitschrift (20 Minuten) – eine besondere Anerkennung unserer Arbeit und ein weiterer Schritt in Richtung Bekanntheit.</p>"
+          }
+        },
+        "slides_MJnJWj": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/462254985_2592806240915999_2817862862144802133_n.jpg",
+            "number": "07",
+            "date": "August 2016",
+            "timeline-heading": "Gemeinsam neue Herausforderungen meistern",
+            "timeline-content": "<p>Unvergesslich: Gemeinsam mit unseren Kunden nahmen wir am Uster Triathlon teil und erlebten ein Event voller Teamgeist und Erfolgserlebnisse.</p>"
+          }
+        },
+        "slides_UFECGG": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/462512405_2596324490564174_7102582613030151675_n.jpg",
+            "number": "08",
+            "date": "2016",
+            "timeline-heading": "Outdoor-Camps in der Schweiz",
+            "timeline-content": "<p>Ob Ascona oder Davos, unsere Camps trotzen jedem Wetter! In kürzester Zeit formte sich aus den Teilnehmern jedesmal eine Gemeinschaft, die gefühlt zu einer kleinen Familie wurde.</p>"
+          }
+        },
+        "slides_DeiWjz": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/462750663_2597950583734898_3550084027841191714_n.jpg",
+            "number": "09",
+            "date": "Juli 2017",
+            "timeline-heading": "Als Gasttrainerin aktiv",
+            "timeline-content": "<p>Ein besonderer Moment: Als Gasttrainerin durfte ich im Shaqiri-Fussballcamp in mehreren Camps die Spieler trainieren – ein inspirierender Einsatz!</p>"
+          }
+        },
+        "slides_Fn9UfN": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/463083215_2602225463307410_678018652017647011_n.jpg",
+            "number": "10",
+            "date": "April 2018",
+            "timeline-heading": "Internationaler Spirit",
+            "timeline-content": "<p>Unser erstes Camp im Ausland fand auf Ibiza statt. Ein wichtiger Schritt, um unsere Goldenbody-Gemeinschaft weiter auszubauen. Danach verschlug es uns immer 2x im Jahr nach Mallorca.</p>"
+          }
+        },
+        "slides_DmhF7e": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/47217135_990605737802732_5467975370512793600_n.jpg",
+            "number": "11",
+            "date": "Dezember 2018",
+            "timeline-heading": "Ein Traum wird Realität – Eröffnung des Golden House",
+            "timeline-content": "<p>Nach sieben Jahren Outdoor-Training schufen wir unser eigenes Studio, das Golden House. Vom Rohbau bis zur Vollendung investierten wir unzählige Stunden und erfüllten uns damit einen lang gehegten Traum.</p>"
+          }
+        },
+        "slides_W6jQkU": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/82519296_1299575136905789_3114025875725615104_n.jpg",
+            "number": "12",
+            "date": "Januar 2020",
+            "timeline-heading": "Erste „8 Week Challenge“",
+            "timeline-content": "<p>Mit unserer „8 Week Challenge“ starteten wir ein Programm, das unsere Kunden fordert und motiviert, ihre Ziele fokussiert zu erreichen.</p>"
+          }
+        },
+        "slides_8FBUgR": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/104412203_1423928371137131_6980153136173939385_n.jpg",
+            "number": "13",
+            "date": "2020",
+            "timeline-heading": "Herausforderungen der Pandemie",
+            "timeline-content": "<p>Wie viele Unternehmen traf uns die Pandemie hart. Doch wir suchten stets nach Lösungen, um unsere Kunden aktiv zu halten. In dieser Zeit startete auch mein Podcast, der über Jahre jeden Donnerstag online ging.</p>"
+          }
+        },
+        "slides_iLdGYa": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/273407452_1887214401475190_7506258038453118407_n.jpg",
+            "number": "14",
+            "date": "2021",
+            "timeline-heading": "Familie und Wachstum",
+            "timeline-content": "<p>Mit der Geburt meines ersten Sohnes erweiterten wir das Goldenbody-Team um weitere Trainerinnen und Beraterinnen. Auch unser Online-Shop, in dem wir nur Produkte anbieten, welche wir selber regelmässig nutzen, wuchs stetig.</p>"
+          }
+        },
+        "slides_kWfQqt": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/308049827_771806037125120_6213813185554214615_n.jpg",
+            "number": "15",
+            "date": "September 2022",
+            "timeline-heading": "10 Jahre Goldenbody",
+            "timeline-content": "<p>Ein bedeutender Meilenstein! Wir feierten unser zehnjähriges Jubiläum, geprägt von gemeinsamen Erfolgen und der Kraft eines grossartigen Teams.</p>"
+          }
+        },
+        "slides_6PaJgR": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/309584207_775880026717721_1119348067842154185_n.jpg",
+            "number": "16",
+            "date": "September 2022",
+            "timeline-heading": "Erstes Camp in der Alp Flix",
+            "timeline-content": "<p>Mit viel Durchhaltevermögen trotzten wir beim Camp in der Alp Flix extremen (Schnee-) Bedingungen und stärkten den Teamgeist.</p>"
+          }
+        },
+        "slides_YfhbQh": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/318675247_834315080874215_2921802204249668436_n.jpg",
+            "number": "17",
+            "date": "September 2022",
+            "timeline-heading": "Gemeinsam unterwegs!",
+            "timeline-content": "<p>Team Events werden bei uns gross geschrieben, wir lassen uns immer gerne spannende Ideen einfallen um unser Team zu überraschen.</p>"
+          }
+        },
+        "slides_w3hqtD": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/326695081_699238631900299_1178789493085275623_n.jpg",
+            "number": "18",
+            "date": "Frühjahr 2023",
+            "timeline-heading": "Investition in Bildung",
+            "timeline-content": "<p>Unsere erste Gruppe absolvierte erfolgreich die Ausbildung zum Functional Group Trainer bei Goldenbody – ein weiterer Schritt in die Professionalisierung unserer Trainingsphilosophie.</p>"
+          }
+        },
+        "slides_LwFkew": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/343973176_241545931865179_6402460708744981124_n.jpg",
+            "number": "19",
+            "date": "April 2023",
+            "timeline-heading": "Premiere in der Toskana",
+            "timeline-content": "<p>Mit unserem ersten Camp in der Toskana eröffneten wir ein neues Kapitel internationaler Erlebnisse und nahmen unsere Kunden mit auf eine besondere Reise.</p>"
+          }
+        },
+        "slides_W6x3gY": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/347107255_3402826453268466_8886003056937690220_n.jpg",
+            "number": "20",
+            "date": "Mai 2023",
+            "timeline-heading": "Umbau Golden House",
+            "timeline-content": "<p>Wir modernisierten das Golden House und schufen einen noch einladenderen Raum für unsere Kunden.</p>"
+          }
+        },
+        "slides_W4rKz8": {
+          "type": "slides",
+          "settings": {
+            "timeline-image": "shopify://shop_images/454754125_18455418496052755_8181652450025731800_n.jpg",
+            "number": "21",
+            "date": "Frühjahr 2023",
+            "timeline-heading": "Erstes Retreat im Alpenresort Schwarz",
+            "timeline-content": "<p>Ein weiterer Höhepunkt: unser erstes exklusives Retreat im malerischen Alpenresort Schwarz – ein Ort der Entspannung und Transformation. </p><p>Diese Meilensteine stehen für die Leidenschaft und die stetige Weiterentwicklung, die Goldenbody prägen und begleiten. Von Anfang an sind wir gewachsen und haben gemeinsam mit unseren Kunden und unserem Team viele wertvolle Erfahrungen gesammelt. Auf die nächsten Schritte und neuen Herausforderungen!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_8MkDnc",
+        "slides_qjaNPw",
+        "slides_NUWAtF",
+        "slides_JVGWH7",
+        "slides_RqBLXm",
+        "slides_DLbAjq",
+        "slides_MJnJWj",
+        "slides_UFECGG",
+        "slides_DeiWjz",
+        "slides_Fn9UfN",
+        "slides_DmhF7e",
+        "slides_W6jQkU",
+        "slides_8FBUgR",
+        "slides_iLdGYa",
+        "slides_kWfQqt",
+        "slides_6PaJgR",
+        "slides_YfhbQh",
+        "slides_w3hqtD",
+        "slides_LwFkew",
+        "slides_W6x3gY",
+        "slides_W4rKz8"
+      ],
+      "settings": {
+        "section-class": "",
+        "heading": "Geschichte Goldenbody"
+      }
+    },
+    "right_image_left_text_BqxhGt": {
+      "type": "Right-Image-Left-Text",
+      "settings": {
+        "main-title": "Die Reise von Goldenbody geht weiter!",
+        "content": "<p>Diese Meilensteine stehen für die Leidenschaft und die stetige Weiterentwicklung, die Goldenbody prägen und begleiten. Von Anfang an sind wir gewachsen und haben gemeinsam mit unseren Kunden und unserem Team viele wertvolle Erfahrungen gesammelt. Auf die nächsten Schritte und neuen Herausforderungen!</p>",
+        "image_picker": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_68-min_3f2c07dd-80dd-44eb-995c-6391593d5781.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_YFeqfb",
+    "right_image_left_text_3eajPJ",
+    "meet_the_team_UVfzLf",
+    "timeline_section_egDyCA",
+    "right_image_left_text_BqxhGt"
+  ]
+}

@@ -1,0 +1,714 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_c7axLL": {
+      "type": "Banner-Section",
+      "settings": {
+        "section_class_banner": "",
+        "main-title-mark": "Ernährungsberatung & Trainings",
+        "main-title": "",
+        "background-image": "shopify://shop_images/Group_15777049752.png",
+        "mobile-background-image": "shopify://shop_images/Design_ohne_Titel_24.png"
+      }
+    },
+    "navigation_section_BW6FEx": {
+      "type": "Navigation-section",
+      "blocks": {
+        "slides_BxxbdB": {
+          "type": "slides",
+          "settings": {
+            "button-url": "#training",
+            "button-text": "Personal Training"
+          }
+        },
+        "slides_QNqiVj": {
+          "type": "slides",
+          "settings": {
+            "button-url": "#gruppentraining",
+            "button-text": "Gruppentraining"
+          }
+        }
+      },
+      "block_order": [
+        "slides_BxxbdB",
+        "slides_QNqiVj"
+      ],
+      "custom_css": [
+        ".btn-red span,.btn-red i {background: #000;}"
+      ],
+      "settings": {
+        "section-class": "navigation-sec-beratung"
+      }
+    },
+    "list_section_YbQUdx": {
+      "type": "list-section",
+      "blocks": {
+        "slides_ChkhCR": {
+          "type": "slides",
+          "settings": {
+            "heading": "Gewichtsreduktion",
+            "image": "shopify://shop_images/image_4_1.jpg",
+            "description": "<p>Du willst dich gesund ernähren oder dein Gewicht dauerhaft verändern? Gemeinsam schaffen wir neue Gewohnheiten, die dich an dein Ziel bringen.<br/>​<br/>Wir nehmen uns Zeit für dich und erstellen durch ausführliche Analysen der Muskel- und Fettmasse sowie deines Stoffwechsels einen passenden und umsetzbaren Plan.<br/><br/>Ein strukturierter Ernährungsplan und eine sinnvolle Trainingsroutine helfen dir ausserdem, dein Wunschgewicht langfristig zu erreichen.</p>",
+            "btn-url": "shopify://products/ernahrungsberatung",
+            "btn-text": "Beratung buchen"
+          }
+        },
+        "slides_qbLcQF": {
+          "type": "slides",
+          "settings": {
+            "heading": "Gesundheitsanalyse",
+            "image": "shopify://shop_images/1.jpg",
+            "description": "<p>Du leidest unter Verdauungsbeschwerden, Allergien, Unverträglichkeiten, einer nicht intakten Darmflora, ständigem oder unerklärlichem Blähbauch, Müdigkeit und/oder Energielosigkeit? </p><p>Zusammen gehen wir deinem Problem auf den Grund. Wir analysieren gemeinsam deine Symptome und finden durch diverse Testmethoden die Ursache für dein Unwohlsein.</p>",
+            "btn-url": "shopify://products/ernahrungsberatung",
+            "btn-text": "Beratung buchen"
+          }
+        },
+        "slides_x3fLrT": {
+          "type": "slides",
+          "settings": {
+            "heading": "Ess-Störung / Mangelernährung",
+            "image": "shopify://shop_images/image_6_1.jpg",
+            "description": "<p>Durch unsere eigene Vergangenheit mit diversen Essstörungen sind wir sehr sensibel und einfühlsam, wenn es um Krankheitsbilder wie Anorexia nervosa, Bulimie, Binge Eating, Orthorexia nervosa oder auch Sportsucht geht. </p><p>Wir helfen dir, ein normales und gesundes Essverhalten zurückzuerlangen und eine sinnvolle Trainingsroutine zu erstellen. Du bestimmst das Tempo und dein eigenes Ziel – wichtig ist uns, dass du dich wohl und gut aufgehoben fühlst.</p>",
+            "btn-url": "shopify://products/ernahrungsberatung",
+            "btn-text": "Beratung buchen"
+          }
+        },
+        "slides_MW4ctL": {
+          "type": "slides",
+          "settings": {
+            "heading": "Heisshunger-Attacken",
+            "image": "shopify://shop_images/image_7_1.jpg",
+            "description": "<p>Du nimmst dir vor, dich gesünder zu ernähren, schaffst es kurzfristig, doch letztendlich wirst du trotzdem wieder von einer Fress-Attacke überrollt? Das Ergebnis ist ein schlechtes Gewissen und Zweifel an deiner Disziplin. </p><p>Lass uns dir helfen, deine Ziele zu erreichen. In einer Beratung finden wir die Fehlerquellen und zeigen dir auf, welche Hebel du betätigen kannst, um dich langfristig wohlzufühlen.</p>",
+            "btn-url": "shopify://products/ernahrungsberatung",
+            "btn-text": "Beratung buchen"
+          }
+        },
+        "slides_EzdBX8": {
+          "type": "slides",
+          "settings": {
+            "heading": "Ernährung bei Stress",
+            "image": "shopify://shop_images/3.jpg",
+            "description": "<p>Fühlst du dich häufig gestresst und überfordert und suchst nach einer Möglichkeit, deinem Körper trotz der Herausforderungen des Alltags die Nährstoffe zu geben, die er braucht? Bei anhaltendem Stress kann der Körper aus dem Gleichgewicht geraten, was sich negativ auf Verdauung, Schlaf und allgemeines Wohlbefinden auswirken kann. </p><p>Wir zeigen dir, wie du deine Ernährung optimieren kannst, um Stress besser zu bewältigen und deinen Körper zu unterstützen. Durch gezielte Nährstoffzufuhr und spezielle Ernährungskonzepte helfen wir dir, stressbedingte Symptome zu lindern und mehr Energie und Ausgeglichenheit in deinen Alltag zu bringen.</p>",
+            "btn-url": "shopify://products/ernahrungsberatung",
+            "btn-text": "Beratung buchen"
+          }
+        },
+        "slides_mTCUpR": {
+          "type": "slides",
+          "settings": {
+            "heading": "Sporternährung",
+            "image": "shopify://shop_images/2.jpg",
+            "description": "<p>Optimiere deine sportliche Leistungsfähigkeit mit unserer individuellen Sporternährungsberatung. Egal, ob du Athlet/in bist oder einfach nur dein Training auf das nächste Level bringen möchtest – wir entwickeln maßgeschneiderte Ernährungspläne. </p><p>Von der richtigen Energiezufuhr vor dem Training bis zur optimalen Regeneration nach intensiven Einheiten unterstützen wir dich dabei, das Beste aus deinem Training herauszuholen. Entdecke die synergetische Verbindung von gezielter Ernährung und sportlicher Leistung – starte noch heute deinen Weg zu einem gesunden und leistungsstarken Lebensstil!</p>",
+            "btn-url": "shopify://products/ernahrungsberatung",
+            "btn-text": "Beratung buchen"
+          }
+        }
+      },
+      "block_order": [
+        "slides_ChkhCR",
+        "slides_qbLcQF",
+        "slides_x3fLrT",
+        "slides_MW4ctL",
+        "slides_EzdBX8",
+        "slides_mTCUpR"
+      ],
+      "settings": {
+        "section-id": "ernahrungsberatung",
+        "main-title": "Ernährungsberatung",
+        "content": "<p>Bei Goldenbody leben wir den ganzheitlichen Ansatz. Wir beraten und betreuen unsere Kunden nicht nur zum Thema Ernährung und Training, sondern betrachten darüber hinaus auch den Lebensstil im Detail. Dazu gehören Faktoren wie Verdauung, Alltagsbewegung, Schlaf, Stress, Arbeit, Hobbys, Nahrungsergänzungsmittel, Gewohnheiten, Glaubenssätze, Erwartungen und vieles mehr.</p>"
+      }
+    },
+    "four_box_section_WVzBEx": {
+      "type": "four-box-section",
+      "blocks": {
+        "slides_gQ4Y6g": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Glyph.png",
+            "title": "Ernährungsberatung buchen",
+            "description": "<p>Wähle die gewünschte Beratung in unserem Onlineshop und buche direkt. Es spielt keine Rolle, welches Paket du auswählst – dies dient lediglich der Beraterin als Orientierung, um eine erste Vorstellung vom Thema zu bekommen.</p>"
+          }
+        },
+        "slides_cjLdGr": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Group_1577705109.png",
+            "title": "App herunterladen",
+            "description": "<p>Nach deiner Buchung erhältst du Zugang zur Goldenbody App. </p><p>Dort ist auch unser Terminkalender ersichtlich, in dem du deine Buchungen vornehmen kannst.</p>"
+          }
+        },
+        "slides_LVcAMG": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Frame.png",
+            "title": "Erstgespräch",
+            "description": "<ul><li>Erhebung der Anamnese</li><li>Calipermessung + Auswertung</li><li>Analyse von Muskel- und Fettmasse</li><li>Work-Life-Analyse</li><li>Grundumsatzmessung (Kalorienverbrauch)</li><li>Stoffwechselanalyse</li><li>Analyse des Gewebes</li><li>Erste Tipps zur Ernährung</li><li>Ernährungsplan</li><li>Trainingsempfehlung</li><li>Zusammenfassung per Mail</li></ul>"
+          }
+        },
+        "slides_yL4jb4": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Group_1.png",
+            "title": "Weiterer Verlauf",
+            "description": "<p>Je nach Ziel wird nun bestimmt wie es weiter geht. Es können Abos wie auch Einzeltermine in Person oder auch per Video folgen.</p><p>Mögliche weitere Schritte:</p><ul><li>Ernährungsberatung</li><li>Einkaufsberatung</li><li>Erstellen von Menüplänen</li><li>Personal Training</li><li>Erstellung Trainingsplan </li><li>Gruppenstunden</li><li>Blutanalyse</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_gQ4Y6g",
+        "slides_cjLdGr",
+        "slides_LVcAMG",
+        "slides_yL4jb4"
+      ],
+      "settings": {
+        "section-id": "",
+        "heading_text": "Wie funktioniert's?"
+      }
+    },
+    "before_after_section_fKPc4F": {
+      "type": "before-after-section",
+      "blocks": {
+        "slides_K6FnwU": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/Goldenbody_Vorher-Nachher_8_Week_Challenge_1c1f4817-9405-49f2-9f67-055b4b779d61.png"
+          }
+        },
+        "slides_WjrHCj": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_94_1_-min.jpg"
+          }
+        },
+        "slides_pAnGBF": {
+          "type": "slides",
+          "settings": {
+            "before_image": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_97_1_-min.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slides_K6FnwU",
+        "slides_WjrHCj",
+        "slides_pAnGBF"
+      ],
+      "disabled": true,
+      "settings": {
+        "section-id": "Vorher - Nachher Fotos",
+        "main-heading": "Vorher - Nachher Fotos"
+      }
+    },
+    "second_left_img_section_9LCVNT": {
+      "type": "second-left-img-section",
+      "settings": {
+        "section-class": "m-tp-pad team-beratung",
+        "section-id": "",
+        "main-title": "",
+        "small-title": "",
+        "left-title": "Dein Goldenbody Team",
+        "content": "<p>Als dynamisches Team mit Leidenschaft für gesunde Ernährung und einen ausgewogenen Lebensstil sind wir für unsere Flexibilität und Verlässlichkeit bekannt. Auch privat leben wir diese Werte, um in der Ernährungsberatung stets 100% für euch geben zu können.</p>",
+        "image_picker": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_115.jpg",
+        "btn-url": "",
+        "btn-text": "Beratung buchen"
+      }
+    },
+    "multi_video_sec_Tr4TBr": {
+      "type": "multi-video-sec",
+      "blocks": {
+        "slides_nt6LPq": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Group_1577704980_2.jpg",
+            "video_url": "https://www.youtube.com/embed/HFlHcwi8lMM?si=vU78IlInPUCHDlv7",
+            "video_title": "Details zur Calipermessung"
+          }
+        },
+        "slides_YQmG4Q": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Group_1577704980_1_1.jpg",
+            "video_url": "https://www.youtube.com/embed/BsnXJdSKtf8?si=G-S0LHfDOb5Csw3S",
+            "video_title": "Analyse Kundenbeispiel"
+          }
+        }
+      },
+      "block_order": [
+        "slides_nt6LPq",
+        "slides_YQmG4Q"
+      ],
+      "settings": {
+        "section-id": ""
+      }
+    },
+    "training_section_UV8eRN": {
+      "type": "training-section",
+      "blocks": {
+        "slides_RhnVVA": {
+          "type": "slides",
+          "settings": {
+            "heading": "Gewichtsreduktion",
+            "image": "shopify://shop_images/image_10_1.jpg",
+            "description": "<p>Wir planen für dich Personal Training Einheiten und kombinieren dabei <strong>Ausdauertraining</strong> und <strong>Muskelaufbau zur Erhöhung deiner Fettverbrennung.</strong><br/><br/>Ein geregelter und umsetzbarer Wochenplan mit täglichen Bewegungsaktivitäten hilft dir dabei, langfristig dein <strong>Wohlfühlgewicht</strong> zu erreichen und zu halten.</p>",
+            "btn-url": "shopify://products/personal-training",
+            "btn-text": "Training buchen"
+          }
+        },
+        "slides_TtpY9b": {
+          "type": "slides",
+          "settings": {
+            "heading": "Muskelaufbau / Definition",
+            "image": "shopify://shop_images/image_11_1.jpg",
+            "description": "<p>Möchtest du <strong>spezifische Muskelgruppen</strong> deines <strong>Körpers definieren?</strong> Oder deinen Körper durch Muskelaufbau im Allgemeinen <strong>straffen</strong>?<br/>​<br/>Durch Training mit unseren Pilates Reformer, Kettlebells, Air Bike, Gewichte und Kleingeräte, arbeitest du an deiner <strong>Tiefenmuskulatur</strong> und gezieltem Muskelaufbau.</p>",
+            "btn-url": "shopify://products/personal-training",
+            "btn-text": "Training buchen"
+          }
+        },
+        "slides_Ehyq9M": {
+          "type": "slides",
+          "settings": {
+            "heading": "Verletzungen / chronische Schmerzen",
+            "image": "shopify://shop_images/image_12_1.jpg",
+            "description": "<p>Als dipl. Personal Trainerin biete ich dir auch <strong>Unfall- und Rehabilitations Training an</strong>.  Herausforderungen die deinen Körper (neu) zu bewältigen hat setzen wir in den Fokus und finden massgeschneiderte Lösungen für dich. <br/>​<br/><strong>Durch unsere Inhouse Physiotherapie können wir deinen Fall Inderdisziplinär besprechen und das ideale Vorgehen erstellen.</strong><br/>​<br/><strong>Chronische und akute Schmerzen</strong> können so gelindert oder präventiv vermieden werden.</p>",
+            "btn-url": "shopify://products/personal-training",
+            "btn-text": "Training buchen"
+          }
+        }
+      },
+      "block_order": [
+        "slides_RhnVVA",
+        "slides_TtpY9b",
+        "slides_Ehyq9M"
+      ],
+      "settings": {
+        "section-id": "training",
+        "main-title": "Personal Training",
+        "content": "<p>So individuell wie deine Ziele.</p>"
+      }
+    },
+    "how_work_section_aC8yYj": {
+      "type": "how-work-section",
+      "blocks": {
+        "slides_Dw6TFq": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Glyph.png",
+            "title": "Personal Training buchen",
+            "description": "<p>Kaufe deine Personal-Trainingseinheiten direkt in unserem Onlineshop.</p>"
+          }
+        },
+        "slides_mARFCE": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Group_1577705109.png",
+            "title": "App herunterladen",
+            "description": "<p>Nach dem Kauf erhältst du Zugang zur Goldenbody App. In der App kannst du deine Einheiten verwalten und deine Trainingstermine buchen. Bitte beachte, dass es bis zu 24 Stunden dauern kann, bis du den App-Zugang erhältst.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_Dw6TFq",
+        "slides_mARFCE"
+      ],
+      "settings": {
+        "section-id": "",
+        "heading_text": "Wie funktioniert's?"
+      }
+    },
+    "second_left_img_section_R3nXnf": {
+      "type": "second-left-img-section",
+      "settings": {
+        "section-class": "gruppentraining-beratung",
+        "section-id": "gruppentraining",
+        "main-title": "Gruppentraining",
+        "small-title": "<p>Gemeinsam ans Ziel.</p>",
+        "left-title": "Motivations Booster",
+        "content": "<p>Unsere Gruppenstunden sind ein bunter Mix aus Intervall, Kraft, Yoga, Pilates und alles dazwischen.<br/><br/>Uns ist wichtig, dass du dich wohl fühlst, egal ob als Anfänger oder Fortgeschrittener. Bei Goldenbody erlebst du eine motivierende Trainings-Atmosphäre mit einem vielfältigen Stundenangebot.</p>",
+        "image_picker": "shopify://shop_images/image_1.jpg",
+        "btn-url": "shopify://products/gruppentraining",
+        "btn-text": "Training buchen"
+      }
+    },
+    "gradient_sec_Vf3BNY": {
+      "type": "gradient-sec",
+      "settings": {
+        "section-id": "schnupperstunde-beratung",
+        "background-image": "shopify://shop_images/image_2_1.jpg",
+        "main-title": "Kostenlose Schnupperstunde",
+        "secondary-title": "Teste eine Stunde kostenlos und überzeuge dich selbst",
+        "button-1-link": "shopify://products/gruppentraining",
+        "button-1-text": "Training buchen",
+        "button-2-link": "",
+        "button-2-text": ""
+      }
+    },
+    "six_box_with_image_6G86rh": {
+      "type": "six-box-with-image",
+      "blocks": {
+        "slides_XtFNt9": {
+          "type": "slides",
+          "settings": {
+            "heading": "Montag",
+            "description": "<ul><li>9:00 - 9:55 Mamacita </li><li>18:30 - 19:25 Bootcamp</li><li>19:30-20:25 Vinyasa Yoga</li></ul>"
+          }
+        },
+        "slides_fRBAFA": {
+          "type": "slides",
+          "settings": {
+            "heading": "Dienstag",
+            "description": "<ul><li>18:00 - 18:55 Hiit your Abs (+Livestream)</li><li>19:00 - 19:55 NYC Pilates (+Livestream)</li></ul>"
+          }
+        },
+        "slides_QzJGdj": {
+          "type": "slides",
+          "settings": {
+            "heading": "Mittwoch",
+            "description": "<ul><li>9:00 - 9:55 Mamacita</li></ul>"
+          }
+        },
+        "slides_Y8abUP": {
+          "type": "slides",
+          "settings": {
+            "heading": "Donnerstag",
+            "description": "<ul><li>18:00 - 18:55 Functional Toning (+ Livestream)</li><li>19:00 - 19:55 Bootcamp<br/>Circuit </li></ul>"
+          }
+        },
+        "slides_99iGpX": {
+          "type": "slides",
+          "settings": {
+            "heading": "Freitag",
+            "description": "<ul><li>9:00 - 9:55 Mamacita (im Sommer Outdoor / Winter Indoor)</li></ul>"
+          }
+        },
+        "slides_gGahXG": {
+          "type": "slides",
+          "settings": {
+            "heading": "Samstag",
+            "description": "<ul><li>8:00 - 8:55 Zumba</li><li>9:00 - 9:55 Bootcamp / NYC Pilates im Wechsel</li><li>10.00-10.55 Yoga Flow and Stretch (alle 2 Wochen)</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_XtFNt9",
+        "slides_fRBAFA",
+        "slides_QzJGdj",
+        "slides_Y8abUP",
+        "slides_99iGpX",
+        "slides_gGahXG"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section-id": "stundenplan",
+        "main-title": "Goldenbody Stundenplan",
+        "image": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_86_compressed.jpg"
+      }
+    },
+    "table_section_iahgBG": {
+      "type": "table-section",
+      "blocks": {
+        "slides_MYHRpw": {
+          "type": "slides",
+          "settings": {
+            "option-1": 4,
+            "option-2": 4,
+            "option-3": 4,
+            "option-4": 4,
+            "heading": "Bootcamp"
+          }
+        },
+        "slides_Naehwt": {
+          "type": "slides",
+          "settings": {
+            "option-1": 5,
+            "option-2": 1,
+            "option-3": 5,
+            "option-4": 5,
+            "heading": "Hiit Your Abs"
+          }
+        },
+        "slides_QBW48b": {
+          "type": "slides",
+          "settings": {
+            "option-1": 4,
+            "option-2": 3,
+            "option-3": 3,
+            "option-4": 4,
+            "heading": "Mamacita"
+          }
+        },
+        "slides_MinPie": {
+          "type": "slides",
+          "settings": {
+            "option-1": 3,
+            "option-2": 0,
+            "option-3": 4,
+            "option-4": 3,
+            "heading": "Zumba"
+          }
+        },
+        "slides_aJKhMa": {
+          "type": "slides",
+          "settings": {
+            "option-1": 3,
+            "option-2": 2,
+            "option-3": 0,
+            "option-4": 3,
+            "heading": "Functional Toning"
+          }
+        },
+        "slides_nWJxY4": {
+          "type": "slides",
+          "settings": {
+            "option-1": 2,
+            "option-2": 2,
+            "option-3": 0,
+            "option-4": 2,
+            "heading": "NYC Pilates"
+          }
+        },
+        "slides_nHKFWW": {
+          "type": "slides",
+          "settings": {
+            "option-1": 2,
+            "option-2": 2,
+            "option-3": 0,
+            "option-4": 2,
+            "heading": "Pilates Sculpt"
+          }
+        },
+        "slides_z4YWAi": {
+          "type": "slides",
+          "settings": {
+            "option-1": 1,
+            "option-2": 2,
+            "option-3": 0,
+            "option-4": 0,
+            "heading": "Yoga"
+          }
+        }
+      },
+      "block_order": [
+        "slides_MYHRpw",
+        "slides_Naehwt",
+        "slides_QBW48b",
+        "slides_MinPie",
+        "slides_aJKhMa",
+        "slides_nWJxY4",
+        "slides_nHKFWW",
+        "slides_z4YWAi"
+      ],
+      "settings": {
+        "section-id": "gruppenstunde-beratung",
+        "heading-1": "Gruppenstunde",
+        "heading-2": "Level",
+        "heading-3": "Kraft",
+        "heading-4": "Cardio",
+        "heading-5": "Intensität"
+      }
+    },
+    "image_and_right_text_hUje6p": {
+      "type": "image-and-right-text",
+      "custom_css": [
+        ".image-and-right-text {margin-top: 100px; margin-bottom: 20px;}"
+      ],
+      "settings": {
+        "section-id": "studio-beratung",
+        "section-class": "",
+        "background-image": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_93_compressed.jpg",
+        "main-title": "Oberseestrasse 101, 8645 Rapperswil-Jona",
+        "secondary-title": "Goldenbody Studio"
+      }
+    },
+    "four_box_section_ifdLYf": {
+      "type": "four-box-section",
+      "blocks": {
+        "slides_rxcDhL": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/3_ffbef339-fc70-4f47-a5cf-8a57d492e3a1.png",
+            "title": "1. Gruppentraining buchen",
+            "description": "<p>Im Onlineshop oder in unserer App kannst du ganz einfach Gruppentrainingseinheiten erwerben. Diese werden kurz darauf in deinem App-Konto angezeigt.</p><p><a href=\"https://forms.gle/gHAF2YF47Z9vNs8m9\" target=\"_blank\" title=\"https://forms.gle/gHAF2YF47Z9vNs8m9\">🐣</a></p><p>Wichtig: Du kannst dich bis zu 1 Minute vor dem Gruppentraining an- und auch kostenlos abmelden.</p>"
+          }
+        },
+        "slides_pxk9FP": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/2_c1555586-977a-47d3-b109-7ecde500e773.png",
+            "title": "2. Anmeldung",
+            "description": "<p>Alle Gruppenstunden besitzen den selben Wert. Du kannst dich im App unter Terminplan ganz einfach einbuchen.</p><p>Die Trainings finden meist bei uns im Golden House statt. Wenn dies nicht der Fall ist, wird es im App angegeben und im Whatsapp Chat mitgeteilt.</p>"
+          }
+        },
+        "slides_i93Gqc": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/1_c6a41758-e7c3-4aa6-a8be-a8e5338b7857.png",
+            "title": "3. Gruppenstunde besuchen",
+            "description": "<p>Parkplätze sind reichlich vorhanden und die Bushaltestelle 200 Meter entfernt. ​</p><p>Nimm bitte etwas zu trinken, Indoor Sportschuhe und ein Handtuch mit zum Training. Eine Dusche haben wir vor Ort welche benutzt werden kann.</p><p>Neu kannst du bei uns auch Snacks zur Stärkung nach dem Training kaufen.</p>"
+          }
+        },
+        "slides_DBxtaz": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/4_39f9b011-1554-4454-848a-d4fdb1f49014.png",
+            "title": "4. Weiterer Verlauf",
+            "description": "<p>Die Gruppenstunde hat dich so überzeugt, dass du sofort wieder kommen willst + es gleich all deinen Freunden und Bekannten mitteilst?!</p><p>Wir freuen uns dich wieder bei uns begrüssen zu dürfen!</p><p>Abos können auch vor Ort mit Karte oder Twint bezahlt werden. Deine Einheiten werden dann direkt in der App angezeigt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slides_rxcDhL",
+        "slides_pxk9FP",
+        "slides_i93Gqc",
+        "slides_DBxtaz"
+      ],
+      "settings": {
+        "section-id": "funktioniert-beratung",
+        "heading_text": "Wie funktioniert's?"
+      }
+    },
+    "gradient_sec_BGXyVC": {
+      "type": "gradient-sec",
+      "custom_css": [
+        "/* Adds a 20px margin below the WhatsApp section */#WhatsApp {margin-bottom: 100px;}"
+      ],
+      "settings": {
+        "section-id": "WhatsApp",
+        "background-image": "shopify://shop_images/Design_ohne_Titel_23.png",
+        "main-title": "Tritt unserer WhatsApp-Gruppe für die Gruppenstunden bei und bleibe immer auf dem Laufenden!",
+        "secondary-title": "",
+        "button-1-link": "https://chat.whatsapp.com/FVxRmocZ6wPIk4wBHOt2qQ",
+        "button-1-text": "WhatsApp Gruppe beitreten",
+        "button-2-link": "shopify://pages/kontakt",
+        "button-2-text": "Kontaktformular"
+      }
+    },
+    "training_videos_HDK7JB": {
+      "type": "training-videos",
+      "blocks": {
+        "slides_3WU4d4": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-11_at_16.33.13_ebc276f1-03b6-4ab4-8b1e-0527abc07bb4.png",
+            "play_image": "shopify://shop_images/Group_1577705184.png",
+            "heading": "Circuit Training",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/0da07a1ed2c744b29e1ef9e645b113e6.mp4"
+          }
+        },
+        "slides_LhnJHt": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-11_at_16.35.43.png",
+            "play_image": "shopify://shop_images/Group_1577705184.png",
+            "heading": "Mamacita",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/3a76606df5444e76bfcaafec24b3d42c.mp4"
+          }
+        },
+        "slides_a4MNhq": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-11_at_16.37.00.png",
+            "play_image": "shopify://shop_images/Group_1577705184.png",
+            "heading": "NYC Pilates",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/57429b49b6c648168f7ade3be5d7a9b2.mp4"
+          }
+        },
+        "slides_zQMk8T": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Bildschirmfoto_2024-11-08_um_08.20.03.png",
+            "play_image": "shopify://shop_images/Group_1577705184.png",
+            "heading": "Yoga",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/fa54fc0c1b3b4f889c6b10df0810de6c.mp4"
+          }
+        },
+        "slides_mCc64C": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-11_at_16.42.57.png",
+            "play_image": "shopify://shop_images/Group_1577705184.png",
+            "heading": "Bootcamp",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/1f20196a40054d708c8eecb456bb49ea.mp4"
+          }
+        },
+        "slides_UAkJR7": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-10-14_at_14.55.23.png",
+            "play_image": "shopify://shop_images/Group_1577705184.png",
+            "heading": "Hiit Your Abs",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/9b31d4c0f8544bb694b3a81e915569a4.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "slides_3WU4d4",
+        "slides_LhnJHt",
+        "slides_a4MNhq",
+        "slides_zQMk8T",
+        "slides_mCc64C",
+        "slides_UAkJR7"
+      ],
+      "settings": {
+        "section-id": "",
+        "heading_text": "Einblicke in unsere Gruppenstunden"
+      }
+    },
+    "contact_6r7MYD": {
+      "type": "Contact",
+      "disabled": true,
+      "settings": {
+        "phone_title": "Telefon",
+        "firstname": "Vorname",
+        "lastname": "Nachname",
+        "phone": "",
+        "email_title": "E-Mail",
+        "email": "shop@goldenbody.ch",
+        "email-address": "Email",
+        "phone-number": "Telefon",
+        "select-service": "",
+        "message": "Deine Nachricht",
+        "submit-button": "Senden",
+        "address_title": "Adresse",
+        "address": "Goldenbody GmbH Oberseestrasse 101 8645 Jona",
+        "address-url": "https://www.google.com/maps/place/Goldenbody+GmbH,+Oberseestrasse+101,+8645+Jona",
+        "contact-form-heading": "Fragen oder Feedback? Schreib uns!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_c7axLL",
+    "navigation_section_BW6FEx",
+    "list_section_YbQUdx",
+    "four_box_section_WVzBEx",
+    "before_after_section_fKPc4F",
+    "second_left_img_section_9LCVNT",
+    "multi_video_sec_Tr4TBr",
+    "training_section_UV8eRN",
+    "how_work_section_aC8yYj",
+    "second_left_img_section_R3nXnf",
+    "gradient_sec_Vf3BNY",
+    "six_box_with_image_6G86rh",
+    "table_section_iahgBG",
+    "image_and_right_text_hUje6p",
+    "four_box_section_ifdLYf",
+    "gradient_sec_BGXyVC",
+    "training_videos_HDK7JB",
+    "contact_6r7MYD"
+  ]
+}

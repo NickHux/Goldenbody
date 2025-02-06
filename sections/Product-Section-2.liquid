@@ -1,0 +1,141 @@
+<section class="product-section-2 {{ section.settings.section-class }} topright bottomleft">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>{{ section.settings.main-title }}</h2>
+        
+      </div>
+    </div>
+    <div class="row products btn-mobile">
+      {% if section.settings.product-collection %}
+        {% assign collection = collections[section.settings.product-collection] %}
+        {% assign post_count = 4 %}
+    
+        <!-- Reverse the product order -->
+        {% assign reversed_products = collection.products %}
+    
+        <!-- Loop through the reversed products with the limit of post_count -->
+        {% for product in reversed_products limit:post_count %}
+          <div class="col-md-4 col-sm-6 col-6">
+            <a href="{{ product.url }}" class="product-link">
+              <div class="img-box">
+                <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+                {% comment %}
+                {{- product.featured_image 
+                | image_url: width: product.featured_image.width 
+                | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 
+                widths: '200,300,400,500,600', class:'image', alt: product.title -}}
+                {% endcomment %} 
+              </div>
+              <h6>{{ product.title }}</h6>
+              <p>
+                {% if product.has_only_default_variant %}
+                  {{ product.price | money }}
+                {% else %}
+                  ab {{ product.price | money }}
+                {% endif %}
+              </p>
+            </a>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No products found in this collection.</p>
+      {% endif %}
+    </div>
+    
+        <div class="row products btn-desktop">
+        {% if section.settings.product-collection %}
+        {% assign collection = collections[section.settings.product-collection] %}
+        {% assign post_count = section.settings.post-count %}
+    
+        <!-- Reverse the product order -->
+        {% assign reversed_products = collection.products %}
+    
+        <!-- Loop through the reversed products with the limit of post_count -->
+        {% for product in reversed_products limit:post_count %}
+          <div class="col-md-4 col-sm-6 col-6">
+            <a href="{{ product.url }}" class="product-link">
+              <div class="img-box" >
+                <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">                
+                {% comment %}
+                {{- product.featured_image 
+                | image_url: width: product.featured_image.width 
+                | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 
+                widths: '200,300,400,500', class:'image', alt: product.title -}}
+                {% endcomment %}
+              </div>
+              <h6>{{ product.title }}</h6>
+              <p>
+                {% if product.has_only_default_variant %}
+                  {{ product.price | money }}
+                {% else %}
+                  ab {{ product.price | money }}
+                {% endif %}
+              </p>
+            </a>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No products found in this collection.</p>
+      {% endif %}
+    </div>
+    
+    <div class="row">
+      <div class="col">
+        <a href="{{ section.settings.button-url }}" class="btn-red">
+            <span>{{ section.settings.button-text }}</span>
+            <i class="fa fa-arrow-left"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{% schema %}
+{
+  "name": "Product-Section-2",
+  "class": "Product-Section-2",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main-title",
+      "label": "Main Title"
+    },
+    {
+      "type": "text",
+      "id": "section-class",
+      "label": "Section Class"
+    },
+    {
+      "type": "text",
+      "id": "button-text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button-url",
+      "label": "Button URL"
+    },
+    {
+      "type": "collection",
+      "id": "product-collection",
+      "label": "Product Collection"
+    },
+    {
+      "type": "number",
+      "id": "post-count",
+      "label": "Post Count"
+    },
+  ],
+  "presets": [
+    {
+      "category": "Product-Section-2",
+      "name": "Product-Section-2"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,54 @@
+<section class="image-and-right-text {{ section.settings.section-class }}" id="{{ section.settings.section-id }}">
+  <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box" style="background: url('{{ section.settings.background-image | img_url: 'master' }}')">
+                  <div class="box-inner">
+                      <h5>{{ section.settings.main-title }}</h5>
+                      <h1>{{ section.settings.secondary-title }}</h1>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+    "name": "image-and-right-text",
+    "class": "image-and-right-text",
+    "settings": [
+    {
+    "type": "text",
+    "id": "section-id",
+    "label": "Section Id"
+    },
+    {
+    "type": "text",
+    "id": "section-class",
+    "label": "Section Class"
+    },
+    {
+    "type": "image_picker",
+    "id": "background-image",
+    "label": "Background Image"
+    },
+    {
+    "type": "text",
+    "id": "main-title",
+    "label": "Main Title"
+    },
+    {
+    "type": "text",
+    "id": "secondary-title",
+    "label": "Secondary Title"
+    },
+    ], 
+    "presets": [
+    {
+    "category": "image-and-right-text",
+    "name": "image-and-right-text"
+    }
+    ]
+    }
+{% endschema %}

@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_QjYzHH": {
+      "type": "Banner-Section",
+      "settings": {
+        "section_class_banner": "banner-events",
+        "main-title": "<h2>Events und<br/>Retreats</h2>",
+        "background-image": "shopify://shop_images/Goldenbody_Team_Website_Header_13.png",
+        "mobile-background-image": "shopify://shop_images/Goldenbody_Header_Web_9.png"
+      }
+    },
+    "product_section_2_LUTPMy": {
+      "type": "Product-Section-2",
+      "settings": {
+        "main-title": "Physische Events",
+        "section-class": "all-products",
+        "button-text": "Alle Physische Events",
+        "button-url": "shopify://collections/physische-events",
+        "product-collection": "physische-events",
+        "post-count": 3
+      }
+    },
+    "product_section_2_r6dDLB": {
+      "type": "Product-Section-2",
+      "disabled": true,
+      "settings": {
+        "main-title": "Webinare",
+        "section-class": "all-products",
+        "button-text": "Alle Webinare",
+        "button-url": "shopify://collections/webinare",
+        "product-collection": "webinare",
+        "post-count": 3
+      }
+    },
+    "product_section_2_aWnepb": {
+      "type": "Product-Section-2",
+      "disabled": true,
+      "settings": {
+        "main-title": "Online-Beratung & Streams",
+        "section-class": "",
+        "button-text": "",
+        "button-url": "",
+        "product-collection": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_QjYzHH",
+    "product_section_2_LUTPMy",
+    "product_section_2_r6dDLB",
+    "product_section_2_aWnepb"
+  ]
+}

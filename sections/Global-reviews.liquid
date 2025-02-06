@@ -1,0 +1,39 @@
+<section class="global-reviews">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>{{ settings.global_title }}</h2>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col">
+        <div class="owl-carousel owl-theme testimonial-slider">
+          {% for block in reviews_section.blocks %}
+            {% include 'reviews-section' with block %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Global Reviews",
+  "settings": [
+    {
+      "type": "text",
+      "id": "global_title",
+      "label": "Global Reviews Title",
+      "default": "Our Customer Reviews"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Global Sections",
+      "name": "Global Reviews"
+    }
+  ]
+}
+{% endschema %}

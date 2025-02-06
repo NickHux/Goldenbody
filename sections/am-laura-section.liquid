@@ -1,0 +1,101 @@
+<section class="laura-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="laura-text">
+          <img src="{{ section.settings.sign_image | img_url: 'master' }}">
+          <h2>{{ section.settings.heading }}</h2>
+          <div class="laura-content">
+            {{ section.settings.content }}
+          </div>
+          <div class="laura-btn">
+            <a href="{{ section.settings.button_link }}" class="btn-red btn-desktop">
+              <span>{{ section.settings.button_text }}</span>
+              <i class="fa fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="laura-gif">
+          <img src="{{ section.settings.image | img_url: 'master' }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="laura-sec mob-laura">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="laura-text-mbl">
+          <div class="laura-abs">
+          <img src="{{ section.settings.sign_image | img_url: 'master' }}">
+          <h2>{{ section.settings.heading }}</h2>
+          </div>  
+          <div class="laura-gif-mbl">
+            <img src="{{ section.settings.image | img_url: 'master' }}">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="laura-content-mbl">
+          {{ section.settings.content }}
+        </div>
+        <div class="laura-btn-mbl">
+          <a href="{{ section.settings.button_link }}" class="btn-red">
+            <span>{{ section.settings.button_text }}</span>
+            <i class="fa fa-arrow-left"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% schema %}
+  {
+  "name": "Laura-section",
+  "class": "Laura-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "sign_image",
+      "label": "Sign Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Laura-section"
+    }
+  ]
+}  
+{% endschema %}

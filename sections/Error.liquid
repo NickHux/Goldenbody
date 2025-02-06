@@ -1,0 +1,29 @@
+<section class="error-section">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+          <h1>Page not found</h1>
+          <a href="{{ shop.url }}" class="btn-red">
+            <span>Go To Home</span> 
+            <i class="fa fa-arrow-left"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+    {
+    "name": "error-section",
+    "class": "error-section",
+    "settings": [
+    ],
+    "presets": [
+    {
+    "category": "error-section",
+    "name": "error-section"
+    }
+    ]
+    }
+    {% endschema %}
