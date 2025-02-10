@@ -11071,3 +11071,11 @@ section.third-section .big,
 background-position: top !important;
 } */
 }
+
+/* =======================================  */
+input.subscription-succeed::placeholder {
+    color: green !important;
+}
+input.invalid-email::placeholder {
+    color: red !important;
+}
