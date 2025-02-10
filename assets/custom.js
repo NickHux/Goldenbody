@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const setDynamicPadding = () => {
     const minHeightElement = document.querySelector('.js-min-height-banner-image');
-    const sliderNavElement = document.querySelector('.banner-slider .slider.slider-nav .slick-list');
+    const sliderNavElement = document.querySelector('.banner-slider .thumbnail_swiper');
     if (minHeightElement && sliderNavElement) {
       const height = minHeightElement.offsetHeight;
       const paddingTop = (height - 250) / 2;
@@ -81,3 +81,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+// Newsletter updates
+// {
+//   let newsletterForm = document.querySelector('.js-newsletter-form');
+//   let emailField = document.querySelector('.js-newsletter-email-field');
+//   let invalidEmailText = document.querySelector('.js-invalid-email');
+//   if(newsletterForm){
+//     newsletterForm.addEventListener('submit', function(event){
+//       let emailValue = emailField.value.trim();
+//       let emailPattern = /^[^\s@]+@[^\s@]+$/;
+  
+//       if (!emailPattern.test(emailValue)) {
+//         event.preventDefault();
+//         invalidEmailText.classList.remove("hidden");
+//       } else {
+//         if(!invalidEmailText.classList.contains("hidden")) invalidEmailText.classList.add("hidden");
+//       }
+//     });
+//   }
+// }

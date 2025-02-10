@@ -5,11 +5,13 @@
                         <div class="one">
                             <h2>{{ section.settings.newsletter-title }}</h2>
                             <p>{{ section.settings.newsletter-content }}</p>
-                            <form method="post" action="/contact#contact_form" id="ContactFooter" accept-charset="UTF-8" class="contact-form">
+                            <form method="post" action="/contact#contact_form" id="ContactFooter" accept-charset="UTF-8" class="contact-form js-newsletter-form">
                                 <input type="hidden" name="form_type" value="customer" />
                                 <input type="hidden" name="utf8" value="✓" />
-                                <input title="Bitte fülle dieses Feld aus." oninvalid="this.setCustomValidity('Bitte fülle dieses Feld aus')" type="email" name="contact[email]" placeholder="{{ section.settings.newsletter-email-text }}" required />
-                                <button type="submit" class="submit-btn">{{ section.settings.newsletter-button-text }}</button>
+                                <input title="Bitte fülle dieses Feld aus." oninvalid="this.setCustomValidity('Bitte fülle dieses Feld aus')" oninput="this.setCustomValidity('')" type="email" name="contact[email]" placeholder="{{ section.settings.newsletter-email-text }}" required />
+                                {% comment %}<input title="Bitte fülle dieses Feld aus." class="js-newsletter-email-field" type="email" name="contact[email]" placeholder="{{ section.settings.newsletter-email-text }}" no-default-script />
+                                <span class="js-invalid-email hidden">Bitte gib eine gültige Email an</span>{% endcomment %}
+                                <button type="submit" class="submit-btn js-newsletter-submit-btn">{{ section.settings.newsletter-button-text }}</button>
                             </form>
                         </div>
                     </div>

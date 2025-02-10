@@ -331,7 +331,8 @@ section.mlya-section {
 }
 
 .mlya-text p {
-    max-width: 430px;
+    /* max-width: 430px; */
+    max-width:33%;
     margin-top: 50px;
 }
 
@@ -3372,6 +3373,9 @@ section.product-section-2 .products a.product-link img {
     border-radius: 20px;
     width: auto;
     max-width: 100%;
+  height:100%;
+  object-fit:cover;
+  aspect-ratio:2/3;
 }
 
 section.product-section-2 .products a {
@@ -3422,6 +3426,8 @@ section.product-section-2 .products a .img-box {
     justify-content: center;
     align-items: center;
     position: relative;
+  aspect-ratio:2/3;
+  max-width:400px;
 }
 
 section.product-section-2 .products a .img-box:after {
@@ -7037,7 +7043,7 @@ section.image-and-right-text .box.ios-device {
     }
 
     section.product-section-2 .products a .img-box img {
-        max-height: 400px;
+        /* max-height: 400px; */
     }
 
     section.product-section-2 .products h6 {
@@ -7720,7 +7726,7 @@ section.image-and-right-text .box.ios-device {
     }
 
     section.product-section-2 .products a .img-box img {
-        max-height: 300px;
+        /* max-height: 300px; */
     }
 
     section.product-section-2 .products h6 {
@@ -8151,7 +8157,7 @@ section.image-and-right-text .box.ios-device {
 
 
     section.product-section-2 .products a .img-box img {
-        max-height: 236px;
+        /* max-height: 236px; */
         width: 120%;
         object-fit: cover;
     }
@@ -10321,7 +10327,28 @@ section.image-and-right-text .box.ios-device {
 .section_icon_list .container {
     padding: 0 0px !important;
 }
-
+@media (max-width: 749px) {
+  ul.mlya-contain li.mlya-item {
+    min-width: calc((100% - 10px) / 1.187);
+    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+  li.mlya-item .mlya-item-img img {
+    width: 100%;
+    aspect-ratio: 0.75;
+    object-fit: cover;
+    object-position: top;
+}
+  ul.mlya-contain li.mlya-item:nth-child(2),
+    ul.mlya-contain li.mlya-item:nth-child(3) {
+        margin-top: 0px;
+    }
+  .mlya-btn {
+        margin-top: 30px;
+        justify-content: center;
+    }
+}
 @media (max-width: 600px) {
     section.single-img-sec {
         margin: 20px 0 90px !important;
@@ -10387,16 +10414,6 @@ section.image-and-right-text .box.ios-device {
         margin-right: 10px;
         width: 100%;
         margin-bottom: 30px;
-    }
-
-    ul.mlya-contain li.mlya-item:nth-child(2),
-    ul.mlya-contain li.mlya-item:nth-child(3) {
-        margin-top: 0px;
-    }
-
-    .mlya-btn {
-        margin-top: 30px;
-        justify-content: center;
     }
 
     section.mlya-section {
