@@ -5,7 +5,7 @@
 >
   {% if section.settings.mobile-background-image  %}
   <style>
-    @media (max-width: 749px) {
+    @media (max-width: 767px) {
       .banner-section {
         background: url('{{ section.settings.mobile-background-image | img_url: 'master'  }}') !important;
       }

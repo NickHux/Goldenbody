@@ -211,7 +211,7 @@ quick-order-list-remove-button {
   letter-spacing: 0.06rem;
 }
 
-@media screen and (min-width: 750px) and (max-width: 989px) {
+@media screen and (min-width: 768px) and (max-width: 989px) {
   quick-order-list-remove-button {
     width: 1.5rem;
     height: 1.5rem;

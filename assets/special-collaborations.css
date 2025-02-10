@@ -1077,7 +1077,7 @@
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 767px) {
   .section_heading_box .heading + .sunheading {
     padding-right: 20px;
   }
