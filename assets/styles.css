@@ -7950,7 +7950,7 @@ section.image-and-right-text .box.ios-device {
 @media (min-width: 990px){
  
 }
-@media (max-width: 749px) {
+@media (max-width: 767px) {
   .gt_switcher_wrapper{
             right: 94px !important;
     top: 73px !important;
@@ -10213,7 +10213,7 @@ section.image-and-right-text .box.ios-device {
 
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
 
     .four-boxes {
         gap: 30px;
