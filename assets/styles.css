@@ -554,7 +554,7 @@ select.gt_selector.notranslate {
     color: #000 !important;
     background-color: #fff;
     outline: none !important;
-    padding: 10px;
+    padding: 2px 10px;
 }
 
 a.cart-item__name.h4.break {
@@ -7961,7 +7961,7 @@ section.image-and-right-text .box.ios-device {
 
 @media (max-width: 767px) {
     .gt_switcher_wrapper {
-        right: 110px !important;
+        right: 100px !important;
         top: 73px !important;
     }
 
@@ -10249,7 +10249,7 @@ section.image-and-right-text .box.ios-device {
 /* For mobile, hide the desktop/laptop button */
 @media (max-width: 767px) {
     .gt_switcher_wrapper {
-        top: 62px !important;
+        top: 69px !important;
         bottom: auto !important;
     }
 
@@ -11022,8 +11022,7 @@ overflow: visible;
     }
 
     select.gt_selector.notranslate {
-        font-size: 12px;
-        padding: 10px;
+        
     }
 }
 
