@@ -550,13 +550,18 @@ select.gt_selector.notranslate {
     width: 100%;
     border: 1px solid #202030;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     color: #000 !important;
     background-color: #fff;
     outline: none !important;
     padding: 2px 10px;
 }
 
+@media screen and (max-width:1660px) {
+    select.gt_selector.notranslate {
+        font-size: 16px;
+    }
+}
 a.cart-item__name.h4.break {
     font-family: "IBM Plex Sans", sans-serif !important;
 }
