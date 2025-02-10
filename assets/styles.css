@@ -536,7 +536,7 @@ h2.predictive-search__heading {
 }
 
 .header__icons .shopify-app-block {
-    max-width: 10rem;
+    max-width: 11rem;
     max-height: 5.4rem;
     order: 3;
 }
@@ -550,7 +550,7 @@ select.gt_selector.notranslate {
     width: 100%;
     border: 1px solid #202030;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 16px;
     color: #000 !important;
     background-color: #fff;
     outline: none !important;
@@ -7276,7 +7276,7 @@ section.image-and-right-text .box.ios-device {
     }
 
     .header__icons .shopify-app-block {
-        max-width: 10rem;
+        max-width: 11rem;
         width: 160px;
     }
 
