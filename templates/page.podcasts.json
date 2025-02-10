@@ -20,7 +20,7 @@
     "banner_section_gfQkep": {
       "type": "Banner-Section",
       "settings": {
-        "main-title": "Podcasts",
+        "main-title": "<p>Podcasts</p>",
         "background-image": "shopify://shop_images/sdfsdf.webp"
       }
     },

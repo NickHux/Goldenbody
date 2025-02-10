@@ -505,14 +505,14 @@ img {
     pointer-events: none;
 }
 
-body,
+/* body,
 html {
     overflow-x: hidden !important;
 }
 
 html {
     scroll-behavior: smooth;
-}
+} */
 
 body,
 .h0,
@@ -552,10 +552,9 @@ select.gt_selector.notranslate {
     border-radius: 5px;
     font-size: 15px;
     color: #000 !important;
-    height: 28px !important;
     background-color: #fff;
     outline: none !important;
-    padding: 1px 7px 3px;
+    padding: 10px;
 }
 
 a.cart-item__name.h4.break {
@@ -2606,7 +2605,7 @@ ul.mega-menu__list.page-width.mega-menu__list--condensed li:nth-child(5) a:befor
     width: unset !important;
 }
 
-.header-wrapper.color-scheme-1.gradient {
+/* .header-wrapper.color-scheme-1.gradient {
     background: transparent !important;
     position: relative;
     top: 0px;
@@ -2617,7 +2616,7 @@ ul.mega-menu__list.page-width.mega-menu__list--condensed li:nth-child(5) a:befor
 
 .header-wrapper.color-scheme-1.gradient.backgo {
     position: fixed;
-}
+} */
 
 .hide-slider {
     display: none !important;
@@ -2733,13 +2732,13 @@ section.podcasts-section ul {
     list-style: none;
 }
 
-.header-wrapper.color-scheme-1.gradient {
+/* .header-wrapper.color-scheme-1.gradient {
     transition: 0.2s;
 }
 
 .header-wrapper.color-scheme-1.gradient.backgo {
     background: white !important;
-}
+} */
 
 .podcast .top {
     min-height: 300px;
@@ -7962,7 +7961,7 @@ section.image-and-right-text .box.ios-device {
 
 @media (max-width: 767px) {
     .gt_switcher_wrapper {
-        right: 94px !important;
+        right: 110px !important;
         top: 73px !important;
     }
 
@@ -10250,7 +10249,7 @@ section.image-and-right-text .box.ios-device {
 /* For mobile, hide the desktop/laptop button */
 @media (max-width: 767px) {
     .gt_switcher_wrapper {
-        top: 69px !important;
+        top: 62px !important;
         bottom: auto !important;
     }
 
@@ -10940,6 +10939,10 @@ section.third-section .big,
     display: none;
 }
 
+/* .custom-hero-section .hero-section .swiper {
+overflow: visible;
+} */
+
 .custom-hero-section .swiper-button-prev {
     left: auto;
     right: 200px;
@@ -11020,7 +11023,7 @@ section.third-section .big,
 
     select.gt_selector.notranslate {
         font-size: 12px;
-        padding: 4px 7px 5px;
+        padding: 10px;
     }
 }
 

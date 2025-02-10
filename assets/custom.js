@@ -1,3 +1,17 @@
+/**
+ * Header sticky
+ */
+{
+  var header = document.querySelector(".section-header");
+  var sticky = header.offsetTop;
+  // document.addEventListener('scroll',() => {
+  //   if (window.scrollY > sticky) {
+  //     header.querySelector('.header-wrapper').classList.add("backgo");
+  //   } else {
+  //     header.querySelector('.header-wrapper').classList.remove("backgo");
+  //   }
+  // });
+}
 // class SpecialCollaboration extends HTMLElement {
 //   constructor() {
 //     super(); 

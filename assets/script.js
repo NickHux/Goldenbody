@@ -1099,7 +1099,7 @@ $('span.price-item').each(function() {
 
   $(document).ready(adjustPadding);
   $(window).on("resize", adjustPadding);
-
+/*
   $(window).scroll(function () {
     if ($(this).scrollTop() > 10) {
       $(".header-wrapper").addClass("backgo");
@@ -1120,7 +1120,7 @@ $('span.price-item').each(function() {
     $(".header-wrapper").removeClass("backgo");
     $(".usp-slider").removeClass("hide-slider"); 
     // $(".gt_switcher_wrapper").removeClass("stick");
-  }
+  }*/
 
   $(".outer-popup").hide();
 
@@ -1456,43 +1456,44 @@ jQuery(window).on("resize scroll", function () {
   
 
   const container = document.querySelector(".product-box-text-slider");
-
-  let startY;
-  let startX;
-  let scrollLeft;
-  let scrollTop;
-  let isDown;
-
-  container.addEventListener("mousedown", (e) => mouseIsDown(e));
-  container.addEventListener("mouseup", (e) => mouseUp(e));
-  container.addEventListener("mouseleave", (e) => mouseLeave(e));
-  container.addEventListener("mousemove", (e) => mouseMove(e));
-
-  function mouseIsDown(e) {
-    isDown = true;
-    startY = e.pageY - container.offsetTop;
-    startX = e.pageX - container.offsetLeft;
-    scrollLeft = container.scrollLeft;
-    scrollTop = container.scrollTop;
-  }
-  function mouseUp(e) {
-    isDown = false;
-  }
-  function mouseLeave(e) {
-    isDown = false;
-  }
-  function mouseMove(e) {
-    if (isDown) {
-      e.preventDefault();
-      //Move vertcally
-      const y = e.pageY - container.offsetTop;
-      const walkY = y - startY;
-      container.scrollTop = scrollTop - walkY;
-
-      //Move Horizontally
-      const x = e.pageX - container.offsetLeft;
-      const walkX = x - startX;
-      container.scrollLeft = scrollLeft - walkX;
+  if (container) {
+    let startY;
+    let startX;
+    let scrollLeft;
+    let scrollTop;
+    let isDown;
+  
+    container.addEventListener("mousedown", (e) => mouseIsDown(e));
+    container.addEventListener("mouseup", (e) => mouseUp(e));
+    container.addEventListener("mouseleave", (e) => mouseLeave(e));
+    container.addEventListener("mousemove", (e) => mouseMove(e));
+  
+    function mouseIsDown(e) {
+      isDown = true;
+      startY = e.pageY - container.offsetTop;
+      startX = e.pageX - container.offsetLeft;
+      scrollLeft = container.scrollLeft;
+      scrollTop = container.scrollTop;
+    }
+    function mouseUp(e) {
+      isDown = false;
+    }
+    function mouseLeave(e) {
+      isDown = false;
+    }
+    function mouseMove(e) {
+      if (isDown) {
+        e.preventDefault();
+        //Move vertcally
+        const y = e.pageY - container.offsetTop;
+        const walkY = y - startY;
+        container.scrollTop = scrollTop - walkY;
+  
+        //Move Horizontally
+        const x = e.pageX - container.offsetLeft;
+        const walkX = x - startX;
+        container.scrollLeft = scrollLeft - walkX;
+      }
     }
   }
 });
@@ -1639,6 +1640,6 @@ Userback.access_token =
 
 
 
-el.style.overflow = 'auto';
-window.requestAnimationFrame(() => el.scrollTo({ left: 100, behavior: 'smooth' }));
-setTimeout(() => (el.style.overflow = 'hidden'), 1000);
+// el.style.overflow = 'auto';
+// window.requestAnimationFrame(() => el.scrollTo({ left: 100, behavior: 'smooth' }));
+// setTimeout(() => (el.style.overflow = 'hidden'), 1000);
