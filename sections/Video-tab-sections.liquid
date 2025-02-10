@@ -1,4 +1,4 @@
-<section class="video-tab-section {{ section.settings.section-class }}">
+<section-video-tabs class="video-tab-section {{ section.settings.section-class }}">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
@@ -7,7 +7,7 @@
                 <ul>
                   {% if section.blocks != blank %}
                   {% for block in section.blocks %}
-                  <li><a href="javascript:void(0)">{{ block.settings.tabbing-Buttons-text }}</a></li>
+                  <li><button type="button" class="js-button tab-button {% if forloop.first %}active{% endif %}" data-target="{{ block.id }}">{{ block.settings.tabbing-Buttons-text }}</button></li>
                   {% endfor %}
                   {% endif %}
                 </ul>
@@ -16,7 +16,7 @@
             <div class="col-12">
               {% if section.blocks != blank %}
               {% for block in section.blocks %}
-                <ul class="video-main-content">
+                <ul id="{{ block.id }}" class="video-main-content {% unless forloop.first %}hidden{% endunless %}">
                     <li class="video-text-wrapper">
                         <div class="workout-img">
                           {% comment %}
@@ -40,7 +40,7 @@
                           <img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Group_1577705184.png" class="play-btns-2">
                         {% endcomment %}
                         <div class="main-tab-video">
-                            <video width="100%" height="100%" playsinline autoplay loop muted>
+                            <video width="100%" height="100%" playsinline loop muted {% if forloop.first %}autoplay{% endif %}>
                               <source src="{{ block.settings.video_url }}" type="video/mp4">
                             </video>
                         </div>
@@ -64,7 +64,7 @@
             </div>
         </div>
     </div>
-</section>
+</section-video-tabs>
 
 {% schema %}
 {

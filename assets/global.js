@@ -1270,6 +1270,33 @@ if (!customElements.get('bulk-add')) {
 
 const imageSlider = document.querySelector('.product__media');
 
+class sectionVideoTabs extends HTMLElement{
+  connectedCallback(){
+    this.buttons = this.querySelectorAll('.js-button');
+    this.buttons.forEach(element => {
+      this.handleButtonClick(element)
+    });
+  }
+  handleButtonClick(button){
+    button.addEventListener('click',() => {
+      this.querySelector('.js-button.active').classList.remove('active');
+      button.classList.add('active');
+      this.querySelector('.video-main-content:not(.hidden)').classList.add('hidden');
+      let activeContent = this.querySelector(`#${button.dataset.target}`);
+      activeContent.classList.remove('hidden');
+      this.pushVideo();
+      this.playVideo();
+    });
+  }
+  pushVideo(){
+    this.querySelectorAll('video').forEach(video => video.pause());
+  }
+  playVideo(){
+    this.querySelector('.video-main-content:not(.hidden)').querySelectorAll('video').forEach(video => video.play());
+  }
+}
+customElements.define('section-video-tabs',sectionVideoTabs);
+
 // imageSlider.addEventListener('touchmove', (event) => {
 //     event.preventDefault(); // Prevent vertical scrolling
 // }, { passive: false });

@@ -74,7 +74,7 @@ ul.video-main-content {
     margin-top: 60px;
 }
 
-.video-tabbings ul li a {
+.video-tabbings ul li .tab-button {
     border: 1px solid #202030;
     padding: 15px 25px;
     font-family: 'HopeSansSemibold';
@@ -202,7 +202,7 @@ li.video-text-wrapper .video-tab-title h2 {
     max-width: 390px;
 }
 
-.video-tabbings li a.active {
+.video-tabbings li .tab-button.active {
     color: #fff;
     background-color: #202030;
 }
@@ -5748,7 +5748,7 @@ button.cart__checkout-button.button:hover {
         padding-right: 80px;
     }
 
-    .video-tabbings ul li a {
+    .video-tabbings ul li .tab-button {
         font-size: 20px;
     }
 
@@ -6395,7 +6395,7 @@ section.image-and-right-text .box.ios-device {
         left: -30px;
     }
 
-    .video-tabbings ul li a {
+    .video-tabbings ul li .tab-button {
         padding: 15px 12px;
         font-size: 14px;
     }
@@ -7180,7 +7180,7 @@ section.image-and-right-text .box.ios-device {
         flex-wrap: wrap;
     }
 
-    .video-tabbings ul li a {
+    .video-tabbings ul li .tab-button {
         padding: 15px 18px;
         margin-bottom: 22px;
     }
@@ -10387,7 +10387,7 @@ section.image-and-right-text .box.ios-device {
         width: auto;
     }
 
-    .video-tabbings ul li a {
+    .video-tabbings ul li .tab-button {
         padding: 10px 15px;
         letter-spacing: -0.28px;
         border-radius: 19px;
