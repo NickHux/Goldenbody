@@ -227,13 +227,7 @@
     },
     "recommended_products_tiaM4K": {
       "type": "Recommended-Products",
-      "settings": {
-        "main-title": "Empfohlene Produkte",
-        "section-class": "",
-        "product_1": "goldenbody-coffee-tea-cup",
-        "product_2": "cold-wickel-bauchfettreduktion",
-        "product_3": "reset-tee"
-      }
+      "settings": {}
     }
   },
   "order": [

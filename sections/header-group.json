@@ -77,7 +77,7 @@
         "menu_images_size": 60,
         "menu_images_border_toggle": false,
         "menu_images_border_color": "#eaeaea",
-        "sticky_header_type": "none",
+        "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
