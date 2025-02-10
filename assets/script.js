@@ -1084,13 +1084,21 @@ $('span.price-item').each(function() {
   //   },
   // });
 
-  if ($(window).width() > 1023) {
-    var body = $("body").outerWidth();
-    var contain = $(".hero-section .container").innerWidth();
-    var less = body - contain;
-    var total = less / 2;
-    $(".second-section").css("padding-left", total);
+  function adjustPadding() {
+    if ($(window).width() > 1023) {
+      var body = $("body").outerWidth();
+      var contain = $(".hero-section .container").innerWidth();
+      var less = body - contain;
+      var total = less / 2;
+      $(".second-section").css("padding-left", total);
+    }
+    else {
+      $(".second-section").css("padding-left", ""); // Reset for smaller screens
+    }
   }
+
+  $(document).ready(adjustPadding);
+  $(window).on("resize", adjustPadding);
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 10) {
@@ -1265,7 +1273,7 @@ $('span.price-item').each(function() {
       maxHeight = currentHeight;
     }
   });
-  $("section.product-section-2 .products a .img-box").height(maxHeight);
+  // $("section.product-section-2 .products a .img-box").height(maxHeight);
 
   // setTimeout(function () {
   //   $("section.product-section-2.all-products .products .col-md-4")
@@ -1388,11 +1396,13 @@ $('span.price-item').each(function() {
 
 
   jQuery.fn.isInViewport = function () {
-    var elementTop = jQuery(this).offset().top;
-    var elementBottom = elementTop + jQuery(this).outerHeight();
-    var viewportTop = jQuery(window).scrollTop();
-    var viewportBottom = viewportTop + jQuery(window).height();
-    return elementBottom > viewportTop && elementTop < viewportBottom;
+    if(jQuery(this).offset()) {
+      var elementTop = jQuery(this).offset().top;
+      var elementBottom = elementTop + jQuery(this).outerHeight();
+      var viewportTop = jQuery(window).scrollTop();
+      var viewportBottom = viewportTop + jQuery(window).height();
+      return elementBottom > viewportTop && elementTop < viewportBottom;
+    }
 };
 
 jQuery(window).on("resize scroll", function () {
@@ -1567,7 +1577,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.addEventListener('submit', function(e) {
-    var emailInput = document.querySelector('input[type="email"]');
+    var emailInput = document.querySelector('input[type="email"]:not([no-default-script])');
+    console.log("emailInput", emailInput)
     if (emailInput && !emailInput.value) {
         var currentLang = document.documentElement.lang; // get current language
         if (currentLang === 'es') { // if Spanish, for example
