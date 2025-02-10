@@ -5,13 +5,12 @@
                         <div class="one">
                             <h2>{{ section.settings.newsletter-title }}</h2>
                             <p>{{ section.settings.newsletter-content }}</p>
-                            <form method="post" action="/contact#contact_form" id="ContactFooter" accept-charset="UTF-8" class="contact-form js-newsletter-form">
+                            <form method="post" action="/contact#contact_form" id="ContactFooter" accept-charset="UTF-8" class="contact-form js-newsletter-form" novalidate>
                                 <input type="hidden" name="form_type" value="customer" />
                                 <input type="hidden" name="utf8" value="✓" />
-                                <input title="Bitte fülle dieses Feld aus." oninvalid="this.setCustomValidity('Bitte fülle dieses Feld aus')" oninput="this.setCustomValidity('')" type="email" name="contact[email]" placeholder="{{ section.settings.newsletter-email-text }}" required />
-                                {% comment %}<input title="Bitte fülle dieses Feld aus." class="js-newsletter-email-field" type="email" name="contact[email]" placeholder="{{ section.settings.newsletter-email-text }}" no-default-script />
-                                <span class="js-invalid-email hidden">Bitte gib eine gültige Email an</span>{% endcomment %}
-                                <button type="submit" class="submit-btn js-newsletter-submit-btn">{{ section.settings.newsletter-button-text }}</button>
+                                <input title="Bitte fülle dieses Feld aus." class="js-newsletter-email-field" type="email" name="contact[email]" placeholder="{{ section.settings.newsletter-email-text }}" no-default-script />
+                                <span class="js-invalid-email hidden">Bitte gib eine gültige Email an</span>
+                                <button type="button" class="submit-btn js-newsletter-submit-btn">{{ section.settings.newsletter-button-text }}</button>
                             </form>
                         </div>
                     </div>
@@ -99,10 +98,10 @@
             </div>
         </section>
 
-        <div id="successPopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.2); z-index: 1000;">
+        {% comment %} <div id="successPopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.2); z-index: 1000;">
           <h4 id="popupMessage">Danke für deine Anmeldung</h4>
           <a href="javascript:void(0)" id="closePopup" class="btn-red"><span>Schliessen</span><i class='fa fa-arrow-left'></i></a>
-      </div>
+      </div> {% endcomment %}
 
 
 
