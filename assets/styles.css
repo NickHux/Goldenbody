@@ -657,7 +657,7 @@ variant-radios fieldset.js.product-form__input input[type=radio]:checked+label {
     color: white !important;
 }
 
-.footer form input[type="email"]::placeholder,
+/* .footer form input[type="email"]::placeholder, */
 .footer ul.quick-links li a {
     text-transform: capitalize !important;
 }

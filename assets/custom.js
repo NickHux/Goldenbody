@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let urlParams = new URLSearchParams(window.location.search);
   
   if (urlParams.get("customer_posted") === "true") {
-    emailInput.placeholder = "Danke fürs Anmelden";
+    emailInput.placeholder = "Danke fürs anmelden";
     if(!emailInput.classList.contains('subscription-succeed')) emailInput.classList.add('subscription-succeed');
   }
   else if(urlParams.get("form_type") === "customer" && window.location.hash === "#contact_form") {
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (!emailPattern.test(emailInput.value)) {
         emailInput.value = "";
-        emailInput.placeholder = "Bitte gib eine gültige Email an";
+        emailInput.placeholder = "Bitte gib eine gültige email an";
         if(!emailInput.classList.contains('invalid-email')) emailInput.classList.add('invalid-email');
         if(emailInput.classList.contains('subscription-succeed')) emailInput.classList.remove('subscription-succeed');
       } 
