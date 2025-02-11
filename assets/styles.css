@@ -548,7 +548,7 @@ h2.predictive-search__heading {
 
 select.gt_selector.notranslate {
     width: 100%;
-    border: 1px solid #202030;
+    border: 0px solid #202030;
     border-radius: 5px;
     font-size: 18px;
     color: #000 !important;
@@ -562,6 +562,7 @@ select.gt_selector.notranslate {
         font-size: 16px;
     }
 }
+
 a.cart-item__name.h4.break {
     font-family: "IBM Plex Sans", sans-serif !important;
 }
@@ -7951,7 +7952,7 @@ section.image-and-right-text .box.ios-device {
     }
 
     .gt_switcher_wrapper {
-        top: 78px !important;
+        top: calc(var(--header-height) / 2 - 13px) !important;
         right: 99px !important;
         left: unset;
         margin: unset;
@@ -7967,7 +7968,6 @@ section.image-and-right-text .box.ios-device {
 @media (max-width: 767px) {
     .gt_switcher_wrapper {
         right: 100px !important;
-        top: 73px !important;
     }
 
     section.laura-sec.mob-laura .container {
@@ -10251,10 +10251,9 @@ section.image-and-right-text .box.ios-device {
 
 }
 
-/* For mobile, hide the desktop/laptop button */
 @media (max-width: 767px) {
     .gt_switcher_wrapper {
-        top: 69px !important;
+        top: 73px !important;
         bottom: auto !important;
     }
 
@@ -11026,9 +11025,7 @@ overflow: visible;
         height: 5rem;
     }
 
-    select.gt_selector.notranslate {
-        
-    }
+    select.gt_selector.notranslate {}
 }
 
 @media only screen and (max-width: 767px) {
@@ -11083,6 +11080,7 @@ background-position: top !important;
 input.subscription-succeed::placeholder {
     color: green !important;
 }
+
 input.invalid-email::placeholder {
     color: red !important;
 }

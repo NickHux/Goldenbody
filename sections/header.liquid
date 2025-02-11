@@ -353,6 +353,10 @@
     setHeaderHeight() {
       document.documentElement.style.setProperty('--header-height', `${this.header.offsetHeight}px`);
     }
+    
+    window.addEventListener('resize', function(event){
+      setHeaderHeight();
+    });
 
     disconnectedCallback() {
       this.removeEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
