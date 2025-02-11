@@ -545,16 +545,19 @@ h2.predictive-search__heading {
     font-size: 18px;
     font-family: 'IBM Plex Sans';
 }
-
+select.gt_selector.notranslate:focus{
+    outline: none !important;
+}
 select.gt_selector.notranslate {
     width: 100%;
-    border: 0px solid #202030;
+    border:none;
     border-radius: 5px;
     font-size: 18px;
     color: #000 !important;
     background-color: #fff;
     outline: none !important;
     padding: 2px 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1660px) {
