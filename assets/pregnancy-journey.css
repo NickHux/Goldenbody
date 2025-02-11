@@ -127,6 +127,7 @@
   width: 126%;
   left: auto;
   right: -57px;
+  z-index: -1;
 }
 
 .desktop_bg_main img {
