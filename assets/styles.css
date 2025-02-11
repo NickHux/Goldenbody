@@ -545,18 +545,28 @@ h2.predictive-search__heading {
     font-size: 18px;
     font-family: 'IBM Plex Sans';
 }
-select.gt_selector.notranslate:focus{
-    outline: none !important;
+
+select::-ms-value {
+    background: none;
+    /* Removes blue background in IE */
 }
+
+select:focus-visible,
+select.gt_selector.notranslate:focus {
+    outline: none !important;
+    box-shadow:none !important;
+    outline-offset:0px !important;
+}
+
 select.gt_selector.notranslate {
     width: 100%;
-    border:none;
+    border: none !important;
     border-radius: 5px;
     font-size: 18px;
     color: #000 !important;
-    background-color: #fff;
+    background-color: transparent;
     outline: none !important;
-    padding: 2px 10px;
+    padding: 0px;
     cursor: pointer;
 }
 
