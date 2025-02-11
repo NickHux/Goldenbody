@@ -557,7 +557,9 @@ select.gt_selector.notranslate:focus {
     box-shadow:none !important;
     outline-offset:0px !important;
 }
-
+select.gt_selector.notranslate:hover {
+  color: rgb(var(--color-foreground)) !important;
+}
 select.gt_selector.notranslate {
     width: 100%;
     border: none !important;
