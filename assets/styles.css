@@ -7975,7 +7975,7 @@ section.image-and-right-text .box.ios-device {
     }
 
     .gt_switcher_wrapper {
-        top: calc(var(--header-height) / 2 - 13px) !important;
+        top: 80px !important;
         right: 99px !important;
         left: unset;
         margin: unset;
