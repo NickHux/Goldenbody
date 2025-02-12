@@ -1,69 +1,83 @@
 <section class="video-tab-section {{ section.settings.section-class }}">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-              <h2>{{ section.settings.heading }}</h2>
-              <div class="video-tabbings">
-                <ul>
-                  {% if section.blocks != blank %}
-                  {% for block in section.blocks %}
-                  <li><a href="javascript:void(0)">{{ block.settings.tabbing-Buttons-text }}</a></li>
-                  {% endfor %}
-                  {% endif %}
-                </ul>
-              </div>
-            </div>
-            <div class="col-12">
-              {% if section.blocks != blank %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="video-tabbings">
+          <ul>
+            {% if section.blocks != blank %}
               {% for block in section.blocks %}
-                <ul class="video-main-content">
-                    <li class="video-text-wrapper">
-                        <div class="workout-img">
-                          {% comment %}
-                            <img src="{{ block.settings.workout-image | img_url: 'master'}}">
-                          {% endcomment %}
-                          
-                          {{- block.settings.workout-image | image_url: width: block.settings.workout-image.width 
-                          | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 
-                          widths: '200,300,400', class:'image', alt: block.settings.workout-image.alt -}}
-                        </div>
-                        <div class="video-tab-title">
-                            <h2>{{ block.settings.tab-heading }}</h2>
-                        </div>
-                        <div class="video-tab-content">
-                           {{ block.settings.tab-content }} 
-                        </div>
-                    </li>
-                    <li class="video-wrapper">
-                        {% comment %}
-                          <img src="{{ block.settings.video-img | img_url: 'master'}}" class="video-img">
-                          <img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Group_1577705184.png" class="play-btns-2">
-                        {% endcomment %}
-                        <div class="main-tab-video">
-                            <video width="100%" height="100%" playsinline autoplay loop muted>
-                              <source src="{{ block.settings.video_url }}" type="video/mp4">
-                            </video>
-                        </div>
-                    </li>
-                    <li class="tab-image-wrapper">
-                        <div class="thumbnail-img">
-                          {% comment %}
-                            <img src="{{ block.settings.thumbnail-image | img_url: 'master'}}">
-                          {% endcomment %}
-                          {{- block.settings.thumbnail-image | image_url: width: block.settings.thumbnail-image.width 
-                          | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 
-                          widths: '200,300,400', class:'image', alt: block.settings.thumbnail-image.alt -}}
-                        </div>
-                        <div class="tabbing-list">
-                            {{ block.settings.tab-list }}
-                        </div>
-                    </li>
-                </ul>
+                <li>
+                  <a href="javascript:void(0)">{{ block.settings['tabbing-Buttons-text'] }}</a>
+                </li>
               {% endfor %}
-              {% endif %}
-            </div>
+            {% endif %}
+          </ul>
         </div>
+      </div>
+      <div class="col-12">
+        {% if section.blocks != blank %}
+          {% for block in section.blocks %}
+            <ul class="video-main-content">
+              <li class="video-text-wrapper">
+                <div class="workout-img">
+                  {% comment %}
+                    <img src="{{ block.settings.workout-image | img_url: 'master'}}">
+                  {% endcomment %}
+
+                  {{-
+                    block.settings['workout-image']
+                    | image_url: width: block.settings['workout-image'].width
+                    | image_tag:
+                      sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px',
+                      widths: '200,300,400',
+                      class: 'image',
+                      alt: block.settings['tab-heading']
+                  -}}
+                </div>
+                <div class="video-tab-title">
+                  <h2>{{ block.settings['tab-heading'] }}</h2>
+                </div>
+                <div class="video-tab-content">
+                  {{ block.settings['tab-content'] }}
+                </div>
+              </li>
+              <li class="video-wrapper">
+                {% comment %}
+                  <img src="{{ block.settings.video-img | img_url: 'master'}}" class="video-img">
+                  <img src="https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Group_1577705184.png" class="play-btns-2">
+                {% endcomment %}
+                <div class="main-tab-video">
+                  <video width="100%" height="100%" playsinline autoplay loop muted>
+                    <source src="{{ block.settings.video_url }}" type="video/mp4">
+                  </video>
+                </div>
+              </li>
+              <li class="tab-image-wrapper">
+                <div class="thumbnail-img">
+                  {% comment %}
+                    <img src="{{ block.settings.thumbnail-image | img_url: 'master'}}">
+                  {% endcomment %}
+                  {{-
+                    block.settings['thumbnail-image']
+                    | image_url: width: block.settings['thumbnail-image'].width
+                    | image_tag:
+                      sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px',
+                      widths: '200,300,400',
+                      class: 'image',
+                      alt: block.settings['tab-heading']
+                  -}}
+                </div>
+                <div class="tabbing-list">
+                  {{ block.settings['tab-list'] }}
+                </div>
+              </li>
+            </ul>
+          {% endfor %}
+        {% endif %}
+      </div>
     </div>
+  </div>
 </section>
 
 {% schema %}
@@ -74,7 +88,7 @@
     {
       "type": "text",
       "id": "section-class",
-      "label": "Section Class",
+      "label": "Section Class"
     },
     {
       "id": "heading",
@@ -129,7 +143,7 @@
         }
       ]
     }
-  ], 
+  ],
   "presets": [
     {
       "category": "Tabbing-section",

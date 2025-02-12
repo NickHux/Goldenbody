@@ -34,7 +34,7 @@
             {{
               section.settings.heading_image
               | image_url: width: section.settings.heading_image.width
-              | image_tag: class: 'custom-class', loading: 'lazy'
+              | image_tag: class: 'custom-class', loading: 'lazy', alt: section.settings.heading_image.alt
             }}
           </div>
         {% endif %}
@@ -50,7 +50,7 @@
                       {{
                         block.settings.image_main
                         | image_url: width: 700
-                        | image_tag: class: 'custom-class', loading: 'lazy'
+                        | image_tag: class: 'custom-class', loading: 'lazy', alt: block.settings.heading
                       }}
                     </div>
                   {% endif %}
@@ -172,7 +172,7 @@
                         {{
                           block.settings.image_thumb
                           | image_url: width: block.settings.image_thumb.width
-                          | image_tag: class: 'custom-class', loading: 'lazy'
+                          | image_tag: class: 'custom-class', loading: 'lazy', alt: block.settings.heading_thumb
                         }}
                       </div>
                     {% endif %}
@@ -190,7 +190,7 @@
                         {{
                           block.settings.image_main
                           | image_url: width: 700
-                          | image_tag: class: 'custom-class', loading: 'lazy'
+                          | image_tag: class: 'custom-class', loading: 'lazy', alt: block.settings.heading
                         }}
                       </div>
                       {% if block.settings.image_main_mobile != blank %}

@@ -919,7 +919,7 @@ $('span.price-item').each(function() {
       center: true,
       loop:true,
       nav:true,
-      navText: ["<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png'>","<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png'>"],
+      navText: ["<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png' alt='Previous arrow'>","<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png' alt='Next arrow'>"],
       margin:100,
       responsiveClass:true,
       responsive:{
@@ -940,7 +940,7 @@ $('span.price-item').each(function() {
       loop:true,
       margin:20,
       nav:true,
-      navText: ["<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png'>","<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png'>"],
+      navText: ["<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png' alt='Previous arrow'>","<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png' alt='Next arrow'>"],
       dots: false,
       responsive:{
           0:{
@@ -1030,7 +1030,7 @@ $('span.price-item').each(function() {
     margin: 40,
     loop: true,
     nav: true,
-    navText: ["<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png'>","<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png'>"],
+    navText: ["<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png' alt='Previous arrow'>","<img src='https://cdn.shopify.com/s/files/1/0673/5806/4951/files/arrow-slider.png' alt='Next arrow'>"],
     autoplay: false,
     autoplayTimeout: 8600,
     autoplayHoverPause: false,
