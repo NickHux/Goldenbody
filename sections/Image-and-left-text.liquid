@@ -5,7 +5,7 @@
                 <div class="box box-fixed" style="background: url('{{ section.settings.background-image | image_url: width: 1400 }}')">
                   {% if section.settings.mobile-background-image  %}
                   <style>
-                    @media (max-width: 749px) {
+                    @media (max-width: 767px) {
                       section.image-and-left-text .box {
                         background-image: url('{{ section.settings.mobile-background-image | image_url: width: 768 }}') !important;
                       }

@@ -255,7 +255,7 @@
   }
 }
 
-@media screen and (min-width: 750px) and (max-width: 989px) {
+@media screen and (min-width: 768px) and (max-width: 989px) {
   .section_pregnancy_journey .image-with-text__content {
     padding-left: 30px;
     padding-top: 0;
@@ -394,7 +394,7 @@
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 767px) {
   .section_pregnancy_journey .image-with-text__media-item {
     display: none;
   }
@@ -481,13 +481,13 @@
 }
 
 /* Only Mobile Section CSS Start */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
   .pregnancy-journey-mobile {
     display: none;
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 767px) {
   .pregnancy-journey-desktop {
     display: none;
   }
