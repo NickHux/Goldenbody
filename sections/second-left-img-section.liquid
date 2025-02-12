@@ -1,24 +1,33 @@
-<section class="Left-Image-Right-Text second-left-img {{ section.settings.section-class }}" id="{{ section.settings.section-id }}">
+<section
+  class="Left-Image-Right-Text second-left-img {{ section.settings.section-class }}"
+  id="{{ section.settings.section-id }}"
+>
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>{{ section.settings.main-title }}</h2>
-        <p>{{ section.settings.small-title }}</p>
+        <h2>{{ section.settings['main-title'] }}</h2>
+        <p>{{ section.settings['small-title'] }}</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
         <div class="img-box">
-          {{ section.settings.image_picker | image_url: width: section.settings.image_picker.width | image_tag: sizes: '(min-width:1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)' }}
+          {{
+            section.settings.image_picker
+            | image_url: width: section.settings.image_picker.width
+            | image_tag:
+              sizes: '(min-width:1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)',
+              alt: section.settings['left-title']
+          }}
           {% comment %} <img src="{{ section.settings.image_picker | img_url: 'master' }}">  {% endcomment %}
         </div>
       </div>
       <div class="col-md-6">
-        <h2>{{ section.settings.left-title }}</h2>
-         {{ section.settings.content }}
-        {% if section.settings.btn-text %}
+        <h2>{{ section.settings['left-title'] }}</h2>
+        {{ section.settings.content }}
+        {% if section.settings['btn-text'] %}
           <a href="{{ section.settings.btn-url }}" class="btn-red all-screens">
-            <span>{{ section.settings.btn-text }}</span>
+            <span>{{ section.settings['btn-text'] }}</span>
             <i class="fa fa-arrow-left"></i>
           </a>
         {% endif %}
