@@ -102,11 +102,24 @@ document.addEventListener('DOMContentLoaded', () => {
   let emailInput = document.querySelector('.js-newsletter-email-field');
   let urlParams = new URLSearchParams(window.location.search);
   
+  function scrollToNewsletter() {
+    let newsletterSection = document.querySelector('.js-footer-newsletter');
+    if (newsletterSection) {
+        newsletterSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
   if (urlParams.get("customer_posted") === "true") {
-    emailInput.placeholder = "Danke fürs anmelden";
+    setTimeout(() => {
+      scrollToNewsletter();
+    }, 1500);
+    emailInput.placeholder = "Danke fürs Anmelden";
     if(!emailInput.classList.contains('subscription-succeed')) emailInput.classList.add('subscription-succeed');
   }
-  else if(urlParams.get("form_type") === "customer" && window.location.hash === "#contact_form") {
+  else if(urlParams.get("form_type") === "customer" && window.location.hash === "#contact_form" && !urlParams.has('return_path')) {
+    setTimeout(() => {
+      scrollToNewsletter();
+    }, 1500);
     emailInput.placeholder =  "Du bist bereits angemeldet";
     if(!emailInput.classList.contains('subscription-succeed')) emailInput.classList.add('subscription-succeed');
   }
@@ -119,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (!emailPattern.test(emailInput.value)) {
         emailInput.value = "";
-        emailInput.placeholder = "Bitte gib eine gültige email an";
+        emailInput.placeholder = "Bitte gib eine gültige Email an";
         if(!emailInput.classList.contains('invalid-email')) emailInput.classList.add('invalid-email');
         if(emailInput.classList.contains('subscription-succeed')) emailInput.classList.remove('subscription-succeed');
       } 
