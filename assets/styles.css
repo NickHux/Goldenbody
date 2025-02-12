@@ -554,17 +554,23 @@ select::-ms-value {
 select:focus-visible,
 select.gt_selector.notranslate:focus {
     outline: none !important;
-    box-shadow:none !important;
-    outline-offset:0px !important;
+    box-shadow: none !important;
+    outline-offset: 0px !important;
 }
+
 select.gt_selector.notranslate:hover {
-  color: #FF4000 !important;
+    color: #FF4000 !important;
 }
+
+select.gt_selector.notranslate,
+select.gt_selector.notranslate option {
+    font-size: 18px;
+}
+
 select.gt_selector.notranslate {
     width: 100%;
     border: none !important;
     border-radius: 5px;
-    font-size: 18px;
     color: #000 !important;
     background-color: transparent;
     outline: none !important;
@@ -573,7 +579,9 @@ select.gt_selector.notranslate {
 }
 
 @media screen and (max-width:1660px) {
-    select.gt_selector.notranslate {
+
+    select.gt_selector.notranslate,
+    select.gt_selector.notranslate option {
         font-size: 16px;
     }
 }
