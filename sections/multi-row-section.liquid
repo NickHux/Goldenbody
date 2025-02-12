@@ -9,8 +9,9 @@
     {% for block in section.blocks %}
       <div class="row loop-row">
         <div class="col-md-6">
-          <div class="img-box">
-            <img src="{{ block.settings.image_picker | img_url: 'master' }}"> 
+          <div class="img-box"> 
+            {{ block.settings.image_picker | image_url: width: block.settings.image_picker.width | image_tag: widths: '200, 300, 400, 600, 800', class: ' ', alt: block.settings.image_picker.alt }}
+            {% comment %} <img src="{{ block.settings.image_picker | img_url: 'master' }}">  {% endcomment %}
           </div>
         </div>
         <div class="col-md-6">

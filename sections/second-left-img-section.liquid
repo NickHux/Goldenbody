@@ -9,7 +9,8 @@
     <div class="row">
       <div class="col-md-6">
         <div class="img-box">
-          <img src="{{ section.settings.image_picker | img_url: 'master' }}"> 
+          {{ section.settings.image_picker | image_url: width: section.settings.image_picker.width | image_tag: sizes: '(min-width:1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)' }}
+          {% comment %} <img src="{{ section.settings.image_picker | img_url: 'master' }}">  {% endcomment %}
         </div>
       </div>
       <div class="col-md-6">

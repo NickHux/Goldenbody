@@ -9,7 +9,8 @@
                     {% for block in section.blocks %}
                     <div class="four-box two-box">
                         <div class="four-box-img">
-                          <img src="{{ block.settings.image | img_url: 'master' }}">
+                          {{ block.settings.image | image_url: width: block.settings.image.width | image_tag: widths: '246, 493, 600', class: ' ', alt: block.settings.image.alt }}
+                          {% comment %} <img src="{{ block.settings.image | img_url: 'master' }}"> {% endcomment %}
                         </div>
                         <h5>{{ block.settings.title }}</h5>
                         <div class="four-box-des">

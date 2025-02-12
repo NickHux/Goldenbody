@@ -10,7 +10,10 @@
         {% for block in section.blocks %}
           <div class="col-md-4">
             <div class="item">
-              <div class="img-box"><img src="{{ block.settings.member-image | img_url: 'master' }}"></div>
+              <div class="img-box">
+                {{ block.settings.member-image | image_url: width: block.settings.member-image.width | image_tag: widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946', class: ' ', alt: block.settings.member-name }}
+                {% comment %} <img src="{{ block.settings.member-image | img_url: 'master' }}"> {% endcomment %}
+              </div>
               <div class="content-box">
                 <h6>{{ block.settings.member-name }}</h6>
                 <p>{{ block.settings.member-designation }}</p>
@@ -63,7 +66,10 @@
               >
               <div class="top">
                 <div class="box">
-                  <div class="img-box"><img src="{{ block.settings.member-image | img_url: 'master' }}"></div>
+                  <div class="img-box">
+                    {{ block.settings.member-image | image_url: width: block.settings.member-image.width | image_tag: widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946', class: ' ', alt: block.settings.member-name }}
+                    {% comment %} <img src="{{ block.settings.member-image | img_url: 'master' }}"> {% endcomment %}
+                  </div>
                   <div class="box-inner">
                     <h3>{{ block.settings.member-name }}</h3>
                     <p>{{ block.settings.member-designation }}</p>

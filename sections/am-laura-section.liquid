@@ -3,7 +3,8 @@
     <div class="row">
       <div class="col-md-6">
         <div class="laura-text">
-          <img src="{{ section.settings.sign_image | img_url: 'master' }}">
+          {{ section.settings.sign_image | image_url: width: section.settings.sign_image.width | image_tag: widths: '246, 493, 600, 713, 823, 990', class: ' ', alt: section.settings.sign_image.alt }}
+          {% comment %} <img src="{{ section.settings.sign_image | img_url: 'master' }}"> {% endcomment %}
           <h2>{{ section.settings.heading }}</h2>
           <div class="laura-content">
             {{ section.settings.content }}
@@ -18,7 +19,8 @@
       </div>
       <div class="col-md-6">
         <div class="laura-gif">
-          <img src="{{ section.settings.image | img_url: 'master' }}">
+          {{ section.settings.image | image_url: width: section.settings.image.width | image_tag: widths: '246, 493, 600, 713, 823, 990', class: ' ', alt: section.settings.image.alt }}
+          {% comment %} <img src="{{ section.settings.image | img_url: 'master' }}"> {% endcomment %}
         </div>
       </div>
     </div>
@@ -31,11 +33,13 @@
       <div class="col-md-12">
         <div class="laura-text-mbl">
           <div class="laura-abs">
-          <img src="{{ section.settings.sign_image | img_url: 'master' }}">
+          {{ section.settings.sign_image | image_url: width: section.settings.sign_image.width | image_tag: widths: '246, 493, 600, 713, 823, 990', class: ' ', alt: section.settings.sign_image.alt }}
+          {% comment %} <img src="{{ section.settings.sign_image | img_url: 'master' }}"> {% endcomment %}
           <h2>{{ section.settings.heading }}</h2>
           </div>  
           <div class="laura-gif-mbl">
-            <img src="{{ section.settings.image | img_url: 'master' }}">
+            {{ section.settings.image | image_url: width: section.settings.image.width | image_tag: widths: '246, 493, 600, 713, 823, 990', class: ' ', alt: section.settings.image.alt }}
+            {% comment %} <img src="{{ section.settings.image | img_url: 'master' }}"> {% endcomment %}
           </div>
         </div>
       </div>

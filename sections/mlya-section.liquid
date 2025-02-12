@@ -13,10 +13,7 @@
                     {% for block in section.blocks %}
                     <li class="mlya-item">
                         <div class="mlya-item-img">
-                          {% comment %}
-                            <img src="{{ block.settings.mlya-image | img_url: 'master'}}">
-                          {% endcomment %}
-                          
+                          {% comment %} <img src="{{ block.settings.mlya-image | img_url: 'master'}}"> {% endcomment %}                          
                           {{- block.settings.mlya-image 
                           | image_url: width: block.settings.mlya-image.width 
                           | image_tag: sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', 

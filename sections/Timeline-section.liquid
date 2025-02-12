@@ -11,7 +11,8 @@
                     <li class="timeline-item">
                         
                             <div class="t-img-box">
-                                <img src="{{ block.settings.timeline-image | img_url: 'master'}}">
+                              {{ block.settings.timeline-image | image_url: width: block.settings.timeline-image.width | image_tag: widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946', class: ' ', alt: block.settings.timeline-heading }}
+                                {% comment %} <img src="{{ block.settings.timeline-image | img_url: 'master'}}"> {% endcomment %}
                             </div>
                             <div class="t-number-block">
                                 <div class="number"><p>{{ block.settings.number }}</p></div>

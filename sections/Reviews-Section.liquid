@@ -15,7 +15,8 @@
                 <div class="item">
                     <div class="testimonial-box">
                         <div class="testimonial-img">
-                            <img src="{{ block.settings.reviewer-image | img_url: 'master' }}">
+                          {{ block.settings.reviewer-image | image_url: width: block.settings.reviewer-image.width | image_tag: widths: '200, 300, 400' }}
+                            {% comment %} <img src="{{ block.settings.reviewer-image | img_url: 'master' }}"> {% endcomment %}
                         </div>
                         <div class="testimonial-content">
                             <p>{{ block.settings.review }}</p>
@@ -36,7 +37,8 @@
                 <div class="item">
                     <div class="testimonial-box">
                         <div class="testimonial-img">
-                            <img src="{{ block.settings.reviewer-image | img_url: 'master' }}">
+                          {{ block.settings.reviewer-image | image_url: width: block.settings.reviewer-image.width | image_tag: widths: '200, 300, 400' }}
+                            {% comment %} <img src="{{ block.settings.reviewer-image | img_url: 'master' }}"> {% endcomment %}
                         </div>
                         <div class="testimonial-content">
                             <p>{{ block.settings.review }}</p>

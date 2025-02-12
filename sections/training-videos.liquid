@@ -8,13 +8,15 @@
             <div class="col-12 col-md-6 col-lg-4">
               <h4>{{ block.settings.heading }}</h4>
               <div class="training-video-contain" data-article-id="{{ forloop.index }}">
-                 <img src="{{ block.settings.image | img_url: 'master' }}" class="training-img">
+                {{ block.settings.image | image_url: width: block.settings.image.width | image_tag: widths: '246, 493, 600, 713, 823', class: 'training-img', alt: block.settings.image.width }}
+                 {% comment %} <img src="{{ block.settings.image | img_url: 'master' }}" class="training-img"> {% endcomment %}
                  <div class="training-videos-con">
                     <video width="750" height="500" controls>
                       <source src="{{ block.settings.video_url }}" type="video/mp4">
                     </video>
                 </div>
-                 <img src="{{ block.settings.play_image | img_url: 'master' }}" class="play-btns">
+                {{ block.settings.play_image | image_url: width: block.settings.play_image.width | image_tag: widths: '246, 493', class: 'play-btns', alt: block.settings.play_image.alt }}
+                 {% comment %} <img src="{{ block.settings.play_image | img_url: 'master' }}" class="play-btns"> {% endcomment %}
               </div>
             </div>
             {% endfor %}

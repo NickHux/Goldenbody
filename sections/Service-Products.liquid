@@ -5,7 +5,10 @@
         {% for block in section.blocks %}
         <div class="col-md-4">
             <div class="item">
-              <div class="img-box"><img src="{{ block.settings.service-image | img_url: 'master' }}"></div>
+              <div class="img-box">
+                {{ block.settings.service-image | image_url: width: block.settings.service-image.width | image_tag: widths: '246, 493, 600, 713, 823, 990, 1100', class: ' ', alt: ' ' }}
+                {% comment %} <img src="{{ block.settings.service-image | img_url: 'master' }}"> {% endcomment %}
+              </div>
               <a href="{{ block.settings.service-url }}"><h4>{{ block.settings.service-title }}</h4><img src="https://cdn.shopify.com/s/files/1/0643/9344/5421/files/Vector_7219f845-bdc2-47da-b0f0-ead0e8a9fecb.png?v=1724788356"></a>
               <p>{{ block.settings.service-content }}</p>
             </div>

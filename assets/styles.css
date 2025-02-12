@@ -1120,6 +1120,8 @@ img.full-image {
     background: linear-gradient(135deg, rgba(234, 231, 221, 0.50) 3.5%, rgba(234, 231, 221, 0.10) 97.5%);
     backdrop-filter: blur(20px);
     padding: 25px;
+    height: 100px;
+    width: 100px;
 }
 
 .white-box.three-box {
@@ -1127,6 +1129,10 @@ img.full-image {
     background: linear-gradient(180deg, rgba(200, 183, 166, 0.50) 0%, rgba(200, 183, 166, 0.10) 100%);
     backdrop-filter: blur(20px);
     padding: 15px;
+}
+
+.white-box.three-box .image_wrapper {
+    aspect-ratio: 1;
 }
 
 .white-box.three-box img {
@@ -5528,6 +5534,7 @@ section.second-section .hero-slider2 .item .img-box img {
     transition: 0.2s;
     width: auto;
     max-width: 110%;
+    aspect-ratio: 0.8;
 }
 
 section.second-section .hero-slider2 .item:hover h4 {
@@ -8543,9 +8550,11 @@ section.image-and-right-text .box.ios-device {
         box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.08);
         max-height: 100%;
     }
-
+    .white-box.three-box .image_wrapper {
+        aspect-ratio: 1.5;
+    }
     .white-box.three-box img {
-        max-height: 50vw;
+        /* max-height: 50vw; */
         object-fit: cover;
 
     }

@@ -7,7 +7,8 @@
       </div>
       <div class="col-md-6">
         <div class="img-box">
-          <img src="{{ section.settings.image_picker | img_url: 'master' }}"> 
+          {{ section.settings.image_picker | image_url: width: section.settings.image_picker.width | image_tag: widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946', class: ' ', alt: section.settings.image_picker.alt }}
+          {% comment %} <img src="{{ section.settings.image_picker | img_url: 'master' }}">  {% endcomment %}
         </div>
       </div>
     </div>

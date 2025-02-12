@@ -18,7 +18,8 @@
       </div>
       <div class="col-md-6">
         <div class="img-box">
-          <img src="{{ section.settings.image | img_url: 'master' }}"> 
+          {{ section.settings.image | image_url: width: section.settings.image.width | image_tag: widths: '246, 493, 600, 713, 823, 990, 1100', class: ' ', alt: ' ' }}
+          {% comment %} <img src="{{ section.settings.image | img_url: 'master' }}">  {% endcomment %}
         </div>
       </div>
     </div>
