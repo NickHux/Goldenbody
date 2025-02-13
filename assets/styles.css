@@ -11107,3 +11107,11 @@ input.subscription-succeed::placeholder {
 input.invalid-email::placeholder {
     color: red !important;
 }
+
+
+.shopify-app-block select.gt_selector {
+  background-image: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/down-arrow.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: center 5px right;
+}
