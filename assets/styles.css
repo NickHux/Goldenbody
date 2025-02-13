@@ -11116,10 +11116,3 @@ input.invalid-email::placeholder {
   background-position: right;
   appearance: none;
 }
-/* @media screen and (max-width: 767px) {
-    @supports (-webkit-touch-callout: none) {
-        .gt_switcher_wrapper {
-          top: 15px !important;
-        }
-    }
-} */
