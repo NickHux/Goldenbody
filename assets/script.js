@@ -1376,7 +1376,7 @@ $('span.price-item').each(function() {
   $(".odd_number_blocks .accordion-item:first-child button").click();
 
   if ($(window).width() <= 713) {
-    $("ul.menu-drawer__menu").after($("header .header__icons"));
+    // $("ul.menu-drawer__menu").after($("header .header__icons"));
   }
 
   if ($(window).width() > 1023) {

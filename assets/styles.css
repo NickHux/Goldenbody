@@ -11109,10 +11109,37 @@ input.invalid-email::placeholder {
 }
 
 
-.shopify-app-block select.gt_selector {
+.gtranslate-lang-dropdown-mobile .gt_selector,
+.gtranslate-lang-dropdown .gt_selector {
   background-image: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/down-arrow.png');
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: right;
   appearance: none;
+}
+@media screen and (min-width: 990px) {
+    .gtranslate-lang-dropdown-mobile {
+        display: none;
+    }
+    .gtranslate-lang-dropdown {
+        max-width: 90px;
+    }
+}
+@media screen and (max-width: 989px) {
+    .gtranslate-lang-dropdown {
+        display: none;
+    }
+    .header-mobile-icons {
+        display: block !important;
+        margin-right: 15px !important;
+    }
+    .header-mobile-icons .header__icon--account,
+    .header-mobile-icons .menu-drawer__account,
+    .header-mobile-icons .header__search,
+    .header-mobile-icons .header__icon--cart {
+        display: none;
+    }
+    .gtranslate-lang-dropdown-mobile {
+        max-width: 90px;
+    }
 }
