@@ -11116,6 +11116,7 @@ input.invalid-email::placeholder {
   background-size: 15px;
   background-position: right;
   appearance: none;
+  line-height: 1;
 }
 @media screen and (min-width: 990px) {
     .gtranslate-lang-dropdown-mobile {
