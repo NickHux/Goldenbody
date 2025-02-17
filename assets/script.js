@@ -1498,34 +1498,34 @@ jQuery(window).on("resize scroll", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
+// document.addEventListener("DOMContentLoaded", function () {
+//     const urlParams = new URLSearchParams(window.location.search);
 
-    // Check for success parameter
-    if (urlParams.get("customer_posted") === "true") {
-        showPopup("Danke für deine Anmeldung!");
-    }
+//     // Check for success parameter
+//     if (urlParams.get("customer_posted") === "true") {
+//         showPopup("Danke für deine Anmeldung!");
+//     }
 
-    // Check for error parameter
-    if (urlParams.get("form_type") === "customer" && window.location.hash === "#contact_form") {
-        showPopup("Sie sind bereits abonniert!");
-    }
+//     // Check for error parameter
+//     if (urlParams.get("form_type") === "customer" && window.location.hash === "#contact_form") {
+//         showPopup("Sie sind bereits abonniert!");
+//     }
 
-    // Function to display the popup
-    function showPopup(message) {
-        const popup = document.getElementById("popupMessage");
-        const popupContainer = document.getElementById("successPopup");
+//     // Function to display the popup
+//     function showPopup(message) {
+//         const popup = document.getElementById("popupMessage");
+//         const popupContainer = document.getElementById("successPopup");
 
-        popup.textContent = message; // Set the message dynamically
-        popupContainer.style.display = "flex";
-    }
+//         popup.textContent = message; // Set the message dynamically
+//         popupContainer.style.display = "flex";
+//     }
 
-    // Close the popup when clicking the close button
-    document.getElementById("closePopup").addEventListener("click", function () {
-        const popupContainer = document.getElementById("successPopup");
-        popupContainer.style.display = "none";
-    });
-});
+//     // Close the popup when clicking the close button
+//     document.getElementById("closePopup").addEventListener("click", function () {
+//         const popupContainer = document.getElementById("successPopup");
+//         popupContainer.style.display = "none";
+//     });
+// });
 
 document.addEventListener("DOMContentLoaded", function () {
   setInterval(() => {
