@@ -2634,7 +2634,7 @@ ul.mega-menu__list.page-width.mega-menu__list--condensed li:nth-child(5) a:befor
     width: unset !important;
 }
 
-/* .header-wrapper.color-scheme-1.gradient {
+.header-wrapper.color-scheme-1.gradient {
     background: transparent !important;
     position: relative;
     top: 0px;
@@ -2645,7 +2645,7 @@ ul.mega-menu__list.page-width.mega-menu__list--condensed li:nth-child(5) a:befor
 
 .header-wrapper.color-scheme-1.gradient.backgo {
     position: fixed;
-} */
+}
 
 .hide-slider {
     display: none !important;
@@ -2761,13 +2761,13 @@ section.podcasts-section ul {
     list-style: none;
 }
 
-/* .header-wrapper.color-scheme-1.gradient {
+.header-wrapper.color-scheme-1.gradient {
     transition: 0.2s;
 }
 
 .header-wrapper.color-scheme-1.gradient.backgo {
     background: white !important;
-} */
+}
 
 .podcast .top {
     min-height: 300px;
@@ -11005,9 +11005,9 @@ overflow: visible;
         display: none;
     }
 
-    .custom-hero-section .hero-section .swiper {
+    /* .custom-hero-section .hero-section .swiper {
         overflow: visible;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1030px) {
@@ -11111,35 +11111,41 @@ input.invalid-email::placeholder {
 
 .gtranslate-lang-dropdown-mobile .gt_selector,
 .gtranslate-lang-dropdown .gt_selector {
-  background-image: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/down-arrow.png');
-  background-repeat: no-repeat;
-  background-size: 15px;
-  background-position: right;
-  appearance: none;
-  line-height: 1.125;
+    background-image: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/down-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right;
+    appearance: none;
+    line-height: 1.125;
 }
+
 @media screen and (min-width: 990px) {
     .gtranslate-lang-dropdown-mobile {
         display: none;
     }
+
     .gtranslate-lang-dropdown {
         max-width: 90px;
     }
 }
+
 @media screen and (max-width: 989px) {
     .gtranslate-lang-dropdown {
         display: none;
     }
+
     .header-mobile-icons {
         display: block !important;
         margin-right: 15px !important;
     }
+
     .header-mobile-icons .header__icon--account,
     .header-mobile-icons .menu-drawer__account,
     .header-mobile-icons .header__search,
     .header-mobile-icons .header__icon--cart {
         display: none;
     }
+
     .gtranslate-lang-dropdown-mobile {
         max-width: 90px;
     }
