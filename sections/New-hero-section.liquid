@@ -1,5 +1,5 @@
 <section class="hero-section" id="scroll-top">
-  <div class="row">
+  <div class="row relative">
     <div class="col swiper mySwiper">
       <div class=" hero-slider new_hero_slider swiper-wrapper">
         {% if section.blocks != blank %}
@@ -87,19 +87,18 @@
         </svg>
       </div>
       <div class="swiper-pagination"></div>
-
-      {% if section.settings.bottom_image != blank %}
-        <div class="scroll-down">
-          <a href="#second-section">
-            {{-
-              section.settings.bottom_image
-              | image_url: width: section.settings.bottom_image.width
-              | image_tag: class: 'custom-class', loading: 'lazy'
-            -}}
-          </a>
-        </div>
-      {% endif %}
     </div>
+    {% if section.settings.bottom_image != blank %}
+      <div class="scroll-down">
+        <a href="#second-section">
+          {{-
+            section.settings.bottom_image
+            | image_url: width: section.settings.bottom_image.width
+            | image_tag: class: 'custom-class', loading: 'lazy'
+          -}}
+        </a>
+      </div>
+    {% endif %}
   </div>
 </section>
 

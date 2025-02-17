@@ -110,6 +110,7 @@
 .section_pregnancy_journey .page-width {
   max-width: 1830px;
   margin-right: -17px;
+  overflow: hidden;
 }
 
 .image-with-text__content .pregnancy_icons {
@@ -119,6 +120,7 @@
 
 .section_pregnancy_journey {
   position: relative;
+  overflow: hidden;
 }
 
 .desktop_bg_main {
