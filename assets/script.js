@@ -852,6 +852,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 jQuery(document).ready(function ($) {
 
+/*
 // Hide all video-main-content initially
 $('.video-main-content').hide();
 
@@ -879,7 +880,7 @@ $('.video-tabbings li a').on('click', function (e) {
 
     // Fade in the corresponding video-main-content
     $('.video-main-content').eq(index).fadeIn(400); // Adjust duration as needed
-});
+});*/
 
 $('span.price-item').each(function() {
   var priceText = $(this).text();
