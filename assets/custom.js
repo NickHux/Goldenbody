@@ -1,3 +1,17 @@
+/**
+ * Header sticky
+ */
+{
+  var header = document.querySelector(".section-header");
+  var sticky = header.offsetTop;
+  // document.addEventListener('scroll',() => {
+  //   if (window.scrollY > sticky) {
+  //     header.querySelector('.header-wrapper').classList.add("backgo");
+  //   } else {
+  //     header.querySelector('.header-wrapper').classList.remove("backgo");
+  //   }
+  // });
+}
 // class SpecialCollaboration extends HTMLElement {
 //   constructor() {
 //     super(); 
@@ -83,21 +97,50 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Newsletter updates
-// {
-//   let newsletterForm = document.querySelector('.js-newsletter-form');
-//   let emailField = document.querySelector('.js-newsletter-email-field');
-//   let invalidEmailText = document.querySelector('.js-invalid-email');
-//   if(newsletterForm){
-//     newsletterForm.addEventListener('submit', function(event){
-//       let emailValue = emailField.value.trim();
-//       let emailPattern = /^[^\s@]+@[^\s@]+$/;
+{
+  let submitButton = document.querySelector(".js-newsletter-submit-btn");
+  let emailInput = document.querySelector('.js-newsletter-email-field');
+  let urlParams = new URLSearchParams(window.location.search);
   
-//       if (!emailPattern.test(emailValue)) {
-//         event.preventDefault();
-//         invalidEmailText.classList.remove("hidden");
-//       } else {
-//         if(!invalidEmailText.classList.contains("hidden")) invalidEmailText.classList.add("hidden");
-//       }
-//     });
-//   }
-// }
+  function scrollToNewsletter() {
+    let newsletterSection = document.querySelector('.js-footer-newsletter');
+    if (newsletterSection) {
+        newsletterSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  if (urlParams.get("customer_posted") === "true") {
+    setTimeout(() => {
+      scrollToNewsletter();
+    }, 1500);
+    emailInput.placeholder = "Danke fürs Anmelden";
+    if(!emailInput.classList.contains('subscription-succeed')) emailInput.classList.add('subscription-succeed');
+  }
+  else if(urlParams.get("form_type") === "customer" && window.location.hash === "#contact_form" && !urlParams.has('return_path')) {
+    setTimeout(() => {
+      scrollToNewsletter();
+    }, 1500);
+    emailInput.placeholder =  "Du bist bereits angemeldet";
+    if(!emailInput.classList.contains('subscription-succeed')) emailInput.classList.add('subscription-succeed');
+  }
+  
+  if(submitButton) {
+    submitButton.addEventListener('click', (event) => {
+      event.preventDefault();
+
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      
+      if (!emailPattern.test(emailInput.value)) {
+        emailInput.value = "";
+        emailInput.placeholder = "Bitte gib eine gültige Email an";
+        if(!emailInput.classList.contains('invalid-email')) emailInput.classList.add('invalid-email');
+        if(emailInput.classList.contains('subscription-succeed')) emailInput.classList.remove('subscription-succeed');
+      } 
+      else {
+        emailInput.classList.remove('invalid-email', 'subscription-succeed');
+        let newsletterForm = document.querySelector('.js-newsletter-form');
+        newsletterForm.submit();
+      }
+    })
+  }
+}

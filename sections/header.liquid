@@ -218,7 +218,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    <div class="header__icons small-hide medium-hide {% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
+    <div class="header-mobile-icons header__icons small-hide medium-hide {% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
       <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
@@ -310,6 +310,10 @@
           </div>
         {%- endif -%}
       </a>
+
+      <div class="gtranslate-lang-dropdown"></div>
+      <div class="gtranslate-lang-dropdown-mobile"></div>
+
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
@@ -346,6 +350,7 @@
 
       this.addEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
       window.addEventListener('scroll', this.onScrollHandler, false);
+      window.addEventListener('resize', this.setHeaderHeight,false);
 
       this.createObserver();
     }
