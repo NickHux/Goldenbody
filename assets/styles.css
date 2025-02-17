@@ -5422,10 +5422,6 @@ header .predictive-search__list-item {
     padding: 20px;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 section.faq-section.product-faq-section .accordion {
     gap: 20px;
 }
