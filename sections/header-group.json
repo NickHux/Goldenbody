@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -14,7 +23,7 @@
         "slides_PCUNAa": {
           "type": "slides",
           "settings": {
-            "usp-text": "Im Februar 2025 Ingwershots in allen Gruppenstunden"
+            "usp-text": "JETZT BUCHBAR: Nächste 4 Week Challenge ab 10.3"
           }
         },
         "slides_exYNJT": {
@@ -30,8 +39,8 @@
         "slides_exYNJT"
       ],
       "custom_css": [
-        "\/* Increase the space between USP slides *\/.Usp-Section__slide {margin-bottom: 30px; \/* Adjust this value to increase the space between slides *\/}",
-        " \/* Add padding to separate the slides *\/.Usp-Section__slide {padding-bottom: 20px; \/* Adjust this value for more space *\/}"
+        "/* Increase the space between USP slides */.Usp-Section__slide {margin-bottom: 30px; /* Adjust this value to increase the space between slides */}",
+        " /* Add padding to separate the slides */.Usp-Section__slide {padding-bottom: 20px; /* Adjust this value for more space */}"
       ],
       "settings": {
         "main-title": "Usp-Section"
@@ -41,7 +50,7 @@
       "type": "header",
       "blocks": {
         "g_translate_app_block_dropdown_qAyRza": {
-          "type": "shopify:\/\/apps\/g-translate\/blocks\/app-block-dropdown\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
+          "type": "shopify://apps/g-translate/blocks/app-block-dropdown/408a74ac-f92d-43cf-a1b1-a044341e66bd",
           "disabled": true,
           "settings": {
             "horizontal_position": "inline",
