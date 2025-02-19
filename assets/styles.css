@@ -2416,8 +2416,8 @@ section.third-section .big.absolute {
     position: absolute;
     top: 450px;
     left: 240px;
-    bottom: 0;
-    right: 0;
+    bottom: auto;
+    right: auto;
     z-index: 999;
 }
 
@@ -2444,7 +2444,7 @@ section.third-section .box1 img {
 }
 
 section.third-section .box1 a {
-    z-index: 2;
+    z-index: 4;
     position: relative;
     margin: -30px auto 0 auto;
 }
