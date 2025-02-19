@@ -2444,7 +2444,7 @@ section.third-section .box1 img {
 }
 
 section.third-section .box1 a {
-    z-index: 4;
+    z-index: 2;
     position: relative;
     margin: -30px auto 0 auto;
 }
