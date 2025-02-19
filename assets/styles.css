@@ -2634,7 +2634,7 @@ ul.mega-menu__list.page-width.mega-menu__list--condensed li:nth-child(5) a:befor
     width: unset !important;
 }
 
-.header-wrapper.color-scheme-1.gradient {
+/*.header-wrapper.color-scheme-1.gradient {
     background: transparent !important;
     position: relative;
     top: 0px;
@@ -2643,9 +2643,9 @@ ul.mega-menu__list.page-width.mega-menu__list--condensed li:nth-child(5) a:befor
     width: 100%;
 }
 
-.header-wrapper.color-scheme-1.gradient.backgo {
+ .header-wrapper.color-scheme-1.gradient.backgo {
     position: fixed;
-}
+} */
 
 .hide-slider {
     display: none !important;
@@ -2765,9 +2765,9 @@ section.podcasts-section ul {
     transition: 0.2s;
 }
 
-.header-wrapper.color-scheme-1.gradient.backgo {
+/* .header-wrapper.color-scheme-1.gradient.backgo {
     background: white !important;
-}
+} */
 
 .podcast .top {
     min-height: 300px;
