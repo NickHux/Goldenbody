@@ -505,10 +505,10 @@ img {
     pointer-events: none;
 }
 
-body,
+/*body,
 html {
     overflow-x: hidden !important;
-}
+}*/
 
 html {
     scroll-behavior: smooth;
