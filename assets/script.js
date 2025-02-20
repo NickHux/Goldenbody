@@ -1101,7 +1101,7 @@ $('span.price-item').each(function() {
   $(document).ready(adjustPadding);
   $(window).on("resize", adjustPadding);
 
-  $(window).scroll(function () {
+  /*$(window).scroll(function () {
     if ($(this).scrollTop() > 10) {
       $(".header-wrapper").addClass("backgo");
       $(".usp-slider").addClass("hide-slider");                             
@@ -1121,7 +1121,7 @@ $('span.price-item').each(function() {
     $(".header-wrapper").removeClass("backgo");
     $(".usp-slider").removeClass("hide-slider"); 
     // $(".gt_switcher_wrapper").removeClass("stick");
-  }
+  }*/
 
   $(".outer-popup").hide();
 
