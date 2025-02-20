@@ -2418,7 +2418,7 @@ section.third-section .big.absolute {
     left: 240px;
     bottom: auto;
     right: auto;
-    z-index: 999;
+    /* z-index: 999; */
 }
 
 section.third-section .box1 {
