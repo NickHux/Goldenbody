@@ -11005,9 +11005,9 @@ overflow: visible;
         display: none;
     }
 
-    .custom-hero-section .hero-section .swiper {
+    /* .custom-hero-section .hero-section .swiper {
         overflow: visible;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1030px) {
