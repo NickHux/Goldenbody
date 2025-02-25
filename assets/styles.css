@@ -8195,7 +8195,7 @@ section.image-and-right-text .box.ios-device {
 
 
     section.product-section-2 .products a .img-box img {
-        /* max-height: 236px; */
+        max-height: 236px;
         width: 120%;
         object-fit: cover;
     }
