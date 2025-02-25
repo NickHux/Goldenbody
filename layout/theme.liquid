@@ -12,17 +12,6 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  
-   // Wait until the DOM is fully loaded
-  document.addEventListener("DOMContentLoaded", function() {
-    // Select the root element by its data-testid
-    const surveyRoot = document.querySelector('[data-testid="survey-root"]');
-    
-    if (surveyRoot) {
-      // Replace all occurrences of 'ß' with 'ss' in the inner HTML
-      surveyRoot.innerHTML = surveyRoot.innerHTML.replace(/ß/g, 'ss');
-    }
-  });
 </script>
     
     <meta charset="utf-8">
