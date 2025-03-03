@@ -28,6 +28,7 @@
         },
         "slides_exYNJT": {
           "type": "slides",
+          "disabled": true,
           "settings": {
             "usp-text": "Yoga Brunch mit Geri am 02.03.25"
           }
