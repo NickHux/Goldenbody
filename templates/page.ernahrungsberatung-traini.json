@@ -128,10 +128,25 @@
         "slides_EzdBX8",
         "slides_mTCUpR"
       ],
+      "disabled": true,
       "settings": {
         "section-id": "ernahrungsberatung",
         "main-title": "Ernährungsberatung",
         "content": "<p>Bei Goldenbody leben wir den ganzheitlichen Ansatz. Wir beraten und betreuen unsere Kunden nicht nur zum Thema Ernährung und Training, sondern betrachten darüber hinaus auch den Lebensstil im Detail. Dazu gehören Faktoren wie Verdauung, Alltagsbewegung, Schlaf, Stress, Arbeit, Hobbys, Nahrungsergänzungsmittel, Gewohnheiten, Glaubenssätze, Erwartungen und vieles mehr.</p>"
+      }
+    },
+    "second_left_img_section_9LCVNT": {
+      "type": "second-left-img-section",
+      "settings": {
+        "section-class": "m-tp-pad team-beratung",
+        "section-id": "",
+        "main-title": "",
+        "small-title": "",
+        "left-title": "Ernährungsberatung",
+        "content": "<p>Bei Goldenbody leben wir den ganzheitlichen Ansatz. Wir beraten und betreuen unsere Kunden nicht nur zum Thema Ernährung und Training, sondern betrachten darüber hinaus auch den Lebensstil im Detail. Dazu gehören Faktoren wie Verdauung, Alltagsbewegung, Schlaf, Stress, Arbeit, Hobbys, Nahrungsergänzungsmittel, Gewohnheiten, Glaubenssätze, Erwartungen und vieles mehr.</p>",
+        "image_picker": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_58_1.jpg",
+        "btn-url": "shopify://products/ernahrungsberatung",
+        "btn-text": "Beratung buchen"
       }
     },
     "four_box_section_WVzBEx": {
@@ -214,7 +229,7 @@
         "main-heading": "Vorher - Nachher Fotos"
       }
     },
-    "second_left_img_section_9LCVNT": {
+    "second_left_img_section_VyYeWa": {
       "type": "second-left-img-section",
       "settings": {
         "section-class": "m-tp-pad team-beratung",
@@ -224,7 +239,7 @@
         "left-title": "Dein Goldenbody Team",
         "content": "<p>Als dynamisches Team mit Leidenschaft für gesunde Ernährung und einen ausgewogenen Lebensstil sind wir für unsere Flexibilität und Verlässlichkeit bekannt. Auch privat leben wir diese Werte, um in der Ernährungsberatung stets 100% für euch geben zu können.</p>",
         "image_picker": "shopify://shop_images/Goldenbody_Fotoshooting_08-2024_115.jpg",
-        "btn-url": "",
+        "btn-url": "shopify://products/ernahrungsberatung",
         "btn-text": "Beratung buchen"
       }
     },
@@ -695,9 +710,10 @@
     "banner_section_c7axLL",
     "navigation_section_BW6FEx",
     "list_section_YbQUdx",
+    "second_left_img_section_9LCVNT",
     "four_box_section_WVzBEx",
     "before_after_section_fKPc4F",
-    "second_left_img_section_9LCVNT",
+    "second_left_img_section_VyYeWa",
     "multi_video_sec_Tr4TBr",
     "training_section_UV8eRN",
     "how_work_section_aC8yYj",
