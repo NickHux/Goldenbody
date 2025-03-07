@@ -1121,7 +1121,11 @@ img.full-image {
     backdrop-filter: blur(20px);
     padding: 25px;
 }
-
+/*  */
+.white-box.box-p-5 img {
+    padding: 5px;
+}
+/*  */
 .white-box.three-box {
     border-radius: 24px;
     background: linear-gradient(180deg, rgba(200, 183, 166, 0.50) 0%, rgba(200, 183, 166, 0.10) 100%);
