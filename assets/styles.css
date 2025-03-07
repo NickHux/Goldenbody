@@ -139,7 +139,9 @@ li.video-wrapper img {
 li.video-wrapper img {
     border-radius: 20px;
 }
-
+li.video-text-wrapper .video-tab-title h2 ,li.video-text-wrapper .video-tab-content p{
+    color: #fff;
+}
 .main-tab-video {
     text-align: center;
     border-radius: 35.182px;
@@ -8086,45 +8088,89 @@ section.image-and-right-text .box.ios-device {
 
     .video-tabbings ul {
         gap: 0 20px;
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow-x: scroll !important;
+        -webkit-overflow-scrolling: touch;
+        overflow-y: hidden;
+        scrollbar-width: auto;
+    }
+    .video-tabbings ul::-webkit-scrollbar {
+        height: 2px;
+        /* Custom scrollbar height */
+        display: block;
+        /* Force scrollbar to display */
+    }
+
+    .video-tabbings ul::-webkit-scrollbar-thumb {
+        background-color: rgb(255, 64, 0);
+        /* Thumb color */
+        border-radius: 10px;
+    }
+
+    .video-tabbings ul::-webkit-scrollbar-track {
+        background-color: lightgray;
+        /* Track color */
     }
 
     .video-tabbings ul li {
-        width: 30%;
+        width: max-content;
         margin-right: 0px;
+        flex: 0 0 max-content;
+        max-width: max-content;
     }
 
-    li.video-text-wrapper {
+    .video-tabbings ul li .tab-button{
+        margin-bottom: 10px;
+        padding: 0;
+        background: transparent;
+        border: none;
+        font-weight: 100;
+    }
+    .video-tabbings li .tab-button.active {
+        color: initial;
+        background-color: initial;
+        font-weight: 900;
+    }
+    li.video-wrapper {
         width: 100%;
-        margin-bottom: 40px;
-        padding-top: 0px;
-        order: 3;
+        order: 2;
     }
-
+    li.tab-image-wrapper {
+        display: none;
+    }
     ul.video-main-content {
         margin-top: 20px;
         flex-wrap: wrap;
         align-items: end;
         padding: 0;
+        position: relative;
+    }
+    li.video-text-wrapper {
+        position: absolute;
+        bottom: 21px;
+        z-index: 11;
+        left: 0;
+        margin: 0 10px;
+        width: auto;
+        padding: 8px 15px 15px;
+        backdrop-filter: blur(50px);
+        border-radius: 11px;
+        overflow: hidden;
+        background: #00000005;
     }
 
-    li.video-wrapper {
-        width: 50%;
-        order: 2;
-    }
+   
+    li.video-text-wrapper .workout-img {
+        display: none;
+    }   
 
     .main-tab-video {
-        padding: 20px;
+        padding: 0px;
     }
 
     img.play-btns-2 {
         height: 70px !important;
-    }
-
-    li.tab-image-wrapper {
-        width: 50%;
-        order: 1;
-        display: flex;
-        flex-direction: column-reverse;
     }
 
     section.video-tab-section {
@@ -10393,6 +10439,7 @@ section.image-and-right-text .box.ios-device {
         margin-top: 30px;
         justify-content: center;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -10404,32 +10451,18 @@ section.image-and-right-text .box.ios-device {
         padding-left: 0px;
         padding-right: 0px;
     }
-
+   
     .video-tabbings ul {
-        gap: 0 7px;
+        gap: 0 20.6px;
     }
 
     .video-tabbings ul li {
         width: auto;
     }
-
-    .video-tabbings ul li .tab-button {
-        padding: 10px 15px;
-        letter-spacing: -0.28px;
-        border-radius: 19px;
-        margin-bottom: 15px;
-    }
-
-    ul.video-main-content {
-        padding: 0px 10px;
-    }
+    
 
     li.tab-image-wrapper .thumbnail-img {
         margin-bottom: 10px;
-    }
-
-    .main-tab-video {
-        padding: 12px;
     }
 
     img.play-btns-2 {
@@ -10771,6 +10804,7 @@ section.image-and-right-text .box.ios-device {
         height: 28px;
         font-size: 11px;
     }
+
 
 }
 
