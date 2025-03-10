@@ -1144,6 +1144,12 @@ img.full-image {
     margin-bottom: 20px;
 }
 
+/* Icon Size */
+.white-box.box-p-5 img {
+    padding: 5px;
+}
+/* Icon Size */
+
 .three-box-des ul li {
     color: #202030;
     font-family: "IBM Plex Sans";
