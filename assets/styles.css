@@ -35,6 +35,14 @@ Line 4695:5 Expected ":"
     src: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Monotype_-_Hope_Sans_Bold.otf?v=1725913240');
 }
 
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Satoshi-Bold.woff2?v=1741587703') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Satoshi-Bold.woff?v=1741587703') format('woff'),
+         url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Satoshi-Bold.ttf?v=1741587704') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
 
 html,
 body {
@@ -139,9 +147,7 @@ li.video-wrapper img {
 li.video-wrapper img {
     border-radius: 20px;
 }
-li.video-text-wrapper .video-tab-title h2 ,li.video-text-wrapper .video-tab-content p{
-    color: #fff;
-}
+
 .main-tab-video {
     text-align: center;
     border-radius: 35.182px;
@@ -8085,9 +8091,11 @@ section.image-and-right-text .box.ios-device {
     .frequent-list ul {
         padding: 0;
     }
-
+    .video-tabbings {
+        padding-left: 29px;
+    }
     .video-tabbings ul {
-        gap: 0 20px;
+        gap: 0 50px;
         flex-wrap: nowrap;
         justify-content: start;
         overflow-x: scroll !important;
@@ -8125,12 +8133,26 @@ section.image-and-right-text .box.ios-device {
         padding: 0;
         background: transparent;
         border: none;
-        font-weight: 100;
+        transition: .5s all;
+        font-weight: 400;
     }
     .video-tabbings li .tab-button.active {
         color: initial;
         background-color: initial;
-        font-weight: 900;
+        font-weight: 700;
+    }
+    li.video-text-wrapper .video-tab-title h2 ,li.video-text-wrapper .video-tab-content p{
+        color: #fff;
+    }
+    .main-tab-video::after {
+        content: "";
+        background: linear-gradient(0deg, rgba(4, 4, 4, 0.7) 15.88%, rgba(4, 4, 4, 0) 100%);
+        position: absolute;
+        bottom: 4px;
+        width: 100%;
+        left: 0;
+        height: 313px;
+        border-radius: 16px;
     }
     li.video-wrapper {
         width: 100%;
@@ -8143,7 +8165,7 @@ section.image-and-right-text .box.ios-device {
         margin-top: 20px;
         flex-wrap: wrap;
         align-items: end;
-        padding: 0;
+        padding: 0 11px;
         position: relative;
     }
     li.video-text-wrapper {
@@ -8151,22 +8173,48 @@ section.image-and-right-text .box.ios-device {
         bottom: 21px;
         z-index: 11;
         left: 0;
-        margin: 0 10px;
+        margin: 0 20px;
         width: auto;
         padding: 8px 15px 15px;
-        backdrop-filter: blur(50px);
         border-radius: 11px;
         overflow: hidden;
-        background: #00000005;
+        background: rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(25px);
     }
-
-   
+    .main-tab-video::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: #ff4000;
+        border-radius: 50px;
+        position: absolute;
+        left: 256px;
+        top: 0;
+        z-index: 1111;
+    }
+    .border_gradient {
+        display: block !important;
+        position: absolute;
+        top: 0;
+        width: 261px;
+        height: 402px;
+        border-radius: 19px;
+        padding: 10px;
+        background: linear-gradient(199.14deg, #FF4000 20.18%, rgba(0, 0, 0, 0) 102.31%);
+        mask: linear-gradient(#000 0 0) content-box, 
+        linear-gradient(#000 0 0);
+        mask-composite: exclude;
+        padding-bottom: 0;
+        padding-right: 0;
+        border-top-right-radius: 0;
+    }   
     li.video-text-wrapper .workout-img {
         display: none;
     }   
 
     .main-tab-video {
         padding: 0px;
+        position: relative;
     }
 
     img.play-btns-2 {
@@ -8180,6 +8228,7 @@ section.image-and-right-text .box.ios-device {
 
     .video-tabbings ul {
         margin-top: 30px;
+        margin-bottom: 17px;
     }
 
     .tabbing-list {
@@ -10439,10 +10488,25 @@ section.image-and-right-text .box.ios-device {
         margin-top: 30px;
         justify-content: center;
     }
-
+    li.video-text-wrapper .video-tab-title h2 {
+        font-family: 'Satoshi-Bold';
+        font-weight: 700;
+    }
 }
 
 @media (max-width: 600px) {
+    li.video-text-wrapper .video-tab-title h2 {
+        font-size: 16px;
+        letter-spacing: -0.01em;
+    }
+
+    .video-tab-content {
+        margin-top: 8px;
+    }
+    .video-tab-content p {
+        font-size: 14px;        
+        margin-bottom: 0;
+    }
     section.single-img-sec {
         margin: 20px 0 90px !important;
     }
