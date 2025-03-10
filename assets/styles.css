@@ -8091,10 +8091,11 @@ section.image-and-right-text .box.ios-device {
     .frequent-list ul {
         padding: 0;
     }
-    .video-tabbings {
-        padding-left: 29px;
-    }
     .video-tabbings ul {
+        margin-top: 19px;
+        margin-bottom: 0;
+        padding-left: 29px;
+        padding-right: 11px;
         gap: 0 50px;
         flex-wrap: nowrap;
         justify-content: start;
@@ -8168,7 +8169,7 @@ section.image-and-right-text .box.ios-device {
         width: 100%;
         left: 0;
         height: 313px;
-        border-radius: 16px;
+        /* border-radius: 16px; */
     }
     li.video-wrapper {
         width: 100%;
@@ -8178,11 +8179,12 @@ section.image-and-right-text .box.ios-device {
         display: none;
     }
     ul.video-main-content {
-        margin-top: 20px;
+        margin-top: 42px;
         flex-wrap: wrap;
         align-items: end;
         padding: 0 11px;
         position: relative;
+        margin-bottom: 26px;
     }
     li.video-text-wrapper {
         position: absolute;
@@ -8191,7 +8193,7 @@ section.image-and-right-text .box.ios-device {
         left: 0;
         margin: 0 20px;
         width: auto;
-        padding: 8px 15px 15px;
+        padding: 8px 11px 15px 15px;
         border-radius: 11px;
         overflow: hidden;
         background: rgba(0, 0, 0, 0.05);
@@ -8240,12 +8242,7 @@ section.image-and-right-text .box.ios-device {
     section.video-tab-section {
         margin-top: 90px !important;
         padding-bottom: 20px;
-    }
-
-    .video-tabbings ul {
-        margin-top: 30px;
-        margin-bottom: 17px;
-    }
+    }   
 
     .tabbing-list {
         margin-bottom: 10px;
@@ -8272,7 +8269,7 @@ section.image-and-right-text .box.ios-device {
     }
 
     li.video-text-wrapper .video-tab-title {
-        margin: 10px 0 0;
+        margin: 0 0;
         width: 50%;
         order: 1;
     }
@@ -10511,17 +10508,33 @@ section.image-and-right-text .box.ios-device {
 }
 
 @media (max-width: 600px) {
+    section-video-tabs.video-tab-section .col-12.text-center h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 50px;
+        letter-spacing: -1.8px;
+        margin-bottom: 0;
+    }
+    .main-tab-video video {
+        width: 100%;
+        min-height: 700px;
+        object-fit: cover;
+    }
     li.video-text-wrapper .video-tab-title h2 {
         font-size: 16px;
         letter-spacing: -0.01em;
+        line-height: 140%;
+        margin-bottom: 0;
     }
 
     .video-tab-content {
         margin-top: 8px;
     }
     .video-tab-content p {
-        font-size: 14px;        
+        font-size: 14px;
         margin-bottom: 0;
+        line-height: 22px;
+        letter-spacing: -0.18px;
     }
     section.single-img-sec {
         margin: 20px 0 90px !important;
