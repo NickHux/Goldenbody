@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo_5_1.png",
+    "logo": "shopify://shop_images/Logo_5_1.png",
     "logo_width": 80,
-    "favicon": "shopify:\/\/shop_images\/Logo_5_1.png",
+    "favicon": "shopify://shop_images/Logo_5_1.png",
     "type_header_font": "sans-serif",
     "heading_scale": 100,
     "type_body_font": "sans-serif",
@@ -99,18 +108,18 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/www.facebook.com\/p\/Goldenbody-100028871936528\/?locale=de_DE",
-    "social_instagram_link": "https:\/\/www.instagram.com\/goldenbody_laura\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCynAUfYKVvf3JRRg58Ia04A",
+    "social_facebook_link": "https://www.facebook.com/p/Goldenbody-100028871936528/?locale=de_DE",
+    "social_instagram_link": "https://www.instagram.com/goldenbody_laura/",
+    "social_youtube_link": "https://www.youtube.com/channel/UCynAUfYKVvf3JRRg58Ia04A",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
-    "social_spotify_link": "https:\/\/open.spotify.com\/show\/3JQFECq2CFYpSdrIfuKGuK",
+    "social_spotify_link": "https://open.spotify.com/show/3JQFECq2CFYpSdrIfuKGuK",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
@@ -137,37 +146,37 @@
     "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
       },
       "15623156175785154009": {
-        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+        "type": "shopify://apps/qikify-smart-menu-mega-menu/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
         "disabled": false,
         "settings": {}
       },
       "2153490007123654574": {
-        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
         "settings": {}
       },
       "6143736321357441667": {
-        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "type": "shopify://apps/tidio-live-chat-chatbots/blocks/app-embed/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
         "settings": {}
       },
       "4015264832934714879": {
-        "type": "shopify:\/\/apps\/ecomsend-popups\/blocks\/app\/a5670cf8-5705-4b01-ad9e-447033feae26",
+        "type": "shopify://apps/ecomsend-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
         "disabled": false,
         "settings": {}
       },
       "11753626725791430220": {
-        "type": "shopify:\/\/apps\/one-click-upsell\/blocks\/cart-drawer\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "type": "shopify://apps/one-click-upsell/blocks/cart-drawer/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": true,
         "settings": {}
       },
       "10008203421340698720": {
-        "type": "shopify:\/\/apps\/g-translate\/blocks\/dropdown\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
+        "type": "shopify://apps/g-translate/blocks/dropdown/408a74ac-f92d-43cf-a1b1-a044341e66bd",
         "disabled": false,
         "settings": {
           "horizontal_position": "right",
@@ -175,7 +184,7 @@
           "select_language_label": "Select Language",
           "native_language_names": true,
           "wrapper_selector": ".gtranslate-lang-dropdown, .gtranslate-lang-dropdown-mobile",
-          "custom_css": "\/*.menu-drawer__navigation .gt_selector {display: none!important;}\n\n#gt-wrapper-10008203421340698720 .gt_switcher_wrapper  {display: none!important;}\n\n\n\n@media only screen and (max-width: 600px) {\n  #gt-wrapper-10008203421340698720 .gt_switcher_wrapper  {\n    display: none!important;\n  }\n}*\/"
+          "custom_css": "/*.menu-drawer__navigation .gt_selector {display: none!important;}\n\n#gt-wrapper-10008203421340698720 .gt_switcher_wrapper  {display: none!important;}\n\n\n\n@media only screen and (max-width: 600px) {\n  #gt-wrapper-10008203421340698720 .gt_switcher_wrapper  {\n    display: none!important;\n  }\n}*/"
         }
       }
     },
@@ -393,7 +402,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

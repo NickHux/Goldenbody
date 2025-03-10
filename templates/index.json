@@ -427,7 +427,7 @@
         "tabbing_content_daEkV9": {
           "type": "Tabbing-content",
           "settings": {
-            "tabbing-Buttons-text": "Hiit your Abs",
+            "tabbing-Buttons-text": "Hit your Abs",
             "workout-image": "shopify://shop_images/hiit_your_abs.png",
             "tab-heading": "Hiit Your Abs",
             "tab-content": "<p>Kurze, knackige Einheiten mit Fokus auf die Bauchmuskulatur. Dieses High-Intensity-Workout liefert dir maximale Ergebnisse in minimaler Zeit.</p>",
@@ -516,7 +516,8 @@
       ],
       "settings": {
         "section-class": "Gruppenstunden",
-        "heading": "Einblicke in unsere Gruppenstunden"
+        "heading": "Einblicke in unsere Gruppenstunden",
+        "tab_font_family": "inter_n4"
       }
     },
     "special_collaborations_T4tMRc": {
