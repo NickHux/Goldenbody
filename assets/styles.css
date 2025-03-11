@@ -8091,11 +8091,15 @@ section.image-and-right-text .box.ios-device {
     .frequent-list ul {
         padding: 0;
     }
+    .video-tabbings {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+    }
     .video-tabbings ul {
         margin-top: 19px;
         margin-bottom: 0;
-        padding-left: 19px;
-        padding-right: 19px;
+        padding-left: 29px;
+        padding-right: 29px;
         gap: 0 50px;
         flex-wrap: nowrap;
         justify-content: start;
