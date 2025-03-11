@@ -8094,8 +8094,8 @@ section.image-and-right-text .box.ios-device {
     .video-tabbings ul {
         margin-top: 19px;
         margin-bottom: 0;
-        padding-left: 29px;
-        padding-right: 11px;
+        padding-left: 19px;
+        padding-right: 19px;
         gap: 0 50px;
         flex-wrap: nowrap;
         justify-content: start;
@@ -8137,7 +8137,10 @@ section.image-and-right-text .box.ios-device {
         transition: .5s all;
         font-weight: 400;
         border-radius: 0;
+        color: #202030 !important;
         position: relative;
+        line-height: 20px;
+        letter-spacing: 0;  
     }
     .video-tabbings ul li .tab-button::after {
         content: "";
@@ -8157,6 +8160,7 @@ section.image-and-right-text .box.ios-device {
         color: initial;
         background-color: initial;
         font-weight: 700;
+        letter-spacing: 0.6px;
     }
     li.video-text-wrapper .video-tab-title h2 ,li.video-text-wrapper .video-tab-content p{
         color: #fff;
