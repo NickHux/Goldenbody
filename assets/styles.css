@@ -8222,7 +8222,7 @@ section.image-and-right-text .box.ios-device {
         height: 402px;
         border-radius: 19px;
         padding: 10px;
-        background: linear-gradient(199.14deg, #FF4000 20.18%, rgba(0, 0, 0, 0) 102.31%);
+        background: linear-gradient(220deg, #FF4000 20.18%, rgba(0, 0, 0, 0) 102.31%);
         mask: linear-gradient(#000 0 0) content-box, 
         linear-gradient(#000 0 0);
         mask-composite: exclude;
