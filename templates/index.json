@@ -431,10 +431,20 @@
             "workout-image": "shopify://shop_images/hiit_your_abs.png",
             "tab-heading": "Hit your abs",
             "tab-content": "<p>Kurze, knackige Einheiten mit Fokus auf die Bauchmuskulatur. Dieses High-Intensity-Workout liefert dir maximale Ergebnisse in minimaler Zeit.</p>",
-            "video-img": "shopify://shop_images/Screenshot_2024-10-14_at_14.55.23.webp",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/9b31d4c0f8544bb694b3a81e915569a4.mp4",
+            "video-img": "shopify://shop_images/side-view-people-training-together_1.png",
+            "video_url": "",
             "thumbnail-image": "shopify://shop_images/Goldenbody_Fotoshooting_06-2024_60-min.webp",
             "tab-list": "<ul><li>Bauchmuskel-Fokus</li><li>High-Intensity</li><li>Effektiv und zeitsparend</li></ul>"
+          }
+        },
+        "tabbing_content_cwc74G": {
+          "type": "Tabbing-content",
+          "settings": {
+            "tabbing-Buttons-text": "",
+            "tab-heading": "",
+            "tab-content": "",
+            "video_url": "",
+            "tab-list": ""
           }
         },
         "tabbing_content_MWrRd7": {
@@ -505,6 +515,7 @@
       },
       "block_order": [
         "tabbing_content_daEkV9",
+        "tabbing_content_cwc74G",
         "tabbing_content_MWrRd7",
         "tabbing_content_zzVxrV",
         "tabbing_content_RxC7qU",
