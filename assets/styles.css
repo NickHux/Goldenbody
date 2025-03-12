@@ -34,7 +34,14 @@ Line 4695:5 Expected ":"
     font-family: HopeSansBold;
     src: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Monotype_-_Hope_Sans_Bold.otf?v=1725913240');
 }
-
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Satoshi-Bold.woff2?v=1741587703') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Satoshi-Bold.woff?v=1741587703') format('woff'),
+         url('https://cdn.shopify.com/s/files/1/0673/5806/4951/files/Satoshi-Bold.ttf?v=1741587704') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
 
 html,
 body {
@@ -8086,62 +8093,108 @@ section.image-and-right-text .box.ios-device {
         padding: 0;
     }
 
+    .video-tabbings {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+    }
     .video-tabbings ul {
-        gap: 0 20px;
+        margin-top: 19px;
+        margin-bottom: 0;
+        padding-left: 29px;
+        padding-right: 29px;
+        gap: 0;
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow-x: scroll !important;
+        -webkit-overflow-scrolling: touch;
+        overflow-y: hidden;
+        scrollbar-width: auto;
+        position: relative;
+    }
+    .video-tabbings ul::-webkit-scrollbar {
+        height: 2px;
+        /* Custom scrollbar height */
+        display: block;
+        /* Force scrollbar to display */
+    }
+    .video-tabbings ul::-webkit-scrollbar-track {
+        background-color: transparent;
+        /* Track color */
     }
 
     .video-tabbings ul li {
-        width: 30%;
+        width: max-content;
         margin-right: 0px;
+        padding-right: 50.6px;
+        flex: 0 0 max-content;
+        max-width: max-content;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .video-tabbings ul li:last-child {
+        padding-right: 0;
     }
 
-    li.video-text-wrapper {
-        width: 100%;
-        margin-bottom: 40px;
-        padding-top: 0px;
-        order: 3;
-    }
-
-    ul.video-main-content {
-        margin-top: 20px;
-        flex-wrap: wrap;
-        align-items: end;
+    .video-tabbings ul li .tab-button{
+        margin-bottom: 0px;
         padding: 0;
+        padding-bottom: 17px;
+        background: transparent;
+        border: none;
+        transition: .5s all;
+        font-weight: 400;
+        border-radius: 0;
+        color: #202030 !important;
+        position: relative;
+        line-height: 20px;
+        letter-spacing: 0;  
     }
-
+    .video-tabbings li .tab-button.active {
+        color: initial;
+        background-color: initial;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+    .video-tabbings ul li .tab-button::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: transparent;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transition: .5s all;
+    }
+    
+    .video-tabbings ul li .tab-button.active::after {
+        background: #ff4000;
+    }
+    .main-tab-video::after {
+        content: "";
+        background: linear-gradient(0deg, rgba(4, 4, 4, 0.7) 15.88%, rgba(4, 4, 4, 0) 100%);
+        position: absolute;
+        bottom: 4px;
+        width: 100%;
+        left: 0;
+        height: 313px;
+        /* border-radius: 16px; */
+    }
     li.video-wrapper {
-        width: 50%;
+        width: 100%;
         order: 2;
     }
-
-    .main-tab-video {
-        padding: 20px;
-    }
-
-    img.play-btns-2 {
-        height: 70px !important;
-    }
-
-    li.tab-image-wrapper {
-        width: 50%;
-        order: 1;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    section.video-tab-section {
-        margin-top: 90px !important;
-        padding-bottom: 20px;
-    }
-
-    .video-tabbings ul {
-        margin-top: 30px;
-    }
-
-    .tabbing-list {
-        margin-bottom: 10px;
-    }
-
+    li.video-text-wrapper {
+        position: absolute;
+        bottom: 21px;
+        z-index: 11;
+        left: 0;
+        margin: 0 20px;
+        width: auto;
+        padding: 8px 11px 15px 15px;
+        border-radius: 11px;
+        overflow: hidden;
+        background: rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(25px);
+    }    
     li.video-text-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -8150,7 +8203,73 @@ section.image-and-right-text .box.ios-device {
         margin-bottom: 0;
         align-items: center;
     }
+    
 
+   
+    .main-tab-video::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: #ff4000;
+        border-radius: 50px;
+        position: absolute;
+        left: 256px;
+        top: 0;
+        z-index: 1111;
+    }
+    .border_gradient {
+        display: block !important;
+        position: absolute;
+        top: 0;
+        width: 261px;
+        height: 402px;
+        border-radius: 19px;
+        padding: 10px;
+        background: linear-gradient(220deg, #FF4000 20.18%, rgba(0, 0, 0, 0) 102.31%);
+        mask: linear-gradient(#000 0 0) content-box, 
+        linear-gradient(#000 0 0);
+        mask-composite: exclude;
+        padding-bottom: 0;
+        padding-right: 0;
+        border-top-right-radius: 0;
+    } 
+    li.video-text-wrapper .workout-img {
+        display: none;
+    }
+    li.video-text-wrapper .video-tab-title h2 ,li.video-text-wrapper .video-tab-content p{
+        color: #fff;
+    }
+    li.tab-image-wrapper {
+        display: none;
+    }
+
+    ul.video-main-content {
+        margin-top: 42px;
+        flex-wrap: wrap;
+        align-items: end;
+        padding: 0 11px;
+        position: relative;
+        margin-bottom: 26px;
+    }
+
+    .main-tab-video {
+        padding: 0px;
+        position: relative;
+    }
+
+    img.play-btns-2 {
+        height: 70px !important;
+    }
+
+    section.video-tab-section {
+        margin-top: 90px !important;
+        padding-bottom: 20px;
+    }
+    
+
+    .tabbing-list {
+        margin-bottom: 10px;
+    }
     .video-tab-content {
         order: 3;
         width: 100%;
@@ -8163,7 +8282,7 @@ section.image-and-right-text .box.ios-device {
     }
 
     li.video-text-wrapper .video-tab-title {
-        margin: 10px 0 0;
+        margin: 0 0;
         width: 50%;
         order: 1;
     }
@@ -10395,9 +10514,41 @@ section.image-and-right-text .box.ios-device {
         margin-top: 30px;
         justify-content: center;
     }
+    li.video-text-wrapper .video-tab-title h2 {
+        font-family: 'Satoshi-Bold';
+        font-weight: 700;
+    }
 }
 
 @media (max-width: 600px) {
+    section-video-tabs.video-tab-section .col-12.text-center h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 50px;
+        letter-spacing: -1.8px;
+        margin-bottom: 0;
+    }
+    .main-tab-video video {
+        width: 100%;
+        min-height: 700px;
+        object-fit: cover;
+    }
+    li.video-text-wrapper .video-tab-title h2 {
+        font-size: 16px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+        margin-bottom: 0;
+    }
+
+    .video-tab-content {
+        margin-top: 8px;
+    }
+    .video-tab-content p {
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 22px;
+        letter-spacing: -0.18px;
+    }
     section.single-img-sec {
         margin: 20px 0 90px !important;
     }
@@ -10406,32 +10557,19 @@ section.image-and-right-text .box.ios-device {
         padding-left: 0px;
         padding-right: 0px;
     }
-
+   
     .video-tabbings ul {
-        gap: 0 7px;
+        gap: 0 0px;
     }
 
     .video-tabbings ul li {
         width: auto;
+        padding-right: 20.6px;
     }
-
-    .video-tabbings ul li .tab-button {
-        padding: 10px 15px;
-        letter-spacing: -0.28px;
-        border-radius: 19px;
-        margin-bottom: 15px;
-    }
-
-    ul.video-main-content {
-        padding: 0px 10px;
-    }
+    
 
     li.tab-image-wrapper .thumbnail-img {
         margin-bottom: 10px;
-    }
-
-    .main-tab-video {
-        padding: 12px;
     }
 
     img.play-btns-2 {
