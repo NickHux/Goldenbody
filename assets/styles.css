@@ -10530,7 +10530,7 @@ section.image-and-right-text .box.ios-device {
     }
     .main-tab-video video {
         width: 100%;
-        max-height: 75vh;
+        max-height: 500px;
         object-fit: cover;
     }
     li.video-text-wrapper .video-tab-title h2 {
