@@ -8185,7 +8185,7 @@ section.image-and-right-text .box.ios-device {
     li.video-text-wrapper {
         position: absolute;
         bottom: 21px;
-        z-index: 11;
+        z-index: 1;
         left: 0;
         margin: 0 20px;
         width: auto;
