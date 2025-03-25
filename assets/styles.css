@@ -3277,11 +3277,6 @@ header .header__icons a {
     transition: 0.2s;
 }
 
-header .header__icons a:hover {
-    background: #1967d3;
-    color: #fff;
-}
-
 header .header__icons details-modal {
     width: 60px;
     height: 60px;

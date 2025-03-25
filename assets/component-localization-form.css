@@ -345,6 +345,9 @@
   min-height: initial;
   background: transparent;
 }
+.localization-form__select:hover {
+  color: #ff4000;
+}
 .header-localization a {
   width: auto;
   height: auto !important;
@@ -447,6 +450,12 @@
 .menu-drawer__localization + .list-social {
   margin-top: 1rem;
 }
+
+header .header__icons .disclosure a:hover {
+  background: #1967d3;
+  color: #fff;
+}
+
 @media screen and (max-width: 1660px) {
   .header-localization .disclosure .localization-form__select{
       font-size: 16px;
