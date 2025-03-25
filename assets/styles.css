@@ -1848,11 +1848,6 @@ td.p-5.points span:nth-child(5) {
 }
 
 
-
-.disclosure {
-    display: none;
-}
-
 .challenge-review .testimonial-slider {
     margin-bottom: 0;
 }
@@ -3283,7 +3278,8 @@ header .header__icons a {
 }
 
 header .header__icons a:hover {
-    background: white;
+    background: #1967d3;
+    color: #fff;
 }
 
 header .header__icons details-modal {
