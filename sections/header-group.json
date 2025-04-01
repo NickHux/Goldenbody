@@ -20,6 +20,12 @@
             "usp-text": "BREAKING NEWS"
           }
         },
+        "slides_ikt6A7": {
+          "type": "slides",
+          "settings": {
+            "usp-text": "Ab dem 01.04.25 sind Gruppen-& Personalstunden krankenkassenanerkannt"
+          }
+        },
         "slides_PCUNAa": {
           "type": "slides",
           "settings": {
@@ -35,6 +41,7 @@
       },
       "block_order": [
         "slides_kLdRXq",
+        "slides_ikt6A7",
         "slides_PCUNAa",
         "slides_exYNJT"
       ],
@@ -50,7 +57,7 @@
       "type": "header",
       "blocks": {
         "g_translate_app_block_dropdown_qAyRza": {
-          "type": "shopify://apps/g-translate/blocks/app-block-dropdown/408a74ac-f92d-43cf-a1b1-a044341e66bd",
+          "type": "shopify://apps/g-translate-shop-translator/blocks/app-block-dropdown/408a74ac-f92d-43cf-a1b1-a044341e66bd",
           "disabled": true,
           "settings": {
             "horizontal_position": "inline",
